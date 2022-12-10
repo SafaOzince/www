@@ -1,0 +1,146 @@
+@import url("../../../node_modules/bootstrap/dist/css/bootstrap.min.css");
+
+.p{
+    overflow-wrap: break-word;
+    text-align: center;
+}
+/* header start */
+header.background{
+    background-image: url("../images/headerwallpaper.png");
+    /* background-color: #282c34; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+header.background .background-sub {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-style:italic;
+}
+
+header.background .background-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+/* ---------------------------------------- */
+/* navbar start */
+#mainNavbar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+}
+
+#mainNavbar .navbar-brand{
+    /* color: #61dafb; */
+    color:#fff;
+    font-weight: 700;
+    letter-spacing: 0.043em;
+}
+
+#mainNavbar .navbar-nav .nav-item .nav-link{
+    font-size: 1rem;
+    color:#fff;
+    letter-spacing: 0.06em;
+}
+
+#mainNavbar .navbar-nav .nav-item .nav-link.active,
+#mainNavbar .navbar-nav .nav-item .nav-link:hover {
+    color: #61dafb;
+}
+
+/* ---------------------------------------------- */
+/* Services start */
+
+.mySection{
+    padding: 5rem 0;
+}
+
+.mySection h2.s-heading{
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.mySection h3.s-subheading {
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+@media(max-width:991.98px) {
+    header.background {
+        padding-top: 11rem;
+        padding-bottom: 13rem;
+    }
+
+    header.background .background-heading {
+        font-size: 2rem;
+        line-height: 2rem;
+        
+    }
+
+    #mainNavbar .navbar-nav .nav-item .nav-link{
+        color:#212529;
+
+    }
+}
+
+@media(min-width:992px) {
+    header.background {
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
+
+    #mainNavbar {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border: none;
+        background-color: transparent;
+        opacity: 96%;
+        transition: background-color 0.5s ease;
+        transition: padding-top 0.5s ease-in-out, padding-bottom 0.5 ease-in-out;
+        -webkit-transition: padding-top 0.5s ease-in-out, padding-bottom 0.5 ease-in-out;
+        -moz-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3 ease-in-out;
+        -ms-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3 ease-in-out;
+        -o-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3 ease-in-out;
+    }
+
+    #mainNavbar .navbar-brand {
+        font-size: 1.5rem;
+        background-color: transparent;
+        transition: background-color 0.5s ease;
+        transition: font-size 0.3s ease-in-out;
+        -webkit-transition: font-size 0.3s ease-in-out;
+        -moz-transition: font-size 0.3s ease-in-out;
+        -ms-transition: font-size 0.3s ease-in-out;
+        -o-transition: font-size 0.3s ease-in-out;
+    }
+
+    #mainNavbar .navbar-nav .nav-item{
+        margin-right: 1rem;
+    }
+
+    #mainNavbar .navbar-nav .nav-item:last-child {
+        margin-right: 0;
+    }
+
+/* Change Navbar body when scrooling down */
+
+    #mainNavbar.navbar-mobile .navbar-brand {
+        font-size: 1.20em;
+    }
+
+    #mainNavbar.navbar-mobile {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #212529;
+    }
+
+/* -------------------------------------------- */
+
+    
+}
