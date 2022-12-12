@@ -113,6 +113,23 @@ export default function Home() {
         </div>
       </div>
     </section>
+    {/* Section-5 */}
+    <section id='about' className='mySection'>
+      <div className='container'>
+        <div className='text-center mb-5 pb-3'>
+          <h2 className='s-heading text-uppercase fw-bold'>Hakkımızda</h2>
+          <h3 className='s-subheading text-muted'> Yaptıklarımız ve bizim hakkımızda bölümü burada.</h3>
+        </div>
+      </div>
+    </section>
+    <section id='about' className='mySection bg-secondary'>
+      <div className='container'>
+        <div className='text-center mb-5 pb-3'>
+          <h2 className='s-heading text-uppercase fw-bold'>İletişim</h2>
+          <h3 className='s-subheading text-white'> Bizimle iletişime geçmek için bölümü burada.</h3>
+        </div>
+      </div>
+    </section>
     </>
   )
 }

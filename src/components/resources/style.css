@@ -70,6 +70,40 @@ header.background .background-heading {
     font-weight: 600;
     font-style: italic;
 }
+/* ------------------------------------------------ */
+/* About page start */
+
+.myaboutSection{
+    background-image: url("../images/headerwallpaper.png");
+    /* background-color: #282c34; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.myaboutSection .about-sub {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-style:italic;
+}
+
+.myaboutSection .about-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.mySection .a-container{
+ border-radius: 25px;
+ box-shadow: rgba(97, 218, 251, 1) 0px 40px 70px -6px;
+ background-color: #61dafb;
+}
+
+.mySection .a-image{
+    border-radius: 32px;
+}
 
 @media(max-width:991.98px) {
     header.background {
@@ -87,10 +121,25 @@ header.background .background-heading {
         color:#212529;
 
     }
+
+    .myaboutSection {
+        padding-top: 11rem;
+        padding-bottom: 13rem;
+    }
+
+    .myaboutSection .about-heading {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
 }
 
 @media(min-width:992px) {
     header.background {
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
+
+    .myaboutSection{
         padding-top: 15rem;
         padding-bottom: 15rem;
     }
