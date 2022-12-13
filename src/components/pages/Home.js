@@ -12,7 +12,7 @@ export default function Home() {
       <div className='container'>
         <div className='background-heading text-uppercase mb-4'>Gökbey Teknoloji  </div>
         <div className='background-sub mb-4'>Arge ve Danışmanlık</div>
-        <a href="/contact" className='btn btn-info btn-lg p-lg-3 mt-1 text-white text-uppercase fw-bolder'>Bize Ulaşın</a>
+        <a href="/contact" className='btn btn-info btn-lg mycolor p-lg-3 mt-1 text-white text-uppercase fw-bolder'>Bize Ulaşın</a>
       </div>
     </header>
     {/* Section-2 */}
@@ -24,21 +24,21 @@ export default function Home() {
         </div>
         <div className='row text-center'>
           <div className='col-md-4'>
-            <div className='rounded-circle bg-info text-white d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
+            <div className='rounded-circle mycolor text-white d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
               <i class="bi bi-cart" style={{fontSize:"4.5rem" }}></i>
             </div>
             <h4 className='my-3 fw-bold'>E-Ticaret</h4>
             <p className='p text-white' >asdgsadgsdgdasgasdgsgasgadsgdsgasgsagasdgsadgdsagsdagasdgasdgdsagasdasdgdsagasdgasdgsadgsdag</p>
           </div>
           <div className='col-md-4'>
-            <div className='rounded-circle bg-info text-white d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
+            <div className='rounded-circle mycolor text-white d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
               <i class="bi bi-headset-vr" style={{fontSize:"4.5rem" }}></i>
             </div>
             <h4 className='my-3 fw-bold'>Drone Teknolojileri</h4>
             <p className='p text-white' >asdgsadgsdgdasgasdgsgasgadsgdsgasgsagasdgsadgdsagsdagasdgasdgdsagasdasdgdsagasdgasdgsadgsdagasdgsadgsdgdasgasdgsgasgadsgdsgasgsagasdgsadgdsagsdagasdgasdgdsagasdasdgdsagasdgasdgsadgsdagasdgsadgsdgdasgasdgsgasgadsgdsgasgsagasdgsadgdsagsdagasdgasdgdsagasdasdgdsagasdgasdgsadgsdag</p>
           </div>
           <div className='col-md-4'>
-            <div className='rounded-circle bg-info text-white d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
+            <div className='rounded-circle mycolor text-white d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
               <i class="bi bi-cpu-fill" style={{fontSize:"4.5rem" }}></i>
             </div>
             <h4 className='my-3 fw-bold'>Danışmanlık</h4>

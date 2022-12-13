@@ -26,6 +26,10 @@ header.background .background-heading {
     line-height: 3rem;
     margin-bottom: 2rem;
 }
+
+header.background .mycolor{
+    background-color: #61dafb;
+}
 /* ---------------------------------------- */
 /* navbar start */
 #mainNavbar{
@@ -70,6 +74,10 @@ header.background .background-heading {
     font-weight: 600;
     font-style: italic;
 }
+
+.mySection .mycolor{
+    background-color: #61dafb;
+}
 /* ------------------------------------------------ */
 /* About page start */
 
@@ -103,6 +111,45 @@ header.background .background-heading {
 
 .mySection .a-image{
     border-radius: 32px;
+}
+.a-text{
+ text-align: justify;
+}
+/* ---------------------- */
+/* footer start */
+
+#footer-area{
+    background-image: url("../images/headerwallpaper.png");
+    /* background-color: #282c34; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+#footer-area .mycolor{
+    background-color: #61dafb;
+}
+#footer-area .footer-link{
+    font-size: 1rem;
+    color:#fff;
+    letter-spacing: 0.06em;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    
+}
+#footer-area .footer-link:hover {
+    color: #61dafb;
+}
+
+.mybrand{
+    font-style: italic;
+    text-align: justify;
+}
+
+#footer-area .footer-link .mylink{
+    text-decoration: none;
 }
 
 @media(max-width:991.98px) {

@@ -22,13 +22,13 @@ export default function About() {
         </div>
         <div className='col-12 col-lg-8 bg-secondary'>
           <div className='text-center mb-5 pb-3'>
-            <p className='text-white text-start mt-4 px-2'>2022 yılında mühendislik ve yazılım sektöründe önemli ARGE projelerinin geliştirilmesi, ülkemize yeni teknolojilerin getirilmesi ve son teknolojik yenilikleri yakından takip ederek mühendislik sektörünün gelişmiş ülkeler seviyesine ulaşmasında katkı sunmak amacıyla Gebze Teknik Üniversitesi Teknoparkta kurulmuş olan Gökbey Teknoloji, kuruluşundan beri sürdürdüğü profesyonellik ve vizyoner bakış açısı ile istikrarlı büyümeyi ilke edinmiştir.</p>
+            <p className='a-text text-white mt-4 px-2'>2022 yılında mühendislik ve yazılım sektöründe önemli ARGE projelerinin geliştirilmesi, ülkemize yeni teknolojilerin getirilmesi ve son teknolojik yenilikleri yakından takip ederek mühendislik sektörünün gelişmiş ülkeler seviyesine ulaşmasında katkı sunmak amacıyla Gebze Teknik Üniversitesi Teknoparkta kurulmuş olan Gökbey Teknoloji, kuruluşundan beri sürdürdüğü profesyonellik ve vizyoner bakış açısı ile istikrarlı büyümeyi ilke edinmiştir.</p>
             <br/>
-            <p className='text-white text-start mt-0 px-2'>Pazardaki müşteri taleplerini ve sektördeki yenilikleri yakından takip eden, teknoloji ile birlikte değişen dünya koşullarına uyum sağlayabilen şirketimiz genç, alanında uzman ve  güçlü idari ve teknik kadrosu ile birçok ARGE projesine imza atarak sektörde gelişmeyi ve büyümeyi hedeflemektedir.</p>
+            <p className='a-text text-white mt-0 px-2'>Pazardaki müşteri taleplerini ve sektördeki yenilikleri yakından takip eden, teknoloji ile birlikte değişen dünya koşullarına uyum sağlayabilen şirketimiz genç, alanında uzman ve  güçlü idari ve teknik kadrosu ile birçok ARGE projesine imza atarak sektörde gelişmeyi ve büyümeyi hedeflemektedir.</p>
             <h3 className='s-subheading text-center text-white text-uppercase'> vizyonumuz</h3>
-            <p className='text-white text-start mt-0 px-2'>Mühendislik alanında hızlı ve güvenilir çözümler sağlayarak, üretim ve ihracat alanında Türkiye’nin önde gelen firmalarından olmak.</p>
+            <p className='a-text text-white mt-0 px-2'>Mühendislik alanında hızlı ve güvenilir çözümler sağlayarak, üretim ve ihracat alanında Türkiye’nin önde gelen firmalarından olmak.</p>
             <h3 className='s-subheading text-center text-white text-uppercase'> misyonumuz</h3>
-            <p className='text-white text-start mt-0 px-2'>Ülke ihtiyacı göz önünde bulundurularak, gelişen teknolojiyle beraber birçok farklı sektörde dijitalleşmeyi sağlamak.</p>
+            <p className='a-text text-white mt-0 px-2'>Ülke ihtiyacı göz önünde bulundurularak, gelişen teknolojiyle beraber birçok farklı sektörde dijitalleşmeyi sağlamak.</p>
           </div>
         </div>
       </div>

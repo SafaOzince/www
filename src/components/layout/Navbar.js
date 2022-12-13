@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "../resources/style.css"
-import Logo from "../images/logo-removebg-preview.png";
+import Logo from "../images/logo-removebg-preview1.png";
 // import * as bootstrap from 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // import * as bootstrap from 'bootstrap';
 // window.ScrollSpy = bootstrap.ScrollSpy;
@@ -63,7 +63,7 @@ function Navbar() {
         <div className='container'>
             <a href='/' className='navbar-brand text-uppercase' title='Gökbey Teknoloji website link'>
                 <div className='rounded-circle bg-light d-flex align-items-center justify-content-center'>
-                    <img src={Logo} width={134} height={55} alt="logo"/> 
+                    <img src={Logo} width={134} height={55} className="img-fluid" alt="logo"/> 
                 </div>
             </a>
             <button type='button' className='navbar-toggler' data-bs-toggle="offcanvas" data-bs-target="#myNavbar" aria-controls='myNavbar' aria-label='menüyü açma kapama butonu' aria-expanded="false">
@@ -86,7 +86,7 @@ function Navbar() {
                             <a href='/services' className='nav-link btn-close-canvas'>Hizmetlerimiz</a>
                         </li>
                         <li className='nav-item'>
-                            <a href='/' className='nav-link btn-close-canvas'>Mağaza</a>
+                            <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='nav-link btn-close-canvas'>Mağaza</a>
                         </li>
                         <li className='nav-item'>
                             <a href='/contact' className='nav-link btn-close-canvas'>İletişim</a>

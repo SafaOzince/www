@@ -11,6 +11,7 @@ import About from './components/pages/About';
 import Services from './components/pages/Services';
 import Contact from './components/pages/Contact';
 
+import Footer from './components/layout/Footer';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/services" element={<Services/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }
