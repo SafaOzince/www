@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "../resources/style.css"
-import Logo from "../images/logo-removebg-preview1.png";
+import Logo from "../images/logo-removebg-preview.png";
 // import * as bootstrap from 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // import * as bootstrap from 'bootstrap';
 // window.ScrollSpy = bootstrap.ScrollSpy;
@@ -62,7 +62,7 @@ function Navbar() {
     <nav className='navbar navbar-expand-lg navbar-dark fixed-top' id='mainNavbar'>
         <div className='container'>
             <a href='/' className='navbar-brand text-uppercase' title='Gökbey Teknoloji website link'>
-                <div className='rounded-circle bg-light d-flex align-items-center justify-content-center'>
+                <div className=' d-flex align-items-center justify-content-center'>
                     <img src={Logo} width={134} height={55} className="img-fluid" alt="logo"/> 
                 </div>
             </a>

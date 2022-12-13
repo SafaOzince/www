@@ -29,6 +29,17 @@ header.background .background-heading {
 
 header.background .mycolor{
     background-color: #61dafb;
+    color:#fff;
+}
+header.background .mycolor:hover{
+    background-color: #212529;
+    color:#61dafb;
+    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
+    transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
 }
 /* ---------------------------------------- */
 /* navbar start */
@@ -54,6 +65,13 @@ header.background .mycolor{
 #mainNavbar .navbar-nav .nav-item .nav-link.active,
 #mainNavbar .navbar-nav .nav-item .nav-link:hover {
     color: #61dafb;
+    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
 }
 
 /* ---------------------------------------------- */
@@ -139,17 +157,48 @@ header.background .mycolor{
     padding: 0;
     
 }
-#footer-area .footer-link:hover {
+
+#footer-area .footer-link .footer-item.active,
+#footer-area .footer-link .footer-item:hover {
     color: #61dafb;
 }
 
 .mybrand{
     font-style: italic;
     text-align: justify;
+    color:#fff
 }
 
 #footer-area .footer-link .mylink{
     text-decoration: none;
+}
+
+#footer-area .btn-social{
+    width: 2rem;
+    height: 2rem;
+    /* background-color: #61dafb; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+#footer-area .btn-social:hover{
+    /* width: 2.3rem;
+    height: 2.3rem; */
+    /* background-color: #61dafb; */
+    box-shadow: rgba(97, 218, 251, 1) 0px 8px 25px -2px;
+    
+    transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
 }
 
 @media(max-width:991.98px) {
@@ -198,8 +247,8 @@ header.background .mycolor{
         background-color: transparent;
         opacity: 96%;
         transition: background-color 0.5s ease;
-        transition: padding-top 0.5s ease-in-out, padding-bottom 0.5 ease-in-out;
-        -webkit-transition: padding-top 0.5s ease-in-out, padding-bottom 0.5 ease-in-out;
+        transition: padding-top 0.5s ease-in-out;
+        -webkit-transition: padding-top 0.5s ease-in-out;
         -moz-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3 ease-in-out;
         -ms-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3 ease-in-out;
         -o-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3 ease-in-out;
