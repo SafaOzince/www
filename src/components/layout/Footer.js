@@ -49,6 +49,7 @@ function Footer() {
                             <li>
                                 <i className="bi bi-geo-alt-fill">ADRES: </i>
                                     Esenevler mah. Yunus Emre cd. <br /> Ümraniye, İstanbul
+                                    {/* Cumhuriyet Mah. Şişecam Yolu sok. GTÜ AR-GE 3 blok No:12 İç Kapı No:29 Gebze/KOCAELİ */}
                             </li>
                         </ul>
                             <a href='https://www.linkedin.com/company/g%C3%B6kbey-teknoloji/' target="_blank" className='btn-primary mx-2 text-white btn-social'><i class="bi bi-linkedin"></i></a>

@@ -1,23 +1,13 @@
-import React from 'react'
-import logo from '../images/logo-removebg-preview.png';
+import React from 'react';
+import ModalDialog from '../layout/ModalDialog';
+import Modal from '../layout/Modal';
 
 export default function Services() {
   return (
-    <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
-  </div>
+    <div className="container mt-3">
+      {/* <ModalDialog/> */}
+      <Modal/>
+    </div>
+    
   )
 }

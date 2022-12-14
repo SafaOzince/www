@@ -99,6 +99,83 @@ header.background .mycolor:hover{
     background-color: #61dafb;
 }
 /* ------------------------------------------------ */
+/* Modal start */
+
+#section-5 .p-item{
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(97, 218, 251, 1) -3px 15px 15px -3px;
+}
+/* #section-5 .p-item .p-itemhover {
+    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
+} */
+
+#section-5 .p-item .p-link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+#section-5 .p-item .p-link .p-hover {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(97, 218, 251, 0.75);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.3s;
+    -webkit-transition: opacity ease-in-out 0.3s;
+    -moz-transition: opacity ease-in-out 0.3s;
+    -ms-transition: opacity ease-in-out 0.3s;
+    -o-transition: opacity ease-in-out 0.3s;
+}
+
+#section-5 .p-item .p-link .p-hover .p-content {
+    font-size: 6.3rem;
+}
+
+#section-5 .p-item .p-link:hover .p-hover{
+    opacity: 1;
+}
+
+#section-5 .p-item .p-caption .pc-heading{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.p-modal .modal-dialog {
+    margin: 1rem;
+    max-width: 100vw;
+}
+
+.p-modal .modal-content h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.p-model .close-modal {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.p-modal .close-modal:hover{
+    opacity: 0.5;
+}
+/* .p-modal .modal-content .p-intro{
+    margin-bottom: 2rem;
+} */
+/* #section-5 .p-item .p-caption .pc-subheading{
+    font-style: italic;
+} */
+/* ------------------------------------------------ */
 /* About page start */
 
 .myaboutSection{
@@ -203,6 +280,93 @@ header.background .mycolor:hover{
         -o-transition: all 0.3s ease-in-out;
 }
 
+/* -------------------------------- */
+/* Contact Page Start */
+
+#section-contact .card {
+    background-color: #212529;
+    border-radius: 25px;
+    box-shadow: rgba(97, 218, 251, 1) 0px 40px 70px -6px;
+}
+
+#section-contact .card .myformbutton{
+    background-color: #61dafb;
+    color:#fff;
+}
+
+#section-contact .card .myformbutton:hover{
+    background-color: #212529;
+    color:#61dafb;
+    border-radius: 12px;
+    opacity: 85%;
+    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
+    transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+}
+
+#section-contact .btn-social{
+    width: 2.5rem;
+    height: 2.5rem;
+    /* background-color: #61dafb; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+#section-contact .btn-social:hover{
+    /* width: 2.3rem;
+    height: 2.3rem; */
+    /* background-color: #61dafb; */
+    box-shadow: rgba(97, 218, 251, 1) 0px 8px 25px -2px;
+    
+    transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+}
+
+#section-contact .card .devider{
+    width: 100%;
+    height: 4px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #61dafb;
+    border-radius: 15px;
+    /* box-shadow: rgba(97, 218, 251, 1) 100px 40px 70px -6px; */
+    box-shadow: rgba(97, 218, 251, 0.25) 0px 54px 55px, rgba(97, 218, 251, 0.12) 0px -12px 30px, rgba(97, 218, 251, 0.44) 0px 4px 6px, rgba(97, 218, 251, 0.17) 0px 12px 13px, rgba(97, 218, 251, 0.09) 0px -3px 5px;
+}
+
+#section-contact h2.f-heading{
+    font-size: 1.55rem;
+    margin-bottom: 0.75rem;
+}
+
+#section-contact h3.f-subheading{
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+#section-contact .my-form{
+    border-radius: 12px;
+}
+#section-contact .my-form:focus{
+    box-shadow: rgba(97, 218, 251, 0.75) 0px 15px 12px -6px;
+    transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+}
 @media(max-width:991.98px) {
     header.background {
         padding-top: 11rem;
@@ -213,6 +377,11 @@ header.background .mycolor:hover{
         font-size: 2rem;
         line-height: 2rem;
         
+    }
+
+    .mySection h2.s-heading{
+        font-size: 1.75rem;
+        margin-bottom: 0.75rem;
     }
 
     #mainNavbar .navbar-nav .nav-item .nav-link{
@@ -228,6 +397,30 @@ header.background .mycolor:hover{
     .myaboutSection .about-heading {
         font-size: 2rem;
         line-height: 2rem;
+    }
+
+    .p-modal .modal-content h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .p-model .close-modal {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    #section-contact h2.f-heading{
+        font-size: 1.45rem;
+        margin-bottom: 0.75rem;
+    }
+
+    #section-contact h3.f-subheading{
+        font-size: 1.05rem;
+    }
+
+    #section-contact .card .devider{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
