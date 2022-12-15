@@ -97,6 +97,19 @@ header.background .mycolor:hover{
 
 .mySection .mycolor{
     background-color: #61dafb;
+    color:#fff;
+}
+.mySection .mycolor:hover{
+    background-color: #212529;
+    color:#61dafb;
+    /* box-shadow: rgba(97, 218, 251, 1) 0px 30px 30px -6px; */
+    box-shadow: rgba(97, 218, 251, 0.75) 0px 50px 100px -10px, rgba(97, 218, 251, 0.75) 0px 40px 60px -10px, rgba(97, 218, 251, 0.75) 0px -2px 6px 0px inset;
+    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
 }
 /* ------------------------------------------------ */
 /* Modal start */

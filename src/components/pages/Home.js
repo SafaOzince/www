@@ -28,21 +28,21 @@ export default function Home() {
         </div>
         <div className='row text-center'>
           <div className='col-md-4'>
-            <div className='rounded-circle mycolor text-white d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
+            <div className='rounded-circle mycolor d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
               <i class="bi bi-cart" style={{fontSize:"4.5rem" }}></i>
             </div>
             <h4 className='my-3 fw-bold'>E-Ticaret</h4>
             <p className='p text-white' >asdgsadgsdgdasgasdgsgasgadsgdsgasgsagasdgsadgdsagsdagasdgasdgdsagasdasdgdsagasdgasdgsadgsdag</p>
           </div>
           <div className='col-md-4'>
-            <div className='rounded-circle mycolor text-white d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
+            <div className='rounded-circle mycolor d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
               <i class="bi bi-headset-vr" style={{fontSize:"4.5rem" }}></i>
             </div>
             <h4 className='my-3 fw-bold'>Drone Teknolojileri</h4>
             <p className='p text-white' >asdgsadgsdgdasgasdgsgasgadsgdsgasgsagasdgsadgdsagsdagasdgasdgdsagasdasdgdsagasdgasdgsadgsdagasdgsadgsdgdasgasdgsgasgadsgdsgasgsagasdgsadgdsagsdagasdgasdgdsagasdasdgdsagasdgasdgsadgsdagasdgsadgsdgdasgasdgsgasgadsgdsgasgsagasdgsadgdsagsdagasdgasdgdsagasdasdgdsagasdgasdgsadgsdag</p>
           </div>
           <div className='col-md-4'>
-            <div className='rounded-circle mycolor text-white d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
+            <div className='rounded-circle mycolor d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
               <i class="bi bi-cpu-fill" style={{fontSize:"4.5rem" }}></i>
             </div>
             <h4 className='my-3 fw-bold'>Danışmanlık</h4>
