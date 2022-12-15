@@ -12,6 +12,7 @@ import Services from './components/pages/Services';
 import Contact from './components/pages/Contact';
 
 import Footer from './components/layout/Footer';
+import WhatsappChat from './components/layout/WhatsappChat';
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/contact" element={<Contact/>} />
       </Routes>
       <Footer/>
+      <WhatsappChat/>
     </Router>
   );
 }

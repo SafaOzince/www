@@ -367,6 +367,31 @@ header.background .mycolor:hover{
         -ms-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
 }
+
+ /* Whatsapp chat button */
+
+/* .whatsapp{
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    bottom: ;
+} */
+
+.whatsapp_float {
+    position: fixed;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    bottom: 14px;
+    left: 15px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1000;
+  }
+
 @media(max-width:991.98px) {
     header.background {
         padding-top: 11rem;
@@ -422,6 +447,14 @@ header.background .mycolor:hover{
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+
+    .whatsapp_float {
+        width: 50px;
+        height: 50px;
+        bottom: 22px;
+        left: 10px;
+        font-size: 22px;
+  }
 }
 
 @media(min-width:992px) {
