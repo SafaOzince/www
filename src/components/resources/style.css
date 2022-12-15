@@ -255,6 +255,21 @@ header.background .mycolor:hover{
     color: #61dafb;
 }
 
+#footer-area .footerbutton{
+    color:#fff;
+}
+
+#footer-area .footerbutton:active,
+#footer-area .footerbutton:hover{
+    color: #61dafb;
+    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
+    border-radius: 12px;
+    transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+}
 .mybrand{
     font-style: italic;
     text-align: justify;

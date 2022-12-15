@@ -51,19 +51,11 @@ const ContactForm = () => {
                 </div>
               </div>
             </div>
-            {/* <div className='card p-4 mt-4'>
-              <div className='container'>
-                <div className='text-center mb-5 pb-3'>
-                  <h2 className='s-heading text-uppercase text-white fw-bold'>Adres</h2>
-                  <h3 className='s-subheading text-muted'> Cumhuriyet Mah. Şişecam Yolu sok. GTÜ AR-GE 3 blok No:12 İç Kapı No:29 Gebze/KOCAELİ.</h3>
-                </div>
-              </div>
-            </div> */}
           </div>
           <div className='col-md-6 col-lg-6 col-xl-8'>
             <div className='card p-2 p-md-4 h-100'>
               <div className='container'>
-              <h2 className="text-white py-3">İletişim</h2>
+              <h2 className="text-white py-3">Bize Ulaşın</h2>
                 <form onSubmit={onSubmit}>
                   <div className="mb-3">
                     <label className="form-label text-white" htmlFor="name">

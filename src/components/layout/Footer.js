@@ -21,35 +21,34 @@ function Footer() {
                     <div className="col-lg-4 col-md-6">
                         <h3 className='text-uppercase fw-bold my-2'>Hızlı Linkler</h3>
                         <ul className="footer-link justify-content-end flex-grow-1 text-uppercase py-lg-2">                                    
-                            <li className='footer-item'>
-                                <a href='/' className='btn text-white'>Ana Sayfa</a>
+                            <li>
+                                <a href='/' className='btn footerbutton'>Ana Sayfa</a>
                             </li>
                             <li className='footer-item'>
-                                <a href='/about' className='btn text-white'>Hakkımızda</a>
+                                <a href='/about' className='btn footerbutton'>Hakkımızda</a>
                             </li>
                             <li>
-                                <a href='/services' className='btn text-white'>Hizmetlerimiz</a>
+                                <a href='/services' className='btn footerbutton'>Hizmetlerimiz</a>
                             </li>
                             <li>
-                                <a href='/https://store.gokbeyteknoloji.com/' target="_blank" className='btn text-white'>Mağaza</a>
+                                <a href='/https://store.gokbeyteknoloji.com/' target="_blank" className='btn footerbutton'>Mağaza</a>
                             </li>
                         </ul>
                     </div>
                     <div className="col-lg-4 col-md-6">
                         <h3 className='text-uppercase fw-bold my-2'>İletişim</h3>
                         <ul className="list-style-none justify-content-end flex-grow-1 py-lg-2">
-                            <li>
+                            <li className='d-flex flex-wrap align-items-center'>
                                 <i className="bi bi-telephone">TELEFON NO: </i>
-                                <a href ="tel:(+123) 456-7898" className='btn text-white'>(+90) 532 201 46 62</a>
+                                <a href ="tel:(+123) 456-7898" className='btn footerbutton'>(+90) 532 201 46 62</a>
                             </li>
-                            <li>
+                            <li className='d-flex flex-wrap align-items-center'>
                                 <i className="bi bi-envelope-fill"> E-POSTA: </i>
-                                <a href="mailto:info.gokbeyteknoloji@gmail.com"className='btn text-white'>info.gokbeyteknoloji@gmail.com</a>
+                                <a href="mailto:info.gokbeyteknoloji@gmail.com"className='btn footerbutton'>info.gokbeyteknoloji@gmail.com</a>
                             </li>
-                            <li>
+                            <li className='d-flex flex-wrap align-items-center d-100 h-100'>
                                 <i className="bi bi-geo-alt-fill">ADRES: </i>
-                                    Esenevler mah. Yunus Emre cd. <br /> Ümraniye, İstanbul
-                                    {/* Cumhuriyet Mah. Şişecam Yolu sok. GTÜ AR-GE 3 blok No:12 İç Kapı No:29 Gebze/KOCAELİ */}
+                                <a href="/contact" className='btn footerbutton'>GTÜ AR-Ge 3 Blok No:12 Gebze/KOCAELİ</a>    
                             </li>
                         </ul>
                             <a href='https://www.linkedin.com/company/g%C3%B6kbey-teknoloji/' target="_blank" className='btn-primary mx-2 text-white btn-social'><i class="bi bi-linkedin"></i></a>
