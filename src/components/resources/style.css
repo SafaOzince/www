@@ -420,6 +420,99 @@ header.background .mycolor:hover{
         -o-transition: all 0.3s ease-in-out;
 }
 
+/* ---------------- */
+/* ServicesPage start */
+.overlay {
+    background-color: rgba(97, 218, 251, 0.24);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    z-index: 5;
+}
+
+.overlay .modalContainer{    
+    margin: 7rem;
+    max-width: 100vw;
+    border-radius: 15px;
+    box-shadow: rgba(97, 218, 251, 0.75) 0px 50px 100px -10px, rgba(97, 218, 251, 0.75) 0px 30px 60px -20px, rgba(97, 218, 251, 0.75) 0px -2px 6px 0px inset;
+}
+
+.overlay .modalContainer .my-content{
+    background-color: #212529;
+    border-radius: 15px;
+}
+
+.overlay .modalContainer .my-content .modal-body{
+    padding: 1.5rem;
+}
+.overlay .modalContainer .modal-content h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    color:#fff;
+}
+
+.overlay .modal-content .close-modal{
+    position: absolute;
+    top:1.5rem;
+    right:2rem;
+    width: 2rem;
+    height: 2rem;
+    cursor:pointer;
+    background-color: transparent;
+    color:#fff;
+    font-size: 2rem;
+}
+
+.overlay .modal-content .close-modal:hover{
+    color:#61dafb;
+}
+
+.overlay .mycolor:hover{
+    background-color: #212529;
+    color:#61dafb;
+    border-radius: 12px;
+    opacity: 85%;
+    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
+    transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+}
+/* .modalContainer{
+    max-width: 600px;
+    width: 100%;
+    position: fixed;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0px 0px 18px 0 px rgba(97, 218, 251, 0.75);
+} */
+
+
+
+/* .modalRight{
+    width: 100%;
+} */
+
+/* .closeBtn {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+} */
+
+/* .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+} */
 
 @media(max-width:991.98px) {
     header.background {
@@ -483,7 +576,11 @@ header.background .mycolor:hover{
         bottom: 22px;
         left: 10px;
         font-size: 22px;
-  }
+    }
+
+    .overlay .modalContainer{ 
+        margin: 1rem;
+    }    
 }
 
 @media(min-width:992px) {

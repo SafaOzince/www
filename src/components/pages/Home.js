@@ -4,10 +4,7 @@ import Slideimage1 from '../images/210901.jpg';
 import Slideimage2 from '../images/210906.jpg';
 import Slideimage3 from '../images/210908.jpg';
 import Slideimage4 from '../images/210941.jpg';
-import ModalImage1 from '../images/6005000.jpg';
-import ModalImage2 from '../images/6005001.jpg';
-import ModalImage3 from '../images/6005002.jpg';
-import CloseIcon from '../images/close-icon.svg';
+import ModalPopUp from '../layout/modals/ModalPopUp';
 
 export default function Home() {
   return (
@@ -118,133 +115,8 @@ export default function Home() {
       </div>
     </section>
     {/* Section-5 */}
-    <section id='section-5' className='mySection bg-light'>
-      <div className='container'>
-        <div className='text-center mb-5'>
-          <h2 className='s-heading text-uppercase fw-bold'>Hakkımızda</h2>
-          <h3 className='s-subheading text-muted'> Yaptıklarımız ve bizim hakkımızda bölümü burada.</h3>
-        </div>
-        <div className='row gy-4'>
-          <div className='col-sm-6 col-lg-4'>
-            <div className='p-item'>
-              <a href='#Pmodal1' className='p-link' data-bs-toggle="modal">
-                <div className='p-hover'>
-                  <div className='p-content text-white'>
-                    <i class="bi bi-plus-circle"></i>
-                  </div>
-                </div>
-                <img className='img-fluid' src={ModalImage1} alt='' />
-              </a>
-              <div className='p-caption text-center bg-white p-4'>
-                <div className='pc-heading'>Gökbey1</div>
-                <div className='pc-subheading text-muted fst-italic'>Açıklaması</div>
-              </div>
-            </div>
-          </div>
-          <div className='col-sm-6 col-lg-4'>
-            <div className='p-item'>
-              <a href='#Pmodal2' className='p-link' data-bs-toggle="modal">
-                <div className='p-hover'>
-                  <div className='p-content text-white'>
-                    <i class="bi bi-plus-circle"></i>
-                  </div>
-                </div>
-                <img className='img-fluid' src={ModalImage2} alt='' />
-              </a>
-              <div className='p-caption text-center bg-white p-4'>
-                <div className='pc-heading'>Gökbey2</div>
-                <div className='pc-subheading text-muted fst-italic'>Açıklaması</div>
-              </div>
-            </div>
-          </div>
-          <div className='col-sm-6 col-lg-4'>
-            <div className='p-item'>
-              <a href='#Pmodal3' className='p-link' data-bs-toggle="modal">
-                <div className='p-hover'>
-                  <div className='p-content text-white'>
-                    <i class="bi bi-plus-circle"></i>
-                  </div>
-                </div>
-                <img className='img-fluid' src={ModalImage3} alt='' />
-              </a>
-              <div className='p-caption text-center bg-white p-4'>
-                <div className='pc-heading'>Gökbey3</div>
-                <div className='pc-subheading text-muted fst-italic'>Açıklaması</div>
-              </div>
-            </div>
-          </div>
-          <div className='col-sm-6 col-lg-4'>
-            <div className='p-item'>
-              <a href='#Pmodal4' className='p-link' data-bs-toggle="modal">
-                <div className='p-hover'>
-                  <div className='p-content text-white'>
-                    <i class="bi bi-plus-circle"></i>
-                  </div>
-                </div>
-                <img className='img-fluid' src={ModalImage3} alt='' />
-              </a>
-              <div className='p-caption text-center bg-white p-4'>
-                <div className='pc-heading'>Gökbey4</div>
-                <div className='pc-subheading text-muted fst-italic'>Açıklaması</div>
-              </div>
-            </div>
-          </div>
-          <div className='col-sm-6 col-lg-4'>
-            <div className='p-item'>
-              <a href='#Pmodal5' className='p-link' data-bs-toggle="modal">
-                <div className='p-hover'>
-                  <div className='p-content text-white'>
-                    <i class="bi bi-plus-circle"></i>
-                  </div>
-                </div>
-                <img className='img-fluid' src={ModalImage1} alt='' />
-              </a>
-              <div className='p-caption text-center bg-white p-4'>
-                <div className='pc-heading'>Gökbey5</div>
-                <div className='pc-subheading text-muted fst-italic'>Açıklaması</div>
-              </div>
-            </div>
-          </div>
-          <div className='col-sm-6 col-lg-4'>
-            <div className='p-item'>
-              <a href='#Pmodal6' className='p-link' data-bs-toggle="modal">
-                <div className='p-hover'>
-                  <div className='p-content text-white'>
-                    <i class="bi bi-plus-circle"></i>
-                  </div>
-                </div>
-                <img className='img-fluid' src={ModalImage2} alt='' />
-              </a>
-              <div className='p-caption text-center bg-white p-4'>
-                <div className='pc-heading'>Gökbey6</div>
-                <div className='pc-subheading text-muted fst-italic'>Açıklaması</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     
-    {/* Section-5-Modals */}
-    <div className='modal fade p-modal' id='#PModal1' role="dialog" aria-labelledby="myTitle1" aria-hidden="true">
-      <div className='modal-dialog modal-dialog-scrollable'>
-        <div className='modal-content'>
-          <div className='close-modal' data-bs-dismiss="modal" aria-label="Kapat">
-            <img src={CloseIcon} alt=''/>
-          </div>
-          <div className='container'>
-            <div className='row justify-content-center'>
-              <div className='col-lg-8'>
-                <div className='modal-body'>
-                  <h2 className='text-uppercase mb-3' id="myTitle1">Gökbey1</h2>
-                  <p className='p-intro text-muted mb-4 fst-italic'>asdgsadgsdgdasgasdgsgasgadsgdsgasgsagasdgsadgdsagsdagasdgasdgdsagasdasdgdsagasdgasdgsadgsdag</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </section>
+    <ModalPopUp/>
     {/* Section-6 */}
     <section id='section-6' className='mySection bg-secondary'>
       <div className='container'>
