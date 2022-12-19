@@ -570,6 +570,19 @@ header.background .mycolor:hover{
         
     }
 
+    .my-first-slide{
+        top:40%;
+        left:18%;   
+    }
+    .my-first-slide h2{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .my-first-slide .fs-subheading{
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+    }
+
     .mySection h2.s-heading{
         font-size: 1.75rem;
         margin-bottom: 0.75rem;

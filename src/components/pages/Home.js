@@ -47,10 +47,10 @@ export default function Home() {
         </div>
         <div className='container'>
           <div className='row'>
-            <div className='col-6'>
+            <div className='col-sm-12 col-lg-6'>
               <img className='img-fluid' src={Store} alt='' style={{borderRadius:"14px"}}/>
             </div>
-            <div className='col-6'>
+            <div className='col-sm-12 col-lg-6'>
               
             </div>
           </div>
