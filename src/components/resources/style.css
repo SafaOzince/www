@@ -558,6 +558,37 @@ header.background .mycolor:hover{
     padding: 1rem 2rem;
 } */
 
+/* ---------------------- */
+/* Services Page Start */
+
+.services {
+    padding-top: 7rem;
+    padding-bottom: 9rem;
+}
+
+.services .nav {
+    width: 100%;
+}
+
+.services .nav .nav-link .mycolor {
+    background-color: #61dafb;
+    color:#fff;
+}
+
+.services .nav .nav-link .mycolor:active,
+.services .nav .nav-link .mycolor:hover {
+    background-color: #212529;
+    color:#61dafb;
+    border-radius: 12px;
+    opacity: 85%;
+    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
+    transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+}
+
 @media(max-width:991.98px) {
     header.background {
         padding-top: 11rem;

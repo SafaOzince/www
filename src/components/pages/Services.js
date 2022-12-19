@@ -8,23 +8,23 @@ export default function Services() {
   return (
     <>
     <header className='background text-white text-center'>
-      <div className='container'>
-        <div className='background-heading text-uppercase mb-4'>Gökbey Teknoloji  </div>
-        <div className='background-sub mb-4'>Arge ve Danışmanlık</div>
+      {/* <div className='container'>
+        {/* <div className='background-heading text-uppercase mb-4'>Gökbey Teknoloji  </div>
+        <div className='background-sub mb-4'>Arge ve Danışmanlık</div> */}
         {/* <a href="/contact" className='btn btn-lg mycolor p-lg-3 mt-1 text-uppercase fw-bolder'>Bize Ulaşın</a> */}
-      </div>
     </header>
+    <section id='section-services' className='services'>
     <div className='container my-5'>
       <div className='row'>
         <div className='col'>
           <div className='d-flex align-items-start'>
             <div className='nav flex-column nav-pills me-4' role="tablist" aria-orientation="vertical">
-              <buton type="button" className="nav-link active" id="Tone" data-bs-toggle="pill" data-bs-target="#one" role="tab" aria-controls="one" aria-selected="true" >Yazılım Hizmetleri</buton>
-              <buton type="button" className="nav-link" id="Ttwo" data-bs-toggle="pill" data-bs-target="#two" role="tab" aria-controls="two" aria-selected="false" >İHA Hizmetleri</buton>
-              <buton type="button" className="nav-link" id="Tthree" data-bs-toggle="pill" data-bs-target="#three" role="tab" aria-controls="three" aria-selected="false" >Danışmanlık Hizmetleri</buton>
-              <buton type="button" className="nav-link" id="Tfour" data-bs-toggle="pill" data-bs-target="#four" role="tab" aria-controls="four" aria-selected="false" >ARGE Faaliyetleri</buton>
-              <buton type="button" className="nav-link" id="Tfive" data-bs-toggle="pill" data-bs-target="#five" role="tab" aria-controls="five" aria-selected="false" >Satış ve Pazarlama</buton>
-              <buton type="button" className="nav-link" id="Tsix" data-bs-toggle="pill" data-bs-target="#six" role="tab" aria-controls="six" aria-selected="false" >Teknik Servis</buton>
+              <buton type="button" className="nav-link mycolor active" id="Tone" data-bs-toggle="pill" data-bs-target="#one" role="tab" aria-controls="one" aria-selected="true" >Yazılım Hizmetleri</buton>
+              <buton type="button" className="nav-link mycolor" id="Ttwo" data-bs-toggle="pill" data-bs-target="#two" role="tab" aria-controls="two" aria-selected="false" >İHA Hizmetleri</buton>
+              <buton type="button" className="nav-link mycolor" id="Tthree" data-bs-toggle="pill" data-bs-target="#three" role="tab" aria-controls="three" aria-selected="false" >Danışmanlık Hizmetleri</buton>
+              <buton type="button" className="nav-link mycolor" id="Tfour" data-bs-toggle="pill" data-bs-target="#four" role="tab" aria-controls="four" aria-selected="false" >ARGE Faaliyetleri</buton>
+              <buton type="button" className="nav-link mycolor" id="Tfive" data-bs-toggle="pill" data-bs-target="#five" role="tab" aria-controls="five" aria-selected="false" >Satış ve Pazarlama</buton>
+              <buton type="button" className="nav-link mycolor" id="Tsix" data-bs-toggle="pill" data-bs-target="#six" role="tab" aria-controls="six" aria-selected="false" >Teknik Servis</buton>
               {/* <buton type="button" className="nav-link" id="Tseven" data-bs-toggle="pill" data-bs-target="#seven" role="tab" aria-controls="seven" aria-selected="false" >Deneme Hizmetleri</buton>
               <buton type="button" className="nav-link" id="Teight" data-bs-toggle="pill" data-bs-target="#eight" role="tab" aria-controls="eight" aria-selected="false" ></buton> */}
             </div>
@@ -95,6 +95,7 @@ Gökbey Teknoloji olarak satışını gerçekleştirdiğimiz ürünlerin, yetene
         </div>
       </div>
     </div>
+    </section>
     {/* <ModalPopUp/> */}
     </>
   )

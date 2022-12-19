@@ -47,10 +47,10 @@ export default function Home() {
         </div>
         <div className='container'>
           <div className='row'>
-            <div className='col-sm-12 col-lg-6'>
+            <div className='col-sm-12 col-lg-12'>
               <img className='img-fluid' src={Store} alt='' style={{borderRadius:"14px"}}/>
             </div>
-            <div className='col-sm-12 col-lg-6'>
+            <div className='col-sm-12 col-lg-12'>
               
             </div>
           </div>
@@ -68,24 +68,24 @@ export default function Home() {
         <div className='row text-center'>
           <div className='col-md-4'>
             <div className='rounded-circle mycolor d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
-              <i class="bi bi-cart" style={{fontSize:"4.5rem" }}></i>
+              <i class="bi bi-briefcase" style={{fontSize:"4.5rem" }}></i>
             </div>
-            <h4 className='my-3 fw-bold'>E-Ticaret</h4>
-            <p className='p text-white' >asdgsadgsdgdasgasdgsgasgadsgdsgasgsagasdgsadgdsagsdagasdgasdgdsagasdasdgdsagasdgasdgsadgsdag</p>
+            <h4 className='my-3 fw-bold'>Yazılım Hizmetleri</h4>
+            <p className='p text-white' >Gökbey Teknoloji olarak dijital tarımda müşteri kullanımını kolaylaştırıcı, verim artırıcı ve maliyet azaltıcı birçok yazılım faaliyeti gerçekleştiriyoruz.</p>
           </div>
           <div className='col-md-4'>
             <div className='rounded-circle mycolor d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
               <i class="bi bi-headset-vr" style={{fontSize:"4.5rem" }}></i>
             </div>
-            <h4 className='my-3 fw-bold'>Drone Teknolojileri</h4>
-            <p className='p text-white' >asdgsadgsdgdasgasdgsgasgadsgdsgasgsagasdgsadgdsagsdagasdgasdgdsagasdasdgdsagasdgasdgsadgsdagasdgsadgsdgdasgasdgsgasgadsgdsgasgsagasdgsadgdsagsdagasdgasdgdsagasdasdgdsagasdgasdgsadgsdagasdgsadgsdgdasgasdgsgasgadsgdsgasgsagasdgsadgdsagsdagasdgasdgdsagasdasdgdsagasdgasdgsadgsdag</p>
+            <h4 className='my-3 fw-bold'>İHA Hizmetleri</h4>
+            <p className='p text-white' >Dijital tarımda tarımsal sulama, bitki ve toprak sağlığı gibi çeşitli faaliyet alanlarında kullanılan insansız hava araçlarının müşterilerimize tedariğini sağlamaktayız.</p>
           </div>
           <div className='col-md-4'>
             <div className='rounded-circle mycolor d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
               <i class="bi bi-cpu-fill" style={{fontSize:"4.5rem" }}></i>
             </div>
-            <h4 className='my-3 fw-bold'>Danışmanlık</h4>
-            <p className='p text-white '  >asdgsadgsdgdasgasdgsgasgadsgdsgasgsagasdgsadgdsagsdagasdgasdgdsagasdasdgdsagasdgasdgsadgsdag</p>
+            <h4 className='my-3 fw-bold'>Danışmanlık Hizmetleri</h4>
+            <p className='p text-white '  >Gökbey Teknoloji olarak bünyemizde bulunan tecrübeli danışman kadromuz ile müşterilerimize tarım ve teknoloji alanında danışmanlık hizmeti vermekteyiz.</p>
           </div>
         </div>
       </div>
