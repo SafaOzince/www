@@ -62,8 +62,8 @@ export default function Home() {
     <section id='section-2' className='mySection bg-secondary'>
       <div className='container'>
         <div className='text-center mb-5'>
-          <h2 className='s-heading text-uppercase fw-bold p'> Hizmetlerimiz</h2>
-          <h3 className='s-subheading text-white'>Sizler İçin Neler Yapıyoruz?</h3>
+          {/* <h2 className='s-heading text-uppercase fw-bold p'> Hizmetlerimiz</h2>
+          <h3 className='s-subheading text-white'>Sizler İçin Neler Yapıyoruz?</h3> */}
         </div>
         <div className='row text-center'>
           <div className='col-md-4'>

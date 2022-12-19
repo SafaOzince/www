@@ -1,11 +1,12 @@
 import React from 'react';
-import Modal from '../../images/3.jpg';
+import Modal from '../../images/s3.jpg';
 
 const MyThirdModal = ({open, onClose }) => {
     if(!open) return null;
   return (
     <div>
         <div onClick={onClose} className='overlay'>
+            <div className='container'>
             <div onClick={(e) => {e.stopPropagation()}} className='modalContainer'>
                 <div className='modal-content my-content'>
                     <div className='close-modal rounded-circle'>
@@ -17,8 +18,8 @@ const MyThirdModal = ({open, onClose }) => {
                             <div className='col-lg-8'>
                                 <div className='modal-body'>
                                     <img className="img-fluid d-block mx-auto" src={Modal} alt='' />
-                                    <h2 className='text-uppercase mt-2 mb-3'>Gökbey3</h2>
-                                    <p className='p text-muted fw-bold fst-italic'>sadgasdgasgasgadsgsagasdgasgsagasdgsadgsadgdsagdasgggggsadgasdgasgasgadsgsagasdgasgsagasdgsadgsadgdsagdasgggggsadgasdgasgasgadsgsagasdgasgsagasdgsadgsadgdsagdasgggggsadgasdgasgasgadsgsagasdgasgsagasdgsadgsadgdsagdasgggggsadgasdgasgasgadsgsagasdgasgsagasdgsadgsadgdsagdasgggggsadgasdgasgasgadsgsagasdgasgsagasdgsadgsadgdsagdasggggg</p>
+                                    <h2 className='text-uppercase mt-2 mb-3'>Danışmanlık Hizmetleri</h2>
+                                    <p className='p text-white fst-italic'>Gökbey Teknoloji olarak bünyemizde bulunan tecrübeli danışman kadromuz ile müşterilerimize tarım ve teknoloji alanında danışmanlık hizmeti vermekteyiz.</p>
                                     <a href='/services' className='btn btn-md mycolor p-lg-3 mt-1 mb-2 text-uppercase fw-bolder'>Detaylı Bilgi</a>
                                 </div>
                             </div>
@@ -39,6 +40,7 @@ const MyThirdModal = ({open, onClose }) => {
                         </button>
                     </div> */}
                 </div>
+            </div>
             </div>
         </div>
     </div>

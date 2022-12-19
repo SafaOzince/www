@@ -1,11 +1,12 @@
 import React from 'react';
-import Modal from '../../images/2.jpg';
+import Modal from '../../images/s2.jpg';
 
 const MySecondModal = ({open, onClose }) => {
     if(!open) return null;
   return (
     <div>
         <div onClick={onClose} className='overlay'>
+            <div className='container'>
             <div onClick={(e) => {e.stopPropagation()}} className='modalContainer'>
                 <div className='modal-content my-content'>
                     <div className='close-modal rounded-circle'>
@@ -17,8 +18,8 @@ const MySecondModal = ({open, onClose }) => {
                             <div className='col-lg-8'>
                                 <div className='modal-body'>
                                     <img className="img-fluid d-block mx-auto" src={Modal} alt='' />
-                                    <h2 className='text-uppercase mt-2 mb-3'>Gökbey2</h2>
-                                    <p className='p text-muted fw-bold fst-italic'>sadgasdgasgasgadsgsagasdgasgsagasdgsadgsadgdsagdasgggggsadgasdgasgasgadsgsagasdgasgsagasdgsadgsadgdsagdasgggggsadgasdgasgasgadsgsagasdgasgsagasdgsadgsadgdsagdasgggggsadgasdgasgasgadsgsagasdgasgsagasdgsadgsadgdsagdasgggggsadgasdgasgasgadsgsagasdgasgsagasdgsadgsadgdsagdasgggggsadgasdgasgasgadsgsagasdgasgsagasdgsadgsadgdsagdasggggg</p>
+                                    <h2 className='text-uppercase mt-2 mb-3'>İHA Hizmetleri</h2>
+                                    <p className='p text-white fst-italic'>Dijital tarımda tarımsal sulama, bitki ve toprak sağlığı gibi çeşitli faaliyet alanlarında kullanılan insansız hava araçlarının müşterilerimize tedariğini sağlamaktayız.</p>
                                     <a href='/services' className='btn btn-md mycolor p-lg-3 mt-1 mb-2 text-uppercase fw-bolder'>Detaylı Bilgi</a>
                                 </div>
                             </div>
@@ -39,6 +40,7 @@ const MySecondModal = ({open, onClose }) => {
                         </button>
                     </div> */}
                 </div>
+            </div>
             </div>
         </div>
     </div>
