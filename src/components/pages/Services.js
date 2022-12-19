@@ -14,7 +14,7 @@ export default function Services() {
         <a href="/contact" className='btn btn-lg mycolor p-lg-3 mt-1 text-uppercase fw-bolder'>Bize Ulaşın</a>
       </div>
     </header>
-    <ModalPopUp/>
+    {/* <ModalPopUp/> */}
     </>
   )
 }

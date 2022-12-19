@@ -3,12 +3,16 @@ import Slider from '../layout/Slider'
 import Slideimage1 from '../images/210901.jpg';
 import Slideimage2 from '../images/210906.jpg';
 import Slideimage3 from '../images/210908.jpg';
-import Slideimage4 from '../images/210941.jpg';
+import Store from '../images/store1.jpeg';
 import ModalPopUp from '../layout/modals/ModalPopUp';
+import Slide from '../layout/Slide';
+import Form from '../layout/Form';
 
 export default function Home() {
   return (
     <>
+    <Slide/>
+    <ModalPopUp/>
     <header className='background text-white text-center'>
       <div className='container'>
         <div className='background-heading text-uppercase mb-4'>Gökbey Teknoloji  </div>
@@ -16,6 +20,44 @@ export default function Home() {
         <a href="/contact" className='btn btn-lg mycolor p-lg-3 mt-1 text-uppercase fw-bolder'>Bize Ulaşın</a>
       </div>
     </header>
+    
+  
+   
+    {/* Section-4 */}
+    {/* <Slider/> */}
+    {/* <Slide/> */}
+    {/* Section-5 */}
+    
+    
+    {/* Section-6 */}
+    {/* <section id='section-6' className='mySection bg-secondary'>
+      <div className='container'>
+        <div className='text-center mb-5 pb-3'>
+          <h2 className='s-heading text-uppercase fw-bold'>Hakkımızda</h2>
+          <h3 className='s-subheading text-white'> Yaptıklarımız ve bizim hakkımızda bölümü burada.</h3>
+        </div>
+      </div>
+    </section> */}
+     {/* Section-3 */}
+     <section id='section-3' className='mySection bg-light'>
+      <div className='container'>
+        <div className='text-center mb-5'>
+          <h2 className='s-heading text-uppercase fw-bold p'> Mağaza</h2>
+          <h3 className='s-subheading text-muted'>Gökbey Store üzerinden kolayca alışveriş yapın.</h3>
+        </div>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-6'>
+              <img className='img-fluid' src={Store} alt='' style={{borderRadius:"14px"}}/>
+            </div>
+            <div className='col-6'>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
     {/* Section-2 */}
     <section id='section-2' className='mySection bg-secondary'>
       <div className='container'>
@@ -48,93 +90,10 @@ export default function Home() {
         </div>
       </div>
     </section>
-    {/* Section-3 */}
-    <section id='section-3' className='mySection bg-light'>
-      <div className='container'>
-      <div className='text-center mb-5'>
-          <h2 className='s-heading text-uppercase fw-bold p'> Hizmetlerimiz</h2>
-          <h3 className='s-subheading text-muted'>Sizler İçin Neler Yapıyoruz?</h3>
-        </div>
-      </div>
-    </section>
-    {/* Section-4 */}
-    {/* <Slider/> */}
-    <section id='section-4' className='mySection bg-secondary'>
-      <div className='container-fluid p-0'>
-        <div className='row g-0'>
-          <div className='col'>
-
-            <div className='carousel slide' id='mySlide' data-bs-ride='carousel'>
-              <div className='carousel-indicators'>
-                <button type='button' data-bs-target="#mySlide" data-bs-slide-to="0" className='active' aria-current='true' aria-label='ilk slayt'></button>
-                <button type='button' data-bs-target="#mySlide" data-bs-slide-to="1" aria-label='ikinci slayt'></button>
-                <button type='button' data-bs-target="#mySlide" data-bs-slide-to="2" aria-label='üçüncü slayt'></button>
-                <button type='button' data-bs-target="#mySlide" data-bs-slide-to="3" aria-label='dördüncü slayt'></button>
-              </div>
-              <div className='carousel-inner'>
-                <div className='carousel-item active'>
-                  <img src={Slideimage1} className='d-block w-100' style={{height:"1080px"}} alt="slide 1"/>
-                  <div className='carousel-caption d-none d-md-block'>
-                    <h5>İlk Slayt Etiketi</h5>
-                    <p>İlk Slayt Açıklaması</p>
-                  </div>
-                </div>
-                <div className='carousel-item'>
-                  <img src={Slideimage2} className='d-block w-100' style={{height:"1080px"}} alt="slide 2"/>
-                  <div className='carousel-caption d-none d-md-block'>
-                    <h5>2. Slayt Etiketi</h5>
-                    <p>2. Slayt Açıklaması</p>
-                  </div>
-                </div>
-                <div className='carousel-item'>
-                  <img src={Slideimage3} className='d-block w-100' style={{height:"1080px"}} alt="slide 3"/>
-                  <div className='carousel-caption d-none d-md-block'>
-                    <h5>3. Slayt Etiketi</h5>
-                    <p>3. Slayt Açıklaması</p>
-                  </div>
-                </div>
-                <div className='carousel-item'>
-                  <img src={Slideimage4} className='d-block w-100' style={{height:"1080px"}} alt="slide 4"/>
-                  <div className='carousel-caption d-none d-md-block'>
-                    <h5>4. Slayt Etiketi</h5>
-                    <p>4. Slayt Açıklaması</p>
-                  </div>
-                </div>
-              </div>
-              <button type='button' className='carousel-control-prev' data-bs-target="#mySlide" data-bs-slide="prev">
-                <span className='carousel-control-prev-icon' aria-hidden='true'></span>
-                <span className='visually-hidden'>Önceki</span>
-              </button>
-              <button type='button' className='carousel-control-next' data-bs-target="#mySlide" data-bs-slide="next">
-              <span className='carousel-control-next-icon' aria-hidden='true'></span>
-                <span className='visually-hidden'>Sonraki</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    {/* Section-5 */}
-    
-    <ModalPopUp/>
-    {/* Section-6 */}
-    <section id='section-6' className='mySection bg-secondary'>
-      <div className='container'>
-        <div className='text-center mb-5 pb-3'>
-          <h2 className='s-heading text-uppercase fw-bold'>Hakkımızda</h2>
-          <h3 className='s-subheading text-white'> Yaptıklarımız ve bizim hakkımızda bölümü burada.</h3>
-        </div>
-      </div>
-    </section>
     {/* Section-7 */}
-    <section id='section-7' className='mySection bg-light'>
-      <div className='container'>
-        <div className='text-center mb-5 pb-3'>
-          <h2 className='s-heading text-uppercase fw-bold'>İletişim</h2>
-          <h3 className='s-subheading text-muted'> Bizimle iletişime geçmek için bölümü burada.</h3>
-        </div>
-      </div>
-    </section>
+      
+        <Form/>
+     
     </>
   )
 }

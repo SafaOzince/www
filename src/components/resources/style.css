@@ -44,6 +44,51 @@ header.background .mycolor:hover{
         -o-transition: all 0.3s ease-in-out;
 }
 /* ---------------------------------------- */
+/* Header Slider start */
+
+.my-first-slide{
+    top:40%;
+    left:30%;
+    z-index: 1;
+    
+}
+
+/* .my-first-slide-image{
+    object-position: center center;
+    object-fit:scale-down;
+    
+} */
+.my-first-slide h2{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+.my-first-slide .fs-subheading{
+    color:#fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-style:italic;
+}
+
+.my-first-slide .mycolor{
+    background-color: #61dafb;
+    color:#fff;
+}
+.my-first-slide .mycolor:hover{
+    background-color: #212529;
+    color:#61dafb;
+    border-radius: 12px;
+    opacity: 85%;
+    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
+    transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+}
+/* ---------------------------------------- */
 /* navbar start */
 #mainNavbar{
     padding-top: 1rem;
@@ -271,7 +316,6 @@ header.background .mycolor:hover{
         -o-transition: all 0.5s ease-in-out;
 }
 .mybrand{
-    font-style: italic;
     text-align: justify;
     color:#fff
 }
