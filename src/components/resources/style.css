@@ -34,7 +34,7 @@ header.background .mycolor{
 header.background .mycolor:hover{
     background-color: #212529;
     color:#61dafb;
-    border-radius: 12px;
+    border-radius: 15px;
     opacity: 85%;
     box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
     transition: all 0.3s ease-in-out;
@@ -46,12 +46,130 @@ header.background .mycolor:hover{
 /* ---------------------------------------- */
 /* Header Slider start */
 
-.my-first-slide{
+/* .my-first-slide{
     top:40%;
     left:30%;
     z-index: 1;
-    
+} */
+
+.my-carousel-one{
+    background-image: url("../images/header.jpeg");
+    /* background-color: #282c34; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
 }
+
+.my-carousel-one .my-carousel-one-sub{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-style:italic;
+}
+
+.my-carousel-one .my-carousel-one-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.my-carousel-one .mycolor{
+    background-color: #61dafb;
+    color:#fff;
+}
+.my-carousel-one .mycolor:hover{
+    background-color: #212529;
+    color:#61dafb;
+    border-radius: 15px;
+    opacity: 85%;
+    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
+    transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+}
+
+.my-carousel-two{
+    background-image: url("../images/store-3.jpg");
+    /* background-color: #282c34; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.my-carousel-two .my-carousel-two-sub{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-style:italic;
+}
+
+.my-carousel-two .my-carousel-two-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.my-carousel-two .mycolor{
+    background-color: #61dafb;
+    color:#fff;
+}
+.my-carousel-two .mycolor:hover{
+    background-color: #212529;
+    color:#61dafb;
+    border-radius: 15px;
+    opacity: 85%;
+    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
+    transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+}
+
+
+.my-carousel-three{
+    background-image: url("../images/headerwallpaper.png");
+    /* background-color: #282c34; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.my-carousel-three .my-carousel-three-sub{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-style:italic;
+}
+
+.my-carousel-three .my-carousel-three-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.my-carousel-three .mycolor{
+    background-color: #61dafb;
+    color:#fff;
+}
+.my-carousel-three .mycolor:hover{
+    background-color: #212529;
+    color:#61dafb;
+    border-radius: 15px;
+    opacity: 85%;
+    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
+    transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+}
+
 
 /* .my-first-slide-image{
     object-position: center center;
@@ -606,10 +724,53 @@ header.background .mycolor:hover{
         
     }
 
-    .my-first-slide{
+    .my-carousel-one{
+        padding-top: 11rem;
+        padding-bottom: 13rem;
+    }
+
+    .my-carousel-one .my-carousel-one-sub{
+        font-size: 1.30rem;
+        line-height: 1.35rem;
+    }
+    
+    .my-carousel-one .my-carousel-one-heading {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .my-carousel-two{
+        padding-top: 11rem;
+        padding-bottom: 13rem;
+    }
+
+    .my-carousel-two .my-carousel-two-sub{
+        font-size: 1.30rem;
+        line-height: 1.35rem;
+    }
+
+    .my-carousel-two .my-carousel-two-heading {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .my-carousel-three{
+        padding-top: 11rem;
+        padding-bottom: 13rem;
+    }
+
+    .my-carousel-three .my-carousel-three-sub{
+        font-size: 1.30rem;
+        line-height: 1.35rem;
+    }
+
+    .my-carousel-three .my-carousel-three-heading {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    /* .my-first-slide{
         top:40%;
         left:18%;   
-    }
+    } */
 
     .sl-image{
         margin-top: 6.3rem;
@@ -688,6 +849,18 @@ header.background .mycolor:hover{
         padding-bottom: 15rem;
     }
 
+    .my-carousel-one{
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
+    .my-carousel-two{
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
+    .my-carousel-three{
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
     .myaboutSection{
         padding-top: 15rem;
         padding-bottom: 15rem;

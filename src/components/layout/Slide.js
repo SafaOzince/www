@@ -11,7 +11,7 @@ function Slide() {
       <div className='row g-0'>
         <div className='col'>
 
-          <div className='carousel slide position-relative' id='mySlide' data-bs-ride='carousel'>
+          <div className='carousel slide' id='mySlide' data-bs-ride='carousel'>
             
             <div className='carousel-indicators'>
               <button type='button' data-bs-target="#mySlide" data-bs-slide-to="0" className='active' aria-current='true' aria-label='ilk slayt'></button>
@@ -20,15 +20,13 @@ function Slide() {
               {/* <button type='button' data-bs-target="#mySlide" data-bs-slide-to="3" aria-label='dördüncü slayt'></button> */}
             </div>
             <div className='carousel-inner'>
-              <div className='carousel-item active'>
-                <img src={Slideimage1} className='d-block w-100 sl-image' alt="slide 1"/>
-                <div className='position-absolute my-first-slide'>
-                    <div className='container text-start'>
-                      <h2> Hizmetlerimiz</h2>
-                      <div className='fs-subheading mb-4'>Hizmetlerimiz hakkında bilgi almak için</div>
+              <div className='carousel-item active my-carousel-one text-white text-center'>
+                {/* <img src={Slideimage1} className='d-block w-100 sl-image' alt="slide 1"/> */}
+                    <div className='container'>
+                    <div className='my-carousel-one-heading text-uppercase mb-4'>Hizmetlerimiz</div>
+                      <div className='my-carousel-one-sub mb-4'>Hizmetlerimiz hakkında bilgi almak için</div>
                       <a href='/services' className='btn btn-lg mycolor p-lg-3 mt-1 text-uppercase fw-bolder'>Hizmetlerimiz</a>
                     </div>
-                </div>
                 {/* <div className='carousel-caption d-none d-md-block'>
                 <div className='container'>
                     <div className='background-heading text-uppercase mb-4'>Gökbey Teknoloji  </div>
@@ -39,29 +37,27 @@ function Slide() {
                   <p>İlk Slayt Açıklaması</p>
                 </div> */}
               </div>
-              <div className='carousel-item'>
-                <img src={Slideimage2} className='d-block w-100 sl-image' alt="slide 2"/>
-                <div className='position-absolute my-first-slide'>
-                    <div className='container text-start'>
-                      <h2> Gökbey Store</h2>
-                      <div className='fs-subheading mb-4'>Ürünlerimiz hakkında bilgi almak için</div>
+              <div className='carousel-item my-carousel-two text-white text-center'>
+                {/* <img src={Slideimage2} className='d-block w-100 sl-image' alt="slide 2"/> */}
+                    <div className='container'>
+                      <div className='my-carousel-two-heading text-uppercase mb-4'>Gökbey Store</div>
+                      <div className='my-carousel-two-sub mb-4'>Ürünlerimiz hakkında bilgi almak için</div>
                       <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='btn btn-lg mycolor p-lg-3 mt-1 text-uppercase fw-bolder'>Mağazaya git</a>
                     </div>
-                </div>
                 {/* <div className='carousel-caption d-none d-md-block'>
                   <h5>2. Slayt Etiketi</h5>
                   <p>2. Slayt Açıklaması</p>
                 </div> */}
               </div>
-              <div className='carousel-item'>
-                <img src={Slideimage3} className='d-block w-100 sl-image' alt="slide 3"/>
-                <div className='position-absolute my-first-slide'>
-                    <div className='container text-start'>
-                      <h2> Gökbey Teknoloji</h2>
-                      <div className='fs-subheading mb-4'>Arge ve Danışmanlık</div>
+              <div className='carousel-item my-carousel-three text-white text-center'>
+                {/* <img src={Slideimage3} className='d-block w-100 sl-image' alt="slide 3"/> */}
+                
+                    <div className='container'>
+                      <div className='my-carousel-three-heading text-uppercase mb-4'>Gökbey Teknoloji</div>
+                      <div className='my-carousel-three-sub mb-4'>Arge ve Danışmanlık faaliyeti hakkında bilgi almak için</div>
                       <a href='/contact' className='btn btn-lg mycolor p-lg-3 mt-1 text-uppercase fw-bolder'>Bize Ulaşın</a>
                     </div>
-                </div>
+                
                 {/* <div className='carousel-caption d-none d-md-block'>
                   <h5>3. Slayt Etiketi</h5>
                   <p>3. Slayt Açıklaması</p>
