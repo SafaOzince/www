@@ -54,7 +54,7 @@ function Slide() {
                 
                     <div className='container'>
                       <div className='my-carousel-three-heading text-uppercase mb-4'>Gökbey Teknoloji</div>
-                      <div className='my-carousel-three-sub mb-4'>Arge ve Danışmanlık faaliyeti hakkında bilgi almak için</div>
+                      <div className='my-carousel-three-sub mb-4'>Faaliyetlerimiz hakkında bilgi almak için</div>
                       <a href='/contact' className='btn btn-lg mycolor p-lg-3 mt-1 text-uppercase fw-bolder'>Bize Ulaşın</a>
                     </div>
                 
