@@ -703,11 +703,12 @@ header.background .mycolor:hover{
 
 .services .nav {
     width: 100%;
+    max-width: 300px;
 }
 
-.services .nav .nav-link .mycolor {
-    background-color: #61dafb;
-    color:#fff;
+.services .nav .mycolor {
+    background-color: transparent;
+    color:#000;
 }
 
 .services .nav .nav-link .mycolor:active,
@@ -802,7 +803,11 @@ header.background .mycolor:hover{
         font-size: 1.75rem;
         margin-bottom: 0.75rem;
     }
-
+    
+    .services .nav{
+        width: 90%;
+        max-width: 200px;
+    }
     .services h2.s-heading {
         font-size: 1.75rem;
         margin-bottom: 0.75rem;
