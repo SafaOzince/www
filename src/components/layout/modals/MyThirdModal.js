@@ -18,7 +18,7 @@ const MyThirdModal = ({open, onClose }) => {
                             <div className='col-lg-8'>
                                 <div className='modal-body'>
                                     <img className="img-fluid d-block mx-auto" src={Modal} alt='' />
-                                    <h2 className='text-uppercase mt-2 mb-3'>Danışmanlık Hizmetleri</h2>
+                                    <h2 className='fw-bold mt-2 mb-3'>Danışmanlık Hizmetleri</h2>
                                     <p className='p text-white fst-italic'>Gökbey Teknoloji olarak bünyemizde bulunan tecrübeli danışman kadromuz ile müşterilerimize tarım ve teknoloji alanında danışmanlık hizmeti vermekteyiz.</p>
                                     <a href='/services' className='btn btn-md mycolor p-lg-3 mt-1 mb-2 text-uppercase fw-bolder'>Detaylı Bilgi</a>
                                 </div>

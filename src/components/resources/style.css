@@ -72,6 +72,11 @@ header.background .mycolor:hover{
     font-style:italic;
 }
 
+.sl-image{
+    height: 100%;
+    max-height: 1080px;
+}
+
 .my-first-slide .mycolor{
     background-color: #61dafb;
     color:#fff;
@@ -605,6 +610,12 @@ header.background .mycolor:hover{
         top:40%;
         left:18%;   
     }
+
+    .sl-image{
+        margin-top: 6.3rem;
+        min-height: 320px;
+    }
+
     .my-first-slide h2{
         font-size: 2rem;
         line-height: 2rem;

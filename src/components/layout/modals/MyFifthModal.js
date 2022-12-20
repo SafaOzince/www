@@ -18,7 +18,7 @@ const MyFifthModal = ({open, onClose }) => {
                             <div className='col-lg-8'>
                                 <div className='modal-body'>
                                     <img className="img-fluid d-block mx-auto" src={Modal} alt='' />
-                                    <h2 className='text-uppercase mt-2 mb-3'>Satış ve Pazarlama</h2>
+                                    <h2 className='fw-bold mt-2 mb-3'>Satış ve Pazarlama</h2>
                                     <p className='p text-white fst-italic'>Şirket olarak teknolojiyi yakından takip eden mühendis kadromuz, deneyimli satış temsilcilerimiz ve bitki ve zirai ilaç konularında bilgi sahibi ziraat mühendisi kadrolarına sahip bayi ağımız ile kalite odaklı uçtan uca hizmet vermekteyiz.</p>
                                     <a href='/services' className='btn btn-md mycolor p-lg-3 mt-1 mb-2 text-uppercase fw-bolder'>Detaylı Bilgi</a>
                                 </div>

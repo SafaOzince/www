@@ -71,21 +71,21 @@ export default function Home() {
               <i class="bi bi-briefcase" style={{fontSize:"4.5rem" }}></i>
             </div>
             <h4 className='my-3 fw-bold'>Yazılım Hizmetleri</h4>
-            <p className='p text-white' >Gökbey Teknoloji olarak dijital tarımda müşteri kullanımını kolaylaştırıcı, verim artırıcı ve maliyet azaltıcı birçok yazılım faaliyeti gerçekleştiriyoruz.</p>
+            <p className='text-white' >Gökbey Teknoloji olarak dijital tarımda müşteri kullanımını kolaylaştırıcı, verim artırıcı ve maliyet azaltıcı birçok yazılım faaliyeti gerçekleştiriyoruz.</p>
           </div>
           <div className='col-md-4'>
             <div className='rounded-circle mycolor d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
               <i class="bi bi-headset-vr" style={{fontSize:"4.5rem" }}></i>
             </div>
             <h4 className='my-3 fw-bold'>İHA Hizmetleri</h4>
-            <p className='p text-white' >Dijital tarımda tarımsal sulama, bitki ve toprak sağlığı gibi çeşitli faaliyet alanlarında kullanılan insansız hava araçlarının müşterilerimize tedariğini sağlamaktayız.</p>
+            <p className='text-white' >Dijital tarımda tarımsal sulama, bitki ve toprak sağlığı gibi çeşitli faaliyet alanlarında kullanılan insansız hava araçlarının müşterilerimize tedariğini sağlamaktayız.</p>
           </div>
           <div className='col-md-4'>
             <div className='rounded-circle mycolor d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
               <i class="bi bi-cpu-fill" style={{fontSize:"4.5rem" }}></i>
             </div>
             <h4 className='my-3 fw-bold'>Danışmanlık Hizmetleri</h4>
-            <p className='p text-white '  >Gökbey Teknoloji olarak bünyemizde bulunan tecrübeli danışman kadromuz ile müşterilerimize tarım ve teknoloji alanında danışmanlık hizmeti vermekteyiz.</p>
+            <p className='text-white'  >Gökbey Teknoloji olarak bünyemizde bulunan tecrübeli danışman kadromuz ile müşterilerimize tarım ve teknoloji alanında danışmanlık hizmeti vermekteyiz.</p>
           </div>
         </div>
       </div>
