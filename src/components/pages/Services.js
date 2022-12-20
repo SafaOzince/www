@@ -7,14 +7,25 @@ export default function Services() {
 
   return (
     <>
-    <header className='background text-white text-center'>
-      {/* <div className='container'>
-        {/* <div className='background-heading text-uppercase mb-4'>Gökbey Teknoloji  </div>
-        <div className='background-sub mb-4'>Arge ve Danışmanlık</div> */}
-        {/* <a href="/contact" className='btn btn-lg mycolor p-lg-3 mt-1 text-uppercase fw-bolder'>Bize Ulaşın</a> */}
-    </header>
+    <section id='about-1' className='myaboutSection'>
+      <div className='container'>
+        <div className='text-center mb-3 pb-2'>
+          <h2 className='about-heading text-uppercase text-white fw-bold mb-4'>Gökbey Teknoloji</h2>
+          {/* <h3 className='about-sub mb-4 text-muted'> Gökbey Teknoloji {'>'} Hakkımızda</h3> */}
+          <div className='d-flex w-100 align-items-center justify-content-start'>
+          <a href='/' className='about-sub mb-2 text-muted text-decoration-none'>Gökbey Teknoloji</a>
+          <h3 className='about-sub mb-2 text-muted'>{'>'}</h3>
+          <h3 className='about-sub mb-2 text-muted'> Hizmetlerimiz</h3>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id='section-services' className='services'>
-    <div className='container my-5'>
+    <div className='container'>
+    <div className='text-center mb-5 pb-3'>
+          <h2 className='s-heading text-uppercase fw-bold'>Hizmetlerimiz</h2>
+          <h3 className='s-subheading text-muted'> Hizmetlerimiz hakkında detaylı bilgi almak için bizleri arayabilir, randevu için form doldurabilirsiniz.</h3>
+        </div>
       <div className='row'>
         <div className='col'>
           <div className='d-flex align-items-start'>

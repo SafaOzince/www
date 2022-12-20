@@ -6,9 +6,14 @@ export default function About() {
     <>
     <section id='about-1' className='myaboutSection'>
       <div className='container'>
-        <div className='text-center mb-5 pb-3'>
+        <div className='text-center mb-3 pb-2'>
           <h2 className='about-heading text-uppercase text-white fw-bold mb-4'>Gökbey Teknoloji</h2>
-          <h3 className='about-sub mb-4 text-muted'> Biz kimiz neler yapıyoruz?</h3>
+          {/* <h3 className='about-sub mb-4 text-muted'> Gökbey Teknoloji {'>'} Hakkımızda</h3> */}
+          <div className='d-flex w-100 align-items-center justify-content-start'>
+          <a href='/' className='about-sub mb-2 text-muted text-decoration-none'>Gökbey Teknoloji</a>
+          <h3 className='about-sub mb-2 text-muted'>{'>'}</h3>
+          <h3 className='about-sub mb-2 text-muted'> Hakkımızda</h3>
+          </div>
         </div>
       </div>
     </section>
