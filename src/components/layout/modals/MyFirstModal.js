@@ -16,12 +16,12 @@ const MyFirstModal = ({open, onClose }) => {
                     </div>
                     <div className='container'>
                         <div className='row justify-content-center'>
-                            <div className='col-lg-8'>
+                            <div className='col-md-12 col-lg-6'>
                                 <div className='modal-body'>
                                     <img className="img-fluid d-block mx-auto" src={Modal} alt='' />
-                                    <h2 className='mt-2 mb-3 fw-bold'>Yazılım Hizmetleri</h2>
-                                    <p className='p text-white fst-italic'>Gökbey Teknoloji olarak dijital tarımda müşteri kullanımını kolaylaştırıcı, verim artırıcı ve maliyet azaltıcı birçok yazılım faaliyeti gerçekleştiriyoruz.</p>
-                                    <a href='/services#Tone' className='btn btn-md mycolor p-lg-3 mt-1 mb-2 text-uppercase fw-bolder'>Detaylı Bilgi</a>
+                                    <div className='my-heading mt-2 mb-3 fw-bold'>Yazılım Hizmetleri</div>
+                                    <div className='my-sub'>Gökbey Teknoloji olarak dijital tarımda müşteri kullanımını kolaylaştırıcı, verim artırıcı ve maliyet azaltıcı birçok yazılım faaliyeti gerçekleştiriyoruz.</div>
+                                    <a href='/services' className='btn btn-md mycolor p-lg-3 mt-1 mb-2 text-uppercase fw-bolder'>Detaylı Bilgi</a>
                                 </div>
                             </div>
                         </div>

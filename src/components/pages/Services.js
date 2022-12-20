@@ -42,7 +42,7 @@ export default function Services() {
           <div className='tab-content'>
             <div className='tab-pane fade show active' id='one' role="tabpanel" aria-labelledby="Tone">
               <div className='container text-center'>
-                <div className='row'>
+                <div className='row justify-content-center'>
                   <div className='col-lg-6'>
                     <img className='img-fluid rounded text-center' src={Deneme} alt=''/>
                   </div>
@@ -61,7 +61,7 @@ export default function Services() {
             </div>
             <div className='tab-pane fade' id='two' role="tabpanel" aria-labelledby="Ttwo">
               <div className='container text-center'>
-                <div className='row'>
+                <div className='row justify-content-center'>
                   <div className='col-lg-6'>
                     <img className='img-fluid rounded text-center' src={Deneme} alt=''/>
                   </div>
@@ -77,7 +77,7 @@ export default function Services() {
             </div>
             <div className='tab-pane fade' id='three' role="tabpanel" aria-labelledby="Tthree">
               <div className='container text-center'>
-                <div className='row'>
+                <div className='row justify-content-center'>
                   <div className='col-lg-6'>
                     <img className='img-fluid rounded text-center' src={Deneme} alt=''/>
                   </div>
@@ -94,7 +94,7 @@ export default function Services() {
             </div>
             <div className='tab-pane fade' id='four' role="tabpanel" aria-labelledby="Tfour">
             <div className='container text-center'>
-                <div className='row'>
+                <div className='row justify-content-center'>
                   <div className='col-lg-6'>
                     <img className='img-fluid rounded text-center' src={Deneme} alt=''/>
                   </div>
@@ -111,7 +111,7 @@ export default function Services() {
             </div>
             <div className='tab-pane fade' id='five' role="tabpanel" aria-labelledby="Tfive">
               <div className='container text-center'>
-                <div className='row'>
+                <div className='row justify-content-center'>
                   <div className='col-lg-6'>
                   <img className='img-fluid rounded text-center' src={Deneme} alt=''/>
                   </div>
@@ -126,7 +126,7 @@ export default function Services() {
             </div>
             <div className='tab-pane fade' id='six' role="tabpanel" aria-labelledby="Tsix">
               <div className='container text-center'>
-                <div className='row'>
+                <div className='row justify-content-center'>
                   <div className='col-lg-6'>
                     <img className='img-fluid rounded text-center' src={Deneme} alt=''/>
                   </div>

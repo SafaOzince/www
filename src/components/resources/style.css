@@ -631,7 +631,19 @@ header.background .mycolor:hover{
     line-height: 3rem;
     color:#fff;
 }
+.overlay .modal-content .modal-body .my-heading{
+    font-size: 3rem;
+    line-height: 3rem;
+    color:#fff;
+}
 
+.overlay .modal-content .modal-body .my-sub{
+    color:#fff;
+    font-size: 1.25rem;
+    line-height: 1.85rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
 .overlay .modal-content .close-modal{
     position: absolute;
     top:1.5rem;
@@ -861,8 +873,28 @@ header.background .mycolor:hover{
     }
 
     .overlay .modalContainer{ 
-        margin: 1rem;
-    }    
+        margin:0;
+        margin-top: 7rem;
+    }
+    
+    .overlay .modal-content .close-modal{
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: medium;
+        right: 1rem;
+    }
+
+    .overlay .modal-content .modal-body .my-heading{
+        font-size: 1.75rem;
+        margin-bottom:0.75rem;
+        line-height: 1.55rem;
+    }
+
+    .overlay .modal-content .modal-body .my-sub{
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.45rem;
+    }
 }
 
 @media(min-width:992px) {
