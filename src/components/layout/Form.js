@@ -22,7 +22,8 @@ function Form() {
             </div>
         </div>
         <div className='container'>
-        <div className='col-12'>
+          <div className='row justify-content-center'>
+        <div className='col-lg-8'>
             <div className='card p-2 p-md-5 h-100'>
               <div className='container'>
               <h2 className="text-white py-3">Bize Ulaşın</h2>
@@ -52,6 +53,7 @@ function Form() {
                 </form>
                 </div>
               </div>
+            </div>
             </div>
         </div>
     </section>

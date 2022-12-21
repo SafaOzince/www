@@ -36,7 +36,7 @@ function ModalPopUp() {
       <div className='container'>
         <div className='text-center mb-5'>
           <h2 className='s-heading text-uppercase fw-bold'>Hizmetlerimiz</h2>
-          <h3 className='s-subheading text-muted'> Sağladığımız hizmetler bölümü burada.</h3>
+          {/* <h3 className='s-subheading text-muted'> Sağladığımız hizmetler bölümü burada.</h3> */}
         </div>
         <div className='row gy-4'>
           <div className='col-sm-6 col-lg-4'>

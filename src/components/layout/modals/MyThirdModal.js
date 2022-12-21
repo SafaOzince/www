@@ -7,6 +7,8 @@ const MyThirdModal = ({open, onClose }) => {
     <div>
         <div onClick={onClose} className='overlay'>
             <div className='container'>
+            <div className='row justify-content-center'>
+                <div className='col-sm-10 col-md-6'>
             <div onClick={(e) => {e.stopPropagation()}} className='modalContainer'>
                 <div className='modal-content my-content'>
                     <div className='close-modal rounded-circle'>
@@ -15,10 +17,10 @@ const MyThirdModal = ({open, onClose }) => {
                     </div>
                     <div className='container'>
                         <div className='row justify-content-center'>
-                            <div className='col-lg-8'>
+                            <div className='col-md-12 col-lg-10'>
                                 <div className='modal-body'>
                                     <img className="img-fluid d-block mx-auto" src={Modal} alt='' />
-                                    <h2 className='fw-bold mt-2 mb-3'>Danışmanlık Hizmetleri</h2>
+                                    <div className='my-heading mt-2 mb-3 fw-bold'>Danışmanlık Hizmetleri</div>
                                     <p className='p text-white fst-italic'>Gökbey Teknoloji olarak bünyemizde bulunan tecrübeli danışman kadromuz ile müşterilerimize tarım ve teknoloji alanında danışmanlık hizmeti vermekteyiz.</p>
                                     <a href='/services' className='btn btn-md mycolor p-lg-3 mt-1 mb-2 text-uppercase fw-bolder'>Detaylı Bilgi</a>
                                 </div>
@@ -41,6 +43,8 @@ const MyThirdModal = ({open, onClose }) => {
                     </div> */}
                 </div>
             </div>
+            </div>
+                    </div>
             </div>
         </div>
     </div>
