@@ -5,7 +5,7 @@ import ServicesTwo from '../images/Services2.jpg';
 import ServicesThree from '../images/Services3.jpg';
 import ServicesFour from '../images/Services4.png';
 import ServicesFive from '../images/Services5.png';
-import ServicesSix from '../images/Services2.jpg';
+import ServicesSix from '../images/Services6.png';
 
 export default function Services() {
   // const [openModal, setOpenModal] = useState(false)
