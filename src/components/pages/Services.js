@@ -2,9 +2,9 @@ import React from 'react';
 import ModalPopUp from '../layout/modals/ModalPopUp';
 import ServicesOne from '../images/Services1.jpg';
 import ServicesTwo from '../images/Services2.jpg';
-import ServicesThree from '../images/Services2.jpg';
+import ServicesThree from '../images/Services3.jpg';
 import ServicesFour from '../images/Services4.png';
-import ServicesFive from '../images/Services5.jpg';
+import ServicesFive from '../images/Services5.png';
 import ServicesSix from '../images/Services2.jpg';
 
 export default function Services() {
@@ -136,7 +136,7 @@ export default function Services() {
                     <img className='img-fluid rounded text-center' src={ServicesSix} alt=''/>
                   </div>
                   <div className='col-lg-12'>
-                    <h3 className='display-7 fw-bold my-3 text-start'>Teknik Destek</h3>
+                    <h3 className='display-7 fw-bold my-3 text-start'>Teknik Servis</h3>
                     <p className='text-muted text-start'>Teknik servis hayatımızın her alanında kullanmış olduğumuz elektronik cihazların bakım, onarım, tamirat ve montaj işlemlerinin zamanında ve eksiksiz olarak sağlanması olarak tanımlanabilir. Teknik servis hizmetleri ürünün satışından sonraki en büyük öneme sahip hizmetlerdendir.</p>
                     <p className='text-muted text-start'>
                     Gökbey Teknoloji olarak satışını gerçekleştirdiğimiz ürünlerin, yetenekli mühendis ve tekniker kadrosu ile teknik servis hizmetini gerçekleştirmekteyiz. Hizmetlerimizi en kısa sürede gerçekleştirilerek, müşterilerimize teslim ediyoruz. Ayrıca müşterilerimize aldıkları ürünler ile alakalı satış sonrası destek ile bakım zamanlarını bildirerek, olası arıza durumlarında  online destek sağlıyoruz.</p>
