@@ -21,7 +21,7 @@ const MyFourthModal = ({open, onClose }) => {
                                 <div className='modal-body'>
                                     <img className="img-fluid d-block mx-auto" src={Modal} alt='' />
                                     <div className='my-heading mt-2 mb-3 fw-bold'>ARGE Faaliyetleri</div>
-                                    <p className='p text-white fst-italic'>Gökbey Teknoloji olarak yürütmekte olduğumuz ARGE projeleri ile ülkemize ve müşterilerimize dijital tarımda birçok farklı yenilik sağlamaktayız.</p>
+                                    <div className='my-sub'>Gökbey Teknoloji olarak yürütmekte olduğumuz ARGE projeleri ile ülkemize ve müşterilerimize dijital tarımda birçok farklı yenilik sağlamaktayız.</div>
                                     <a href='/services' className='btn btn-md mycolor p-lg-3 mt-1 mb-2 text-uppercase fw-bolder'>Detaylı Bilgi</a>
                                 </div>
                             </div>

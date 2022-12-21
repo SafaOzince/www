@@ -634,17 +634,17 @@ header.background .mycolor:hover{
     color:#fff;
 }
 .overlay .modal-content .modal-body .my-heading{
-    font-size: 2rem;
-    line-height: 1.9rem;
+    font-size: 1.75rem;
+    line-height: 1.55rem;
     color:#fff;
 }
 
 .overlay .modal-content .modal-body .my-sub{
     color:#fff;
-    font-size: 1.15rem;
-    line-height: 1.55rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     font-style: italic;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 .overlay .modal-content .close-modal{
     position: absolute;
@@ -946,9 +946,9 @@ header.background .mycolor:hover{
     }
     
     .overlay .modal-content .close-modal{
-        width: 1.5rem;
-        height: 1.5rem;
-        font-size: medium;
+        width: 1.65rem;
+        height: 1.65rem;
+        font-size: 1.25rem;
         right: 1rem;
     }
 
