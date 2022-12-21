@@ -19,7 +19,7 @@ const MySecondModal = ({open, onClose }) => {
                         <div className='row justify-content-center'>
                             <div className='col-md-12 col-lg-10'>
                                 <div className='modal-body'>
-                                    <img className="img-fluid d-block mx-auto" src={Modal} alt='' />
+                                    <img className="img-fluid d-block mx-auto rounded" src={Modal} alt='' />
                                     <div className='my-heading mt-2 mb-3 fw-bold'>İHA Hizmetleri</div>
                                     <div className='my-sub'>Dijital tarımda tarımsal sulama, bitki ve toprak sağlığı gibi çeşitli faaliyet alanlarında kullanılan insansız hava araçlarının müşterilerimize tedariğini sağlamaktayız.</div>
                                     <a href='/services' className='btn btn-sm mycolor p-lg-2 mt-1 mb-1 text-uppercase fw-bolder'>Detaylı Bilgi</a>

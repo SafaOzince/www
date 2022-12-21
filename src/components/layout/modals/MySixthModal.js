@@ -19,7 +19,7 @@ const MySixthModal = ({open, onClose }) => {
                         <div className='row justify-content-center'>
                             <div className='col-md-12 col-lg-10'>
                                 <div className='modal-body'>
-                                    <img className="img-fluid d-block mx-auto" src={Modal} alt='' />
+                                    <img className="img-fluid d-block mx-auto rounded" src={Modal} alt='' />
                                     <div className='my-heading mt-2 mb-3 fw-bold'>Teknik Servis</div>
                                     <div className='my-sub'>Teknolojik ürün tedariği ve satışının yanı sıra müşterilerimizin en çok hangi ürüne ihtiyacı olduğu, satışı gerçekleştirilen ürünlerin nasıl kullanılacağı gibi konularda müşterilerimizi bilgilendiriyor, satış sonrasında da müşterilerimizi yalnız bırakmıyoruz.</div>
                                     <a href='/services' className='btn btn-sm mycolor p-lg-2 mt-1 mb-1 text-uppercase fw-bolder'>Detaylı Bilgi</a>

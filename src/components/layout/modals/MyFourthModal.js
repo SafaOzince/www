@@ -19,7 +19,7 @@ const MyFourthModal = ({open, onClose }) => {
                         <div className='row justify-content-center'>
                             <div className='col-md-12 col-lg-10'>
                                 <div className='modal-body'>
-                                    <img className="img-fluid d-block mx-auto" src={Modal} alt='' />
+                                    <img className="img-fluid d-block mx-auto rounded" src={Modal} alt='' />
                                     <div className='my-heading mt-2 mb-3 fw-bold'>ARGE Faaliyetleri</div>
                                     <div className='my-sub'>Gökbey Teknoloji olarak yürütmekte olduğumuz ARGE projeleri ile ülkemize ve müşterilerimize dijital tarımda birçok farklı yenilik sağlamaktayız.</div>
                                     <a href='/services' className='btn btn-sm mycolor p-lg-2 mt-1 mb-1 text-uppercase fw-bolder'>Detaylı Bilgi</a>
