@@ -773,7 +773,7 @@ header.background .mycolor:hover{
 } */
 
 #section-3 .p-item .p-link .p-hover .p-content {
-    font-size: 15rem;
+    font-size: 10rem;
 }
 
 #section-3 .p-item .p-link:hover .p-hover{
@@ -800,6 +800,10 @@ header.background .mycolor:hover{
     -moz-transition: opacity ease-in-out 0.3s;
     -ms-transition: opacity ease-in-out 0.3s;
     -o-transition: opacity ease-in-out 0.3s;
+}
+
+.my-canvas{
+    background-color: rgba(97, 218, 251, 0.24);
 }
 @media(max-width:991.98px) {
     header.background {

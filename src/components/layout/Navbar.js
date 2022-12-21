@@ -70,7 +70,7 @@ function Navbar() {
                 <span className='navbar-toggler-icon'></span>
             </button>
             <div className='offcanvas offcanvas-end' tabIndex={-1} id='myNavbar' aria-labelledby='myLabel'>
-                <div className='offcanvas-header'>
+                <div className='offcanvas-header my-canvas'>
                     <h5 className='offcanvas-title' id='myLabel'>Menü</h5>
                     <button type='button' className='btn-close text-reset' data-bs-dismiss="offcanvas" aria-label="Kapat"></button>
                 </div>
