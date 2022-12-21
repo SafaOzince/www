@@ -48,11 +48,23 @@ export default function Home() {
         <div className='container'>
           <div className='row'>
             <div className='col-sm-12 col-lg-12'>
-              <img className='img-fluid' src={Store} alt='' style={{borderRadius:"25px"}}/>
+              <div className='p-item'>
+                  <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='p-link'>
+                  <div className='p-hover'>
+                  <div className='p-content text-white'>
+                    <i class="bi bi-cart-plus"></i>
+                  </div>
+                </div>
+                <img className='img-fluid' src={Store} alt='' style={{borderRadius:"25px"}}/>
+                </a>
+              </div>
+            
+              {/* <img className='img-fluid' src={Store} alt='' style={{borderRadius:"25px"}}/>
+              </a> */}
             </div>
-            <div className='col-sm-12 col-lg-12'>
+            {/* <div className='col-sm-12 col-lg-12'>
               
-            </div>
+            </div> */}
           </div>
         </div>
 
