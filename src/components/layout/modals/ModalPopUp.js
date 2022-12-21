@@ -128,7 +128,7 @@ function ModalPopUp() {
               <div className='p-caption text-center bg-white p-4'>
                 <div className='pc-heading'>Satış ve Pazarlama</div>
                 {/* <div className='pc-subheading text-muted fst-italic'>Açıklaması</div> */}
-                <a href="#Pmodal5" onClick={() => setOpenSixthModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
+                <a href="#Pmodal5" onClick={() => setOpenFifthModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
                 {/* <button onClick={() => setOpenFifthModal(true)}>Detaylı İncele</button> */}
                 <MyFifthModal open={openFifthModal} onClose={()=> setOpenFifthModal(false)} />
               </div>
