@@ -32,9 +32,9 @@ export default function Services() {
           <h3 className='s-subheading text-muted'> Hizmetlerimiz hakkında detaylı bilgi almak için bizleri arayabilir, randevu için form doldurabilirsiniz.</h3>
       </div> */}
       <div className='row'>
-        <div className='col'>
+          <div className='col-sm-12 col-lg-3 my-2'>
           <div className='d-flex align-items-start'>
-            <div className='nav flex-column nav-pills me-4' role="tablist" aria-orientation="vertical">
+            <div className='nav flex-column nav-pills' role="tablist" aria-orientation="vertical">
               <buton type="button" className="nav-link mycolor active" id="Tone" data-bs-toggle="pill" data-bs-target="#one" role="tab" aria-controls="one" aria-selected="true" >Yazılım Hizmetleri</buton>
               <buton type="button" className="nav-link mycolor" id="Ttwo" data-bs-toggle="pill" data-bs-target="#two" role="tab" aria-controls="two" aria-selected="false" >İHA Hizmetleri</buton>
               <buton type="button" className="nav-link mycolor" id="Tthree" data-bs-toggle="pill" data-bs-target="#three" role="tab" aria-controls="three" aria-selected="false" >Danışmanlık Hizmetleri</buton>
@@ -44,6 +44,9 @@ export default function Services() {
               {/* <buton type="button" className="nav-link" id="Tseven" data-bs-toggle="pill" data-bs-target="#seven" role="tab" aria-controls="seven" aria-selected="false" >Deneme Hizmetleri</buton>
               <buton type="button" className="nav-link" id="Teight" data-bs-toggle="pill" data-bs-target="#eight" role="tab" aria-controls="eight" aria-selected="false" ></buton> */}
             </div>
+            </div>
+            </div>
+          <div className='col-sm-12 col-lg-9 my-2'>
           <div className='tab-content'>
             <div className='tab-pane fade show active' id='one' role="tabpanel" aria-labelledby="Tone">
               <div className='container text-center'>
@@ -147,7 +150,7 @@ export default function Services() {
               </div>
             </div>
             </div>
-          </div>
+          
           {/* <ul className='nav nav-pills' id='mytab' role="tablist">
             <li className='nav-item' role="presentation">
               <buton type="button" className="nav-link" id="Thome" data-bs-toggle="pill" data-bs-target="#home" role="tab" aria-controls="home" aria-selected="true" >Anasayfa</buton>

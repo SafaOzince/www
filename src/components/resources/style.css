@@ -711,13 +711,13 @@ header.background .mycolor:hover{
 /* Services Page Start */
 
 .services {
-    padding-top: 7rem;
+    padding-top: 5rem;
     padding-bottom: 9rem;
 }
 
 .services .nav {
     width: 100%;
-    max-width: 300px;
+    /* max-width: 300px; */
 }
 
 .services .nav .mycolor {
@@ -884,10 +884,14 @@ header.background .mycolor:hover{
         margin-bottom: 0.75rem;
     }
     
-    .services .nav{
+    .services {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    /* .services .nav{
         width: 90%;
         max-width: 200px;
-    }
+    } */
     .services h2.s-heading {
         font-size: 1.75rem;
         margin-bottom: 0.75rem;
