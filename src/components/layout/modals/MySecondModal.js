@@ -22,7 +22,7 @@ const MySecondModal = ({open, onClose }) => {
                                     <img className="img-fluid d-block mx-auto" src={Modal} alt='' />
                                     <div className='my-heading mt-2 mb-3 fw-bold'>İHA Hizmetleri</div>
                                     <div className='my-sub'>Dijital tarımda tarımsal sulama, bitki ve toprak sağlığı gibi çeşitli faaliyet alanlarında kullanılan insansız hava araçlarının müşterilerimize tedariğini sağlamaktayız.</div>
-                                    <a href='/services' className='btn btn-md mycolor p-lg-3 mt-1 mb-2 text-uppercase fw-bolder'>Detaylı Bilgi</a>
+                                    <a href='/services' className='btn btn-sm mycolor p-lg-2 mt-1 mb-1 text-uppercase fw-bolder'>Detaylı Bilgi</a>
                                 </div>
                             </div>
                         </div>

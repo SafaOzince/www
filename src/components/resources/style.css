@@ -92,11 +92,11 @@ header.background .mycolor:hover{
 }
 
 .my-carousel-two{
-    background-image: url("../images/store-5.jpeg");
+    background-image: url("../images/store-6.jpg");
     /* background-color: #282c34; */
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center center;
+    background-position: center right 25%;
     background-size: cover;
 }
 

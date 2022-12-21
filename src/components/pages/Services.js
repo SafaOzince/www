@@ -3,7 +3,7 @@ import ModalPopUp from '../layout/modals/ModalPopUp';
 import ServicesOne from '../images/Services1.jpg';
 import ServicesTwo from '../images/Services2.jpg';
 import ServicesThree from '../images/Services2.jpg';
-import ServicesFour from '../images/Services4.jpg';
+import ServicesFour from '../images/Services4.png';
 import ServicesFive from '../images/Services5.jpg';
 import ServicesSix from '../images/Services2.jpg';
 
@@ -52,7 +52,7 @@ export default function Services() {
                     <img className='img-fluid rounded text-center' src={ServicesOne} alt=''/>
                   </div>
                   <div className='col-lg-12'>
-                    <h3 className='display-6 fw-bold my-3 text-start'>Yazılım Hizmetleri</h3>
+                    <h3 className='display-7 fw-bold my-3 text-start'>Yazılım Hizmetleri</h3>
                     <p className='text-muted text-start'>Yazılım elektronik aygıtların belirlenen görevleri yerine getirmesi için kullanılan talimat dizileri olarak tanımlanabilir. Gelişen teknoloji ile birlikte yazılım sektörü tüm dünyada olduğu gibi ülkemizde de ilerlemesini sürdürmektedir. Yazılım sektörünün gelişimi ile beraber sağladığı kolaylıklarla birçok sektöründe büyümesine katkı sağlamaktadır.</p>
                     <p className='text-muted text-start'>
                     Gökbey Teknoloji olarak uzman yazılım kadromuzla beraber başta tarım olmak üzere birçok farklı alanda müşteri istekleri doğrultusunda en doğru ve verimli yazılımı hazırlıyoruz. Yazılım hizmetimizin her aşamasında sizlerle fikir alışverişinde bulunarak en iyi sonuçlara beraber ulaşıyoruz.</p>
@@ -71,7 +71,7 @@ export default function Services() {
                     <img className='img-fluid rounded text-center' src={ServicesTwo} alt=''/>
                   </div>
                   <div className='col-lg-12'>
-                    <h3 className='display-6 fw-bold my-3 text-start'>İHA Hizmetleri</h3>
+                    <h3 className='display-7 fw-bold my-3 text-start'>İHA Hizmetleri</h3>
                     <p className='text-muted text-start'>Gelişen teknoloji ile birlikte İnsansız Hava Aracı (İHA) kullanımı tüm dünya da ve ülkemizde artış göstermektedir. Bununla beraber insansız hava araçları günümüzde savunma, çevre, taşımacılık ve tarım gibi birçok alanda farklı amaçlar için kullanılmaktadır.</p>
                     <p className='text-muted text-start'>
                     Özellikle tarımda kullanılan kamera ve sensörler ile donatılmış İnsansız hava araçları ile bitki sağlığı analizi, toprak analizi ve tarımsal ilaçlama gibi faaliyetler gerçekleştirilmektedir. İnsansız hava araçlarının tarımda kullanımı ile beraber tarımsal verimlilik artmış ve modern tarım yöntemlerine geçiş sağlanabilmiştir.
@@ -87,7 +87,7 @@ export default function Services() {
                     <img className='img-fluid rounded text-center' src={ServicesThree} alt=''/>
                   </div>
                   <div className='col-lg-12'>
-                    <h3 className='display-6 fw-bold my-3 text-start'>Danışmanlık Hizmetleri</h3>
+                    <h3 className='display-7 fw-bold my-3 text-start'>Danışmanlık Hizmetleri</h3>
                     <p className='text-muted text-start'>Danışmanlık, genel olarak bir firmanın belirli iş süreçlerini, verimlilik ve kar artışıyla beraber maliyet azaltma noktasında düzenlemektir.</p>
                     <p className='text-muted text-start'>
                     Gelişen teknoloji ile beraber işletmeler zaman ve personel gibi kaynakları optimum seviyede kullanmak, faaliyetleriyle alakalı maliyetlerin düşürmek, müşterilerine daha kaliteli hizmet sunmak ve pazardaki rekabet gücünü artırmak istemektedirler. Birçok işletme bu isteklerini gerçekleştirmek için farklı teknolojik yatırımlar yapmakta fakat başarılı olamamaktadır. Çünkü birçok işletme alanında başarılı olabilmek için teknolojik faaliyetlere nereden başlanılacağı, yatırım miktarları, personel ve iş planlamaları gibi noktalarda hataya düşmektedirler.</p>
@@ -104,7 +104,7 @@ export default function Services() {
                     <img className='img-fluid rounded text-center' src={ServicesFour} alt=''/>
                   </div>
                   <div className='col-lg-12'>
-                    <h3 className='display-6 fw-bold my-3 text-start'>ARGE Faaliyetleri</h3>
+                    <h3 className='display-7 fw-bold my-3 text-start'>ARGE Faaliyetleri</h3>
                     <p className='text-muted text-start'>Gelişmekte olan ülkeler arasında yerini alan ülkemiz de ekonomik kalkınma için birçok faaliyet yürütülmektedir. ARGE projeleri de bu faaliyetlerden bir tanesidir.</p>
                     <p className='text-muted text-start'>
                     ARGE projeleri için ülkemizde çok sayıda teknoloji merkezleri (teknoparklar) bulunmaktadır. Bu teknoloji merkezlerinin sayıları ise her geçen gün artmaktadır. Teknoloji merkezlerinin ve devlet kurumlarının da destekleriyle şirketler birçok farklı ARGE projesi faaliyeti yürütmektedir.</p>
@@ -121,7 +121,7 @@ export default function Services() {
                   <img className='img-fluid rounded text-center' src={ServicesFive} alt=''/>
                   </div>
                   <div className='col-lg-12'>
-                  <h3 className='display-6 fw-bold my-3 text-start'>Satış ve Pazarlama</h3>
+                  <h3 className='display-7 fw-bold my-3 text-start'>Satış ve Pazarlama</h3>
                   <p className='text-muted text-start'>Küreselleşen dünya ekonomisi ile tüketicinin sınırsız seçenekleri sahip olması ve rekabetçi piyasa koşullarıyla satış ve pazarlama firmalar için önemli bir durum haline gelmiştir. Çünkü firmalar ürettikleri ürünleri ve hizmetleri satabildikleri sürece varlıklarını devam ettirebilmektedirler.</p>
                   <p className='text-muted text-start'>
                   Gökbey teknoloji olarak her alanda olduğu gibi satış ve pazarlama alanında da uzman kadromuzla müşterilerimiz istekleri doğrultusunda çalışmalarımızı planlıyoruz. Küresel piyasalara uygun satış ve pazarlama stratejileri ile müşterilerimize ürün satışlarımızı gerçekleştiriyoruz.</p>
@@ -136,7 +136,7 @@ export default function Services() {
                     <img className='img-fluid rounded text-center' src={ServicesSix} alt=''/>
                   </div>
                   <div className='col-lg-12'>
-                    <h3 className='display-6 fw-bold my-3 text-start'>Teknik Destek</h3>
+                    <h3 className='display-7 fw-bold my-3 text-start'>Teknik Destek</h3>
                     <p className='text-muted text-start'>Teknik servis hayatımızın her alanında kullanmış olduğumuz elektronik cihazların bakım, onarım, tamirat ve montaj işlemlerinin zamanında ve eksiksiz olarak sağlanması olarak tanımlanabilir. Teknik servis hizmetleri ürünün satışından sonraki en büyük öneme sahip hizmetlerdendir.</p>
                     <p className='text-muted text-start'>
                     Gökbey Teknoloji olarak satışını gerçekleştirdiğimiz ürünlerin, yetenekli mühendis ve tekniker kadrosu ile teknik servis hizmetini gerçekleştirmekteyiz. Hizmetlerimizi en kısa sürede gerçekleştirilerek, müşterilerimize teslim ediyoruz. Ayrıca müşterilerimize aldıkları ürünler ile alakalı satış sonrası destek ile bakım zamanlarını bildirerek, olası arıza durumlarında  online destek sağlıyoruz.</p>
