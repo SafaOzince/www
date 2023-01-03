@@ -1,5 +1,5 @@
 import React from 'react';
-import Slider from '../layout/Slider'
+import Slider from '../layout/Slider/Slider'
 import Slideimage1 from '../images/210901.jpg';
 import Slideimage2 from '../images/210906.jpg';
 import Slideimage3 from '../images/210908.jpg';
@@ -40,6 +40,7 @@ export default function Home() {
     </section> */}
      {/* Section-3 */}
      <section id='section-3' className='mySection bg-light'>
+      <div className=' myContainer'>
       <div className='container'>
         <div className='text-center mb-5'>
           <h2 className='s-heading text-uppercase fw-bold p'> Mağaza</h2>
@@ -69,9 +70,11 @@ export default function Home() {
         </div>
 
       </div>
+      </div>
     </section>
     {/* Section-2 */}
     <section id='section-2' className='mySection bg-secondary'>
+      <div className='myContainer'>
       <div className='container'>
         <div className='text-center mb-5'>
           {/* <h2 className='s-heading text-uppercase fw-bold p'> Hizmetlerimiz</h2>
@@ -99,6 +102,7 @@ export default function Home() {
             <h4 className='my-3 fw-bold'>Danışmanlık Hizmetleri</h4>
             <p className='text-white'  >Gökbey Teknoloji olarak bünyemizde bulunan tecrübeli danışman kadromuz ile müşterilerimize tarım ve teknoloji alanında danışmanlık hizmeti vermekteyiz.</p>
           </div>
+        </div>
         </div>
       </div>
     </section>

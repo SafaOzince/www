@@ -53,11 +53,11 @@ header.background .mycolor:hover{
 } */
 
 .my-carousel-one{
-    background-image: url("../images/Header.jpg");
+    background-image: url("../images/Slider-services.jpg");
     /* background-color: #282c34; */
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center center;
+    background-position: center right 23%;
     background-size: cover;
 }
 
@@ -92,11 +92,11 @@ header.background .mycolor:hover{
 }
 
 .my-carousel-two{
-    background-image: url("../images/store-6.jpg");
+    background-image: url("../images/ux_ecommerce.jpg");
     /* background-color: #282c34; */
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center right 25%;
+    background-position: center right 15%;
     background-size: cover;
 }
 
@@ -228,14 +228,17 @@ header.background .mycolor:hover{
 
 #mainNavbar .navbar-nav .nav-item .nav-link{
     font-size: 1rem;
-    color:#fff;
-    letter-spacing: 0.06em;
+    color:#212529;
+    font-weight: 600;
+    letter-spacing: 0.05em;
 }
 
 #mainNavbar .navbar-nav .nav-item .nav-link.active,
 #mainNavbar .navbar-nav .nav-item .nav-link:hover {
     color: #61dafb;
+    background-color: transparent;
     box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
+    border: 1px solid #61dafb;
     border-radius: 12px;
     transition: all 0.3s ease-in-out;
         -webkit-transition: all 0.3s ease-in-out;
@@ -805,7 +808,41 @@ header.background .mycolor:hover{
 .my-canvas{
     background-color: rgba(97, 218, 251, 0.24);
 }
+
+.top-header .top-header-nav .top-header-nav-item {
+    list-style-type: none;
+    color: #fff;
+    text-decoration: none;
+    /* position: relative; */
+}
+/* .top-header .top-header-nav .top-header-nav-item::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-radius: 1rem;
+    background: #61dafb;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+} */
+
+.top-header .top-header-nav .top-header-nav-item:hover,
+.top-header .top-header-nav .top-header-nav-item:focus {
+  color: #61dafb;
+}
+
+.top-header .top-header-right-nav .top-header-right-nav-item{
+    list-style-type: none;
+    color: #fff;
+    text-decoration: none;
+}
+
 @media(max-width:991.98px) {
+    .top-header{
+        display: none;
+    }
     header.background {
         padding-top: 11rem;
         padding-bottom: 13rem;
@@ -899,7 +936,8 @@ header.background .mycolor:hover{
 
     #mainNavbar .navbar-nav .nav-item .nav-link{
         color:#212529;
-
+        font-weight: 600;
+        padding-left: 10px;
     }
 
     .myaboutSection {
@@ -967,12 +1005,226 @@ header.background .mycolor:hover{
         margin-bottom: 0.5rem;
         line-height: 1.45rem;
     }
-}
 
-@media(min-width:992px) {
+    .myContainer{
+        padding: 0 4rem;
+    }
+}
+/* Medium to xlarge screen settings */
+@media(min-width:992px) and (max-width:1199.98) {
+    .myContainer{
+        padding: 0 10rem;
+    }
     header.background {
         padding-top: 15rem;
         padding-bottom: 15rem;
+    }
+
+    .my-carousel-one{
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
+    .my-carousel-two{
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
+    .my-carousel-three{
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
+    .myaboutSection{
+        padding-top: 8rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #mainNavbar {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border: none;
+        background-color: transparent;
+        opacity: 96%;
+        transition: background-color 0.5s ease;
+        transition: padding-top 0.5s ease-in-out;
+        -webkit-transition: padding-top 0.5s ease-in-out;
+        -moz-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3 ease-in-out;
+        -ms-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3 ease-in-out;
+        -o-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3 ease-in-out;
+    }
+
+    #mainNavbar .navbar-brand {
+        font-size: 1.5rem;
+        background-color: transparent;
+        transition: background-color 0.5s ease;
+        transition: font-size 0.3s ease-in-out;
+        -webkit-transition: font-size 0.3s ease-in-out;
+        -moz-transition: font-size 0.3s ease-in-out;
+        -ms-transition: font-size 0.3s ease-in-out;
+        -o-transition: font-size 0.3s ease-in-out;
+    }
+
+    #mainNavbar .navbar-nav .nav-item{
+        margin-right: 1rem;
+    }
+
+    #mainNavbar .navbar-nav .nav-item:last-child {
+        margin-right: 0;
+    }
+
+/* Change Navbar body when scrooling down */
+
+    #mainNavbar.navbar-mobile .navbar-brand {
+        font-size: 1.20em;
+    }
+
+    #mainNavbar.navbar-mobile {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #212529;
+    }
+
+    .top-header{
+        padding: 1.5rem 0;
+        background-color: #15416e;
+    }
+}
+
+/* Medium to xxlarge screen settings  */
+@media(min-width:1200px) and (max-width:1599.98px) {
+    .myContainer{
+        padding: 0 16rem;
+    }
+    .mySection{
+        padding: 3rem 0;
+    }
+    .mySection h2.s-heading{
+        font-size: 1.95rem;
+        margin-bottom: 0.5rem;
+    }
+    .top-header{
+        padding: 0.55rem 0;
+        background-color: #15416e;
+    }
+    .myForm{
+        margin-bottom: 1rem;
+    }
+    .mySection .myContainer .card .myformheader{
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+        font-size: 1.65rem;
+    }
+    .myfooter{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .myfooterheader{
+        font-size: 1.5rem;
+    }
+    .footerbutton{
+        padding: 0.25rem 0.5rem;
+    }
+    .mybrand{
+        font-size: 0.95rem;
+    }
+    .p-caption{
+        padding:0.75rem;
+    }
+
+    #section-5 .p-item .p-caption .pc-heading{
+        font-size: 1.15rem;
+    }
+
+    header.background {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .my-carousel-one{
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+        max-height: 550px;
+    }
+    .my-carousel-two{
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+        max-height: 550px;
+    }
+    .my-carousel-three{
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+        max-height: 550px;
+    }
+    .myaboutSection{
+        padding-top: 8rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #mainNavbar {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border: none;
+        margin-top: 2.55rem;
+        background-color: #fff;
+        transition: background-color 0.5s ease;
+        transition: padding-top 0.5s ease-in-out;
+        -webkit-transition: padding-top 0.5s ease-in-out;
+        -moz-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3 ease-in-out;
+        -ms-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3 ease-in-out;
+        -o-transition: padding-top 0.3s ease-in-out, padding-bottom 0.3 ease-in-out;
+    }
+
+    #mainNavbar .navbar-brand {
+        font-size: 1.5rem;
+        background-color: transparent;
+        transition: background-color 0.5s ease;
+        transition: font-size 0.3s ease-in-out;
+        -webkit-transition: font-size 0.3s ease-in-out;
+        -moz-transition: font-size 0.3s ease-in-out;
+        -ms-transition: font-size 0.3s ease-in-out;
+        -o-transition: font-size 0.3s ease-in-out;
+    }
+
+    #mainNavbar .navbar-nav .nav-item{
+        margin-right: 1rem;
+    }
+
+    #mainNavbar .navbar-nav .nav-item:last-child {
+        margin-right: 0;
+    }
+
+/* Change Navbar body when scrooling down */
+
+    #mainNavbar.navbar-mobile .navbar-brand {
+        font-size: 1.20em;
+    }
+
+    #mainNavbar.navbar-mobile {
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        background-color: #fff;
+        margin-top:0;
+        transition: all 0.3s ease;
+    }
+
+}
+@media(min-width:1600px) {
+    
+    .top-header{
+        padding: 1rem 0;
+    }
+    .myForm{
+        margin-bottom: 3rem;
+    }
+    .myfooter{
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    header.background {
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
+
+    .p-caption{
+        padding:1.5rem;
     }
 
     .my-carousel-one{

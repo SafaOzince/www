@@ -33,11 +33,11 @@ function ModalPopUp() {
     <section id='section-5' className='mySection bg-light'>
         {/* <button onClick={() => setOpenModal(true)}>İncele</button>
         <MyFirstModal open={openModal} onClose={()=> setOpenModal(false)} /> */}
+        <div className='myContainer'>
       <div className='container'>
-        <div className='text-center mb-5'>
+        {/* <div className='text-center mb-5'>
           <h2 className='s-heading text-uppercase fw-bold'>Hizmetlerimiz</h2>
-          {/* <h3 className='s-subheading text-muted'> Sağladığımız hizmetler bölümü burada.</h3> */}
-        </div>
+        </div> */}
         <div className='row gy-4'>
           <div className='col-sm-6 col-lg-4'>
             <div className='p-item'>
@@ -49,7 +49,7 @@ function ModalPopUp() {
                 </div>
                 <img className='img-fluid' src={ModalImage1} alt='' />
               </a>
-              <div className='p-caption text-center bg-white p-4'>
+              <div className='p-caption text-center bg-white '>
                 <div className='pc-heading'>Yazılım Hizmetleri</div>
                 {/* <div className='pc-subheading text-muted fst-italic'>Açıklaması</div> */}
                 <a href="#Pmodal1" onClick={() => setOpenFirstModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
@@ -68,7 +68,7 @@ function ModalPopUp() {
                 </div>
                 <img className='img-fluid' src={ModalImage2} alt='' />
               </a>
-              <div className='p-caption text-center bg-white p-4'>
+              <div className='p-caption text-center bg-white '>
                 <div className='pc-heading'>İHA Hizmetleri</div>
                 {/* <div className='pc-subheading text-muted fst-italic'>Açıklaması</div> */}
                 <a href="#Pmodal2" onClick={() => setOpenSecondModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
@@ -87,7 +87,7 @@ function ModalPopUp() {
                 </div>
                 <img className='img-fluid' src={ModalImage3} alt='' />
               </a>
-              <div className='p-caption text-center bg-white p-4'>
+              <div className='p-caption text-center bg-white '>
                 <div className='pc-heading'>Danışmanlık Hizmetleri</div>
                 {/* <div className='pc-subheading text-muted fst-italic'>Açıklaması</div> */}
                 <a href="#Pmodal3" onClick={() => setOpenThirdModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
@@ -106,7 +106,7 @@ function ModalPopUp() {
                 </div>
                 <img className='img-fluid' src={ModalImage4} alt='' />
               </a>
-              <div className='p-caption text-center bg-white p-4'>
+              <div className='p-caption text-center bg-white '>
                 <div className='pc-heading'>ARGE Faaliyetleri</div>
                 {/* <div className='pc-subheading text-muted fst-italic'>Açıklaması</div> */}
                 <a href="#Pmodal4" onClick={() => setOpenFourthModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
@@ -125,7 +125,7 @@ function ModalPopUp() {
                 </div>
                 <img className='img-fluid' src={ModalImage5} alt='' />
               </a>
-              <div className='p-caption text-center bg-white p-4'>
+              <div className='p-caption text-center bg-white '>
                 <div className='pc-heading'>Satış ve Pazarlama</div>
                 {/* <div className='pc-subheading text-muted fst-italic'>Açıklaması</div> */}
                 <a href="#Pmodal5" onClick={() => setOpenFifthModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
@@ -144,7 +144,7 @@ function ModalPopUp() {
                 </div>
                 <img className='img-fluid' src={ModalImage6} alt='' />
               </a>
-              <div className='p-caption text-center bg-white p-4'>
+              <div className='p-caption text-center bg-white '>
                 <div className='pc-heading'>Teknik Servis</div>
                 {/* <div className='pc-subheading text-muted fst-italic'>Açıklaması</div> */}
                 <a href="#Pmodal6" onClick={() => setOpenSixthModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
@@ -163,7 +163,7 @@ function ModalPopUp() {
                 </div>
                 <img className='img-fluid' src={ModalImage3} alt='' />
               </a>
-              <div className='p-caption text-center bg-white p-4'>
+              <div className='p-caption text-center bg-white '>
                 <div className='pc-heading'>Gökbey7</div>
                 <div className='pc-subheading text-muted fst-italic'>Açıklaması</div>
                 <a href="#Pmodal7" onClick={() => setOpenSixthModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
@@ -191,6 +191,7 @@ function ModalPopUp() {
               {/* </div>
             </div>
           </div> */} 
+        </div>
         </div>
       </div>
     

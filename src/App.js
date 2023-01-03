@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 // import * as bootstrap from 'bootstrap/dist/js/bootstrap'
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
+import TopHeader from './components/layout/TopHeader';
 import Navbar from './components/layout/Navbar';
 
 import Home from './components/pages/Home';
@@ -17,9 +18,11 @@ import WhatsappChat from './components/layout/WhatsappChat';
 
 
 
+
 function App() {
   return (
     <Router>
+      <TopHeader/>
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>} />

@@ -15,8 +15,9 @@ function Form() {
   }
   return (
     <section id='section-contact' className='mySection bg-light'>
+      <div className='myContainer'>
         <div className='container'>
-            <div className='text-center mb-5 pb-3'>
+            <div className='myForm text-center pb-3'>
             <h2 className='s-heading text-uppercase fw-bold'>İletişim</h2>
             <h3 className='s-subheading text-muted'> Hizmetlerimiz hakkında detaylı bilgi almak için bizleri arayabilir, randevu için form doldurabilirsiniz.</h3>
             </div>
@@ -26,7 +27,7 @@ function Form() {
         <div className='col-lg-8'>
             <div className='card p-2 p-md-5 h-100'>
               <div className='container'>
-              <h2 className="text-white py-3">Bize Ulaşın</h2>
+              <h2 className="text-white myformheader pt-3 pb-3">Bize Ulaşın</h2>
               <div className='devider'></div>
                 <form onSubmit={onSubmit}>
                   <div className="mb-3">
@@ -55,6 +56,7 @@ function Form() {
               </div>
             </div>
             </div>
+        </div>
         </div>
     </section>
   )

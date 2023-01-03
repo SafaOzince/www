@@ -5,7 +5,7 @@ import Logo from "../images/logo-removebg-preview.png";
 function Footer() {
 
   return (
-    <footer className="text-white text-start py-4" id='footer-area'>
+    <footer className="text-white text-start myfooter" id='footer-area'>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-md-12">
@@ -19,8 +19,8 @@ function Footer() {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
-                        <h3 className='text-uppercase fw-bold my-2'>Hızlı Linkler</h3>
-                        <ul className="footer-link justify-content-end flex-grow-1 text-uppercase py-lg-2">                                    
+                        <h3 className='text-uppercase fw-bold myfooterheader mb-2 mt-2'>Hızlı Linkler</h3>
+                        <ul className="footer-link justify-content-end flex-grow-1 py-lg-2">                                    
                             <li>
                                 <a href='/' className='btn footerbutton'>Ana Sayfa</a>
                             </li>
@@ -36,7 +36,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="col-lg-4 col-md-6">
-                        <h3 className='text-uppercase fw-bold my-2'>İletişim</h3>
+                        <h3 className='text-uppercase myfooterheader fw-bold mb-2 mt-2'>İletişim</h3>
                         <ul className="list-style-none justify-content-end flex-grow-1 py-lg-2">
                             <li className='d-flex flex-wrap align-items-center'>
                                 <i className="bi bi-telephone">TELEFON NO: </i>
