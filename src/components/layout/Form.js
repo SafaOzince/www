@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Form() {
-    const [formStatus, setFormStatus] = React.useState('Mesaj Gönder')
+    const [formStatus, setFormStatus] = React.useState('Gönder')
   const onSubmit = (e) => {
     e.preventDefault()
     setFormStatus('Gönderildi')
@@ -24,29 +24,29 @@ function Form() {
         </div>
         <div className='container'>
           <div className='row justify-content-center'>
-        <div className='col-lg-8'>
+        <div className='col-lg-6'>
             <div className='card p-2 p-md-5 h-100'>
               <div className='container'>
-              <h2 className="text-white myformheader pt-3 pb-3">Bize Ulaşın</h2>
+              <h2 className="myformheader pt-3 pb-3">Bize Ulaşın</h2>
               <div className='devider'></div>
                 <form onSubmit={onSubmit}>
                   <div className="mb-3">
-                    <label className="form-label text-white" htmlFor="name">
+                    {/* <label className="form-label text-white" htmlFor="name">
                       Ad, Soyad:
-                    </label>
+                    </label> */}
                     <input className="form-control my-form" type="text" placeholder='Adınızı Girin' id="name" required />
                   </div>
                   <div className="mb-3">
-                    <label className="form-label text-white" htmlFor="email">
+                    {/* <label className="form-label text-white" htmlFor="email">
                       E-posta:
-                    </label>
+                    </label> */}
                     <input className="form-control my-form" type="email" placeholder='E-postanızı Girin' id="email" required />
                   </div>
                   <div className="mb-3">
-                    <label className="form-label text-white" htmlFor="message">
+                    {/* <label className="form-label text-white" htmlFor="message">
                       Mesaj Kutusu:
-                    </label>
-                    <textarea className="form-control my-form" placeholder='Mesajınızı Bu Alana Yazın' id="message" required />
+                    </label> */}
+                    <textarea className="form-control my-form" rows={4} placeholder='Mesajınızı Bu Alana Yazın' id="message" required />
                   </div>
                   <button className="btn myformbutton p-lg-3 mt-1 text-uppercase fw-bold mb-3 mb-md-0" type="submit">
                     {formStatus}

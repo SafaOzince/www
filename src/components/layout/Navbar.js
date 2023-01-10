@@ -80,16 +80,16 @@ function Navbar() {
                             <a href='/' className='nav-link btn-close-canvas'>Ana Sayfa</a>
                         </li>
                         <li className='nav-item'>
-                            <a href='/about' className='nav-link btn-close-canvas'>Hakkımızda</a>
+                            <a href='/kurumsal' className='nav-link btn-close-canvas'>Kurumsal</a>
                         </li>
                         <li className='nav-item'>
-                            <a href='/services' className='nav-link btn-close-canvas'>Hizmetlerimiz</a>
+                            <a href='/hizmetlerimiz' className='nav-link btn-close-canvas'>Hizmetlerimiz</a>
                         </li>
                         <li className='nav-item'>
-                            <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='nav-link btn-close-canvas'>Mağaza</a>
+                            <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='nav-link disabled btn-close-canvas'>Mağaza</a>
                         </li>
                         <li className='nav-item'>
-                            <a href='/contact' className='nav-link btn-close-canvas'>İletişim</a>
+                            <a href='/iletisim' className='nav-link btn-close-canvas'>İletişim</a>
                         </li>
                     </ul>
                 </div>

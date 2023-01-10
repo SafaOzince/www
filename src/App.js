@@ -26,9 +26,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/about" element={<About/>} />
-        <Route path="/services" element={<Services/>} />
-        <Route path="/contact" element={<Contact/>} />
+        <Route path="/kurumsal" element={<About/>} />
+        <Route path="/hizmetlerimiz" element={<Services/>} />
+        <Route path="/iletisim" element={<Contact/>} />
       </Routes>
       <Footer/>
       <WhatsappChat/>

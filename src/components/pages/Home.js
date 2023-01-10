@@ -17,7 +17,7 @@ export default function Home() {
       <div className='container'>
         <div className='background-heading text-uppercase mb-4'>Gökbey Teknoloji  </div>
         <div className='background-sub mb-4'>Arge ve Danışmanlık</div>
-        <a href="/contact" className='btn btn-lg mycolor p-lg-3 mt-1 text-uppercase fw-bolder'>Bize Ulaşın</a>
+        <a href="/contact" className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold'>Bize Ulaşın</a>
       </div>
     </header>
     
@@ -73,7 +73,7 @@ export default function Home() {
       </div>
     </section>
     {/* Section-2 */}
-    <section id='section-2' className='mySection bg-secondary'>
+    <section id='section-2' className='mySection'>
       <div className='myContainer'>
       <div className='container'>
         <div className='text-center mb-5'>
@@ -82,25 +82,25 @@ export default function Home() {
         </div>
         <div className='row text-center'>
           <div className='col-md-4'>
-            <div className='rounded-circle mycolor d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
+            <div className='rounded-circle myiconcolor d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
               <i class="bi bi-briefcase" style={{fontSize:"4.5rem" }}></i>
             </div>
-            <h4 className='my-3 fw-bold'>Yazılım Hizmetleri</h4>
-            <p className='text-white' >Gökbey Teknoloji olarak dijital tarımda müşteri kullanımını kolaylaştırıcı, verim artırıcı ve maliyet azaltıcı birçok yazılım faaliyeti gerçekleştiriyoruz.</p>
+            <h4 className='my-3 fw-bold text-white'>Yazılım Hizmetleri</h4>
+            <p className='text-white'>Gökbey Teknoloji olarak dijital tarımda müşteri kullanımını kolaylaştırıcı, verim artırıcı ve maliyet azaltıcı birçok yazılım faaliyeti gerçekleştiriyoruz.</p>
           </div>
           <div className='col-md-4'>
-            <div className='rounded-circle mycolor d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
+            <div className='rounded-circle myiconcolor d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
               <i class="bi bi-headset-vr" style={{fontSize:"4.5rem" }}></i>
             </div>
-            <h4 className='my-3 fw-bold'>İHA Hizmetleri</h4>
-            <p className='text-white' >Dijital tarımda tarımsal sulama, bitki ve toprak sağlığı gibi çeşitli faaliyet alanlarında kullanılan insansız hava araçlarının müşterilerimize tedariğini sağlamaktayız.</p>
+            <h4 className='my-3 fw-bold text-white'>İHA Hizmetleri</h4>
+            <p className='text-white'>Dijital tarımda tarımsal sulama, bitki ve toprak sağlığı gibi çeşitli faaliyet alanlarında kullanılan insansız hava araçlarının müşterilerimize tedariğini sağlamaktayız.</p>
           </div>
           <div className='col-md-4'>
-            <div className='rounded-circle mycolor d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
+            <div className='rounded-circle myiconcolor d-flex align-items-center justify-content-center m-auto' style={{width:"8rem", height:"8rem"}} aria-hidden="true">
               <i class="bi bi-cpu-fill" style={{fontSize:"4.5rem" }}></i>
             </div>
-            <h4 className='my-3 fw-bold'>Danışmanlık Hizmetleri</h4>
-            <p className='text-white'  >Gökbey Teknoloji olarak bünyemizde bulunan tecrübeli danışman kadromuz ile müşterilerimize tarım ve teknoloji alanında danışmanlık hizmeti vermekteyiz.</p>
+            <h4 className='my-3 fw-bold text-white'>Danışmanlık Hizmetleri</h4>
+            <p className='text-white'>Gökbey Teknoloji olarak bünyemizde bulunan tecrübeli danışman kadromuz ile müşterilerimize tarım ve teknoloji alanında danışmanlık hizmeti vermekteyiz.</p>
           </div>
         </div>
         </div>

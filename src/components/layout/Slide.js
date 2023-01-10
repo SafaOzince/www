@@ -25,7 +25,7 @@ function Slide() {
                     <div className='container'>
                     <div className='my-carousel-one-heading text-uppercase mb-4'>Hizmetlerimiz</div>
                       <div className='my-carousel-one-sub mb-4'>Hizmetlerimiz hakkında bilgi almak için</div>
-                      <a href='/services' className='btn btn-lg mycolor p-lg-3 mt-1 text-uppercase fw-bolder'>Hizmetlerimiz</a>
+                      <a href='/services' className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold'>Keşfet<i class="bi bi-chevron-double-right"></i> </a>
                     </div>
                 {/* <div className='carousel-caption d-none d-md-block'>
                 <div className='container'>
@@ -42,7 +42,7 @@ function Slide() {
                     <div className='container'>
                       <div className='my-carousel-two-heading text-uppercase mb-4'>Gökbey Store</div>
                       <div className='my-carousel-two-sub mb-4'>Ürünlerimiz hakkında bilgi almak için</div>
-                      <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='btn btn-lg mycolor p-lg-3 mt-1 text-uppercase fw-bolder'>Mağazaya git</a>
+                      <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold'>Mağazaya git</a>
                     </div>
                 {/* <div className='carousel-caption d-none d-md-block'>
                   <h5>2. Slayt Etiketi</h5>
@@ -52,10 +52,10 @@ function Slide() {
               <div className='carousel-item my-carousel-three text-white text-center'>
                 {/* <img src={Slideimage3} className='d-block w-100 sl-image' alt="slide 3"/> */}
                 
-                    <div className='container'>
+                    <div className='container-fluid'>
                       <div className='my-carousel-three-heading text-uppercase mb-4'>Gökbey Teknoloji</div>
                       <div className='my-carousel-three-sub mb-4'>Faaliyetlerimiz hakkında bilgi almak için</div>
-                      <a href='/contact' className='btn btn-lg mycolor p-lg-3 mt-1 text-uppercase fw-bolder'>Bize Ulaşın</a>
+                      <a href='/contact' className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold'>Bize Ulaşın</a>
                     </div>
                 
                 {/* <div className='carousel-caption d-none d-md-block'>

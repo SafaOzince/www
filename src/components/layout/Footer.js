@@ -39,15 +39,15 @@ function Footer() {
                         <h3 className='text-uppercase myfooterheader fw-bold mb-2 mt-2'>İletişim</h3>
                         <ul className="list-style-none justify-content-end flex-grow-1 py-lg-2">
                             <li className='d-flex flex-wrap align-items-center'>
-                                <i className="bi bi-telephone">TELEFON NO: </i>
+                                <i className="bi bi-telephone"></i>
                                 <a href ="tel:(+123) 456-7898" className='btn footerbutton'>(+90) 532 201 46 62</a>
                             </li>
                             <li className='d-flex flex-wrap align-items-center'>
-                                <i className="bi bi-envelope-fill"> E-POSTA: </i>
-                                <a href="mailto:info.gokbeyteknoloji@gmail.com"className='btn footerbutton'>info.gokbeyteknoloji@gmail.com</a>
+                                <i className="bi bi-envelope-fill"></i>
+                                <a href="mailto:info@gokbeyteknoloji.com"className='btn footerbutton'>info@gokbeyteknoloji.com</a>
                             </li>
                             <li className='d-flex flex-wrap align-items-center d-100 h-100'>
-                                <i className="bi bi-geo-alt-fill">ADRES: </i>
+                                <i className="bi bi-geo-alt-fill"></i>
                                 <a href="/contact" className='btn footerbutton'>GTÜ AR-Ge 3 Blok No:12 Gebze/KOCAELİ</a>    
                             </li>
                         </ul>

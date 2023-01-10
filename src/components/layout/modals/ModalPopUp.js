@@ -41,125 +41,163 @@ function ModalPopUp() {
         <div className='row gy-4'>
           <div className='col-sm-6 col-lg-4'>
             <div className='p-item'>
-              <a href='#Pmodal1' onClick={() => setOpenFirstModal(true)} className='p-link' data-bs-toggle="modal">
+              <a href='/services'  className='p-link'>
                 <div className='p-hover'>
-                  <div className='p-content text-white'>
-                    <i class="bi bi-plus-circle"></i>
-                  </div>
+                 
+                  
                 </div>
-                <img className='img-fluid' src={ModalImage1} alt='' />
+                <img className='img-fluid' src={ModalImage1} alt='' style={{borderRadius:"25px"}} />
+                <summary className='my-summary'>
+                <span className='name'>Yazılım Hizmetleri</span>
+                  <span className='hover-text'>Görüntüle
+                    {/* <i class="fas fa-angle-right px-1"></i> */}
+                  </span>
+                </summary>
               </a>
-              <div className='p-caption text-center bg-white '>
+              {/* <div className='p-caption text-center bg-white '>
                 <div className='pc-heading'>Yazılım Hizmetleri</div>
-                {/* <div className='pc-subheading text-muted fst-italic'>Açıklaması</div> */}
+               
                 <a href="#Pmodal1" onClick={() => setOpenFirstModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
-                {/* <button onClick={() => setOpenFirstModal(true)}>Detaylı İncele</button> */}
+               
                 <MyFirstModal open={openFirstModal} onClose={()=> setOpenFirstModal(false)} />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className='col-sm-6 col-lg-4'>
             <div className='p-item'>
-              <a href='#Pmodal2' onClick={() => setOpenSecondModal(true)} className='p-link' data-bs-toggle="modal">
+            <a href='/services'  className='p-link'>
+              {/* <a href='#Pmodal2' onClick={() => setOpenSecondModal(true)} className='p-link' data-bs-toggle="modal"> */}
                 <div className='p-hover'>
-                  <div className='p-content text-white'>
-                    <i class="bi bi-plus-circle"></i>
-                  </div>
+                
                 </div>
-                <img className='img-fluid' src={ModalImage2} alt='' />
+                <img className='img-fluid' src={ModalImage2} alt='' style={{borderRadius:"25px"}}/>
+                <summary className='my-summary'>
+                <span className='name'>İHA Hizmetleri</span>
+                  <span className='hover-text'>Görüntüle
+                    {/* <i class="fas fa-angle-right px-1"></i> */}
+                  </span>
+                </summary>
               </a>
-              <div className='p-caption text-center bg-white '>
+              {/* <div className='p-caption text-center bg-white '>
                 <div className='pc-heading'>İHA Hizmetleri</div>
-                {/* <div className='pc-subheading text-muted fst-italic'>Açıklaması</div> */}
+                
                 <a href="#Pmodal2" onClick={() => setOpenSecondModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
-                {/* <button onClick={() => setOpenSecondModal(true)}>Detaylı İncele</button> */}
+                
                 <MySecondModal open={openSecondModal} onClose={()=> setOpenSecondModal(false)} />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className='col-sm-6 col-lg-4'>
             <div className='p-item'>
-              <a href='#Pmodal3' onClick={() => setOpenThirdModal(true)} className='p-link' data-bs-toggle="modal">
+            <a href='/services'  className='p-link'>
+              {/* <a href='#Pmodal3' onClick={() => setOpenThirdModal(true)} className='p-link' data-bs-toggle="modal"> */}
                 <div className='p-hover'>
-                  <div className='p-content text-white'>
+                  {/* <div className='p-content text-white'>
                     <i class="bi bi-plus-circle"></i>
-                  </div>
+                  </div> */}
                 </div>
-                <img className='img-fluid' src={ModalImage3} alt='' />
+                <img className='img-fluid' src={ModalImage3} alt='' style={{borderRadius:"25px"}}/>
+                <summary className='my-summary'>
+                <span className='name'>Danışmanlık Hizmetleri</span>
+                  <span className='hover-text'>Görüntüle
+                    {/* <i class="fas fa-angle-right px-1"></i> */}
+                  </span>
+                </summary>
               </a>
-              <div className='p-caption text-center bg-white '>
+              {/* <div className='p-caption text-center bg-white '>
                 <div className='pc-heading'>Danışmanlık Hizmetleri</div>
-                {/* <div className='pc-subheading text-muted fst-italic'>Açıklaması</div> */}
+                
                 <a href="#Pmodal3" onClick={() => setOpenThirdModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
-                {/* <button onClick={() => setOpenThirdModal(true)}>Detaylı İncele</button> */}
+                
                 <MyThirdModal open={openThirdModal} onClose={()=> setOpenThirdModal(false)} />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className='col-sm-6 col-lg-4'>
             <div className='p-item'>
-              <a href='#Pmodal4' onClick={() => setOpenFourthModal(true)} className='p-link' data-bs-toggle="modal">
+            <a href='/services'  className='p-link'>
+              {/* <a href='#Pmodal4' onClick={() => setOpenFourthModal(true)} className='p-link' data-bs-toggle="modal"> */}
                 <div className='p-hover'>
-                  <div className='p-content text-white'>
+                  {/* <div className='p-content text-white'>
                     <i class="bi bi-plus-circle"></i>
-                  </div>
+                  </div> */}
                 </div>
-                <img className='img-fluid' src={ModalImage4} alt='' />
+                <img className='img-fluid' src={ModalImage4} alt='' style={{borderRadius:"25px"}}/>
+                <summary className='my-summary'>
+                <span className='name'>ARGE Faaliyetleri</span>
+                  <span className='hover-text'>Görüntüle
+                    {/* <i class="fas fa-angle-right px-1"></i> */}
+                  </span>
+                </summary>
               </a>
-              <div className='p-caption text-center bg-white '>
+              {/* <div className='p-caption text-center bg-white '>
                 <div className='pc-heading'>ARGE Faaliyetleri</div>
-                {/* <div className='pc-subheading text-muted fst-italic'>Açıklaması</div> */}
+                
                 <a href="#Pmodal4" onClick={() => setOpenFourthModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
-                {/* <button onClick={() => setOpenFourthModal(true)}>Detaylı İncele</button> */}
+                
                 <MyFourthModal open={openFourthModal} onClose={()=> setOpenFourthModal(false)} />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className='col-sm-6 col-lg-4'>
             <div className='p-item'>
-              <a href='#Pmodal5' onClick={() => setOpenFifthModal(true)} className='p-link' data-bs-toggle="modal">
+              <a href='/services'  className='p-link'>
+              {/* <a href='#Pmodal5' onClick={() => setOpenFifthModal(true)} className='p-link' data-bs-toggle="modal"> */}
                 <div className='p-hover'>
-                  <div className='p-content text-white'>
+                  {/* <div className='p-content text-white'>
                     <i class="bi bi-plus-circle"></i>
-                  </div>
+                  </div> */}
                 </div>
-                <img className='img-fluid' src={ModalImage5} alt='' />
+                <img className='img-fluid' src={ModalImage5} alt='' style={{borderRadius:"25px"}}/>
+                <summary className='my-summary'>
+                <span className='name'>Satış ve Pazarlama</span>
+                  <span className='hover-text'>Görüntüle
+                    {/* <i class="fas fa-angle-right px-1"></i> */}
+                  </span>
+                </summary>
               </a>
-              <div className='p-caption text-center bg-white '>
+              {/* <div className='p-caption text-center bg-white '>
                 <div className='pc-heading'>Satış ve Pazarlama</div>
-                {/* <div className='pc-subheading text-muted fst-italic'>Açıklaması</div> */}
+                
                 <a href="#Pmodal5" onClick={() => setOpenFifthModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
-                {/* <button onClick={() => setOpenFifthModal(true)}>Detaylı İncele</button> */}
+                
                 <MyFifthModal open={openFifthModal} onClose={()=> setOpenFifthModal(false)} />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className='col-sm-6 col-lg-4'>
             <div className='p-item'>
-              <a href='#Pmodal6' onClick={() => setOpenSixthModal(true)} className='p-link' data-bs-toggle="modal">
+            <a href='/services'  className='p-link'>
+              {/* <a href='#Pmodal6' onClick={() => setOpenSixthModal(true)} className='p-link' data-bs-toggle="modal"> */}
                 <div className='p-hover'>
-                  <div className='p-content text-white'>
+                  {/* <div className='p-content text-white'>
                     <i class="bi bi-plus-circle"></i>
-                  </div>
+                  </div> */}
                 </div>
-                <img className='img-fluid' src={ModalImage6} alt='' />
+                <img className='img-fluid' src={ModalImage6} alt='' style={{borderRadius:"25px"}}/>
+                <summary className='my-summary'>
+                  <span className='name'>Teknik Servis</span>
+                  <span className='hover-text'>Görüntüle
+                    {/* <i class="fas fa-angle-right px-1"></i> */}
+                  </span>
+                </summary>
               </a>
-              <div className='p-caption text-center bg-white '>
+              {/* <div className='p-caption text-center bg-white '>
                 <div className='pc-heading'>Teknik Servis</div>
-                {/* <div className='pc-subheading text-muted fst-italic'>Açıklaması</div> */}
+                
                 <a href="#Pmodal6" onClick={() => setOpenSixthModal(true)}className='btn btn-md mycolor p-lg-2 mt-2 text-uppercase fw-bolder' data-bs-toggle="modal">İncele</a>
-                {/* <button onClick={() => setOpenSixthModal(true)}>Detaylı İncele</button> */}
+                
                 <MySixthModal open={openSixthModal} onClose={()=> setOpenSixthModal(false)} />
-              </div>
+              </div> */}
             </div>
           </div>
           {/* <div className='col-sm-6 col-lg-3'>
             <div className='p-item'>
               <a href='#Pmodal7' onClick={() => setOpenSeventhModal(true)} className='p-link' data-bs-toggle="modal">
                 <div className='p-hover'>
-                  <div className='p-content text-white'>
-                    <i class="bi bi-plus-circle"></i>
-                  </div>
+                  // <div className='p-content text-white'>
+                  //   <i class="bi bi-plus-circle"></i>
+                  // </div>
                 </div>
                 <img className='img-fluid' src={ModalImage3} alt='' />
               </a>

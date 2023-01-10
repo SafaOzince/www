@@ -6,7 +6,7 @@
 }
 /* header start */
 header.background{
-    background-image: url("../images/headerwallpaper.png");
+    background-image: url("../images/headerbgg.png");
     /* background-color: #282c34; */
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -28,7 +28,7 @@ header.background .background-heading {
 }
 
 header.background .mycolor{
-    background-color: #61dafb;
+    background-color: #15416e;
     color:#fff;
 }
 header.background .mycolor:hover{
@@ -51,9 +51,20 @@ header.background .mycolor:hover{
     left:30%;
     z-index: 1;
 } */
-
+.myaboutcolor{
+    background-color: #15416e;
+}
+.myiconcolor{
+    background-color: #61dafb;
+    color:#fff;
+    border: 3px solid #8394a5;
+}
+.myiconcolor:hover{
+    background-color: #fff;
+    color:#15416e;
+}
 .my-carousel-one{
-    background-image: url("../images/Slider-services.jpg");
+    background-image: url("../images/new/transformation-g4b611f784_1920.jpg");
     /* background-color: #282c34; */
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -92,11 +103,11 @@ header.background .mycolor:hover{
 }
 
 .my-carousel-two{
-    background-image: url("../images/ux_ecommerce.jpg");
+    background-image: url("../images/new/store-ga7ecb6680_1280.png");
     /* background-color: #282c34; */
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center right 15%;
+    background-position: center center;
     background-size: cover;
 }
 
@@ -132,7 +143,7 @@ header.background .mycolor:hover{
 
 
 .my-carousel-three{
-    background-image: url("../images/headerwallpaper.png");
+    background-image: url("../images/new/matrix-g1b078cefa_1920.jpg");
     /* background-color: #282c34; */
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -170,7 +181,9 @@ header.background .mycolor:hover{
         -o-transition: all 0.3s ease-in-out;
 }
 
-
+#section-2 {
+    background-color: #15416e;
+}
 /* .my-first-slide-image{
     object-position: center center;
     object-fit:scale-down;
@@ -216,7 +229,7 @@ header.background .mycolor:hover{
 #mainNavbar{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #15416e;
 }
 
 #mainNavbar .navbar-brand{
@@ -228,8 +241,8 @@ header.background .mycolor:hover{
 
 #mainNavbar .navbar-nav .nav-item .nav-link{
     font-size: 1rem;
-    color:#212529;
-    font-weight: 600;
+    color:#15416e;
+    font-weight: 650;
     letter-spacing: 0.05em;
 }
 
@@ -237,7 +250,7 @@ header.background .mycolor:hover{
 #mainNavbar .navbar-nav .nav-item .nav-link:hover {
     color: #61dafb;
     background-color: transparent;
-    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
+    box-shadow: rgba(21, 65, 110, 1) 0px 20px 20px -6px;
     border: 1px solid #61dafb;
     border-radius: 12px;
     transition: all 0.3s ease-in-out;
@@ -279,7 +292,7 @@ header.background .mycolor:hover{
 }
 
 .mySection .mycolor{
-    background-color: #61dafb;
+    background-color: #15416e;
     color:#fff;
 }
 .mySection .mycolor:hover{
@@ -302,6 +315,7 @@ header.background .mycolor:hover{
     margin-left: auto;
     margin-right: auto;
     box-shadow: rgba(97, 218, 251, 1) -3px 15px 15px -3px;
+    border-radius: 25px;
 }
 /* #section-5 .p-item .p-itemhover {
     box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
@@ -317,16 +331,31 @@ header.background .mycolor:hover{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(97, 218, 251, 0.75);
+    background-color: rgba(25, 65, 110, 0.75);
     align-items: center;
     justify-content: center;
+    border-radius: 25px;
     opacity: 0;
     transition: opacity ease-in-out 0.3s;
     -webkit-transition: opacity ease-in-out 0.3s;
     -moz-transition: opacity ease-in-out 0.3s;
     -ms-transition: opacity ease-in-out 0.3s;
     -o-transition: opacity ease-in-out 0.3s;
+    animation: slide-in-left 0.5s forwards;
 }
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+/* #section-5 .p-item .p-link .p-hover:hover {
+ className: card-hover;
+} */
 
 #section-5 .p-item .p-link .p-hover .p-content {
     font-size: 6.3rem;
@@ -340,6 +369,61 @@ header.background .mycolor:hover{
     font-size: 1.5rem;
     margin-bottom: 0;
     font-weight: 700;
+}
+#section-5 .p-item .img{
+    position: relative;
+}
+#section-5 .p-item .my-summary{
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    left: 0;
+    border-radius: 25px;
+    min-height: 60px;
+}
+#section-5 .p-item .my-summary{
+    background: rgba(25, 65, 110, 0.75);
+    color: #fff;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 17px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-top: 0;
+    border-bottom: 0;
+    display: flex;
+    overflow: hidden;
+    transition: background 300ms ease;
+}
+#section-5 .p-item .my-summary .name{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.05rem;
+    /* overflow: hidden; */
+    color:rgba(255, 255, 255, 1);
+    opacity: 1;
+}
+#section-5 .p-item .my-summary .hover-text{
+    display: none;
+  justify-content: flex-end;
+  color: rgba(255, 255, 255, 1);
+  align-items: center;
+  width: 50%;
+  text-align: right;
+  font-size: 14px;
+}
+#section-5 .p-item:hover .my-summary .name{
+    overflow: hidden;
+}
+#section-5 .p-item:hover .my-summary .hover-text{
+    display: flex;
+    transition: all ease-in-out 0.3s;
+}
+#section-5 .p-item:hover .p-hover{
+    display: flex;
 }
 
 .p-modal .modal-dialog {
@@ -373,6 +457,70 @@ header.background .mycolor:hover{
 } */
 /* ------------------------------------------------ */
 /* About page start */
+.myaccordion{
+    margin: 0.5rem;
+}
+.myaccordion .accordion-item{
+    margin-bottom: 10px;
+    
+}
+.myaccordion .accordion-item .accordion-title{
+    background-color: #15416e;
+    margin:0;
+    color:#fff;
+    font-weight: 650;
+    padding: 15px 0 15px 20px;
+    line-height: 1.4;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.myaccordion .accordion-item .accordion-content{
+    background-color: rgba(97, 218, 251, 0.35);
+    border:none;
+    padding: 25px 30px;
+    margin:0;
+}
+.about-box{
+    margin-top: 1rem;
+    text-align: center;
+}
+.about-box .about-icon{
+    border: 1px solid #61dafb;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px 0 rgba(21, 65, 110, 0.25);
+    color:#15416e;
+    display: inline-block;
+    font-size: 25px;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+    width: 80px;
+    z-index: 1;
+}
+.about-box .about-icon::before{
+    z-index: -1;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    margin: 6px;
+    border-radius: 50%;
+}
+.about-box .about-icon i{
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.about-box:hover .about-icon i,
+.about-box:focus .about-icon i {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
 
 .myaboutSection{
     background-image: url("../images/headerwallpaper.png");
@@ -399,7 +547,7 @@ header.background .mycolor:hover{
 .mySection .a-container{
  border-radius: 25px;
  box-shadow: rgba(97, 218, 251, 1) 0px 40px 70px -6px;
- background-color: #61dafb;
+ background-color: #15416e;
 }
 
 .mySection .a-image{
@@ -412,8 +560,8 @@ header.background .mycolor:hover{
 /* footer start */
 
 #footer-area{
-    background-image: url("../images/headerwallpaper.png");
-    /* background-color: #282c34; */
+    /* background-image: url("../images/headerwallpaper.png"); */
+    background-color: #15416e;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -445,8 +593,9 @@ header.background .mycolor:hover{
 #footer-area .footerbutton:active,
 #footer-area .footerbutton:hover{
     color: #61dafb;
-    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
-    border-radius: 12px;
+    /* box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px; */
+    /* border-radius: 12px; */
+    border: 1px solid #61dafb;
     transition: all 0.5s ease-in-out;
         -webkit-transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
@@ -494,22 +643,23 @@ header.background .mycolor:hover{
 /* Contact Page Start */
 
 #section-contact .card {
-    background-color: #212529;
+    background-color: transparent;
     border-radius: 25px;
     box-shadow: rgba(97, 218, 251, 1) 0px 40px 70px -6px;
 }
 
 #section-contact .card .myformbutton{
-    background-color: #61dafb;
+    background-color: #15416e;
     color:#fff;
 }
 
 #section-contact .card .myformbutton:hover{
-    background-color: #212529;
+    background-color: transparent;
     color:#61dafb;
-    border-radius: 12px;
+    border: 1px solid #61dafb;
+    border-radius: 16px;
     opacity: 85%;
-    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
+    box-shadow: rgba(21, 65, 110, 1) 0px 20px 20px -6px;
     transition: all 0.3s ease-in-out;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
@@ -559,6 +709,7 @@ header.background .mycolor:hover{
 #section-contact h2.f-heading{
     font-size: 1.55rem;
     margin-bottom: 0.75rem;
+    color:#15416e !important;
 }
 
 #section-contact h3.f-subheading{
@@ -578,6 +729,9 @@ header.background .mycolor:hover{
         -o-transition: all 0.3s ease-in-out;
 }
 
+.mySection .myContainer .card .myformheader{
+    color:#15416e;
+}
  /* Whatsapp chat button */
 
 .whatsapp_float {
@@ -724,17 +878,21 @@ header.background .mycolor:hover{
 }
 
 .services .nav .mycolor {
-    background-color: transparent;
-    color:#000;
+    background-color: #15416e !important;
+    color:#fff;
+    border-radius: 0;
+    border:1px solid #15416e;
+    font-weight: 650;
 }
 
-.services .nav .nav-link .mycolor:active,
-.services .nav .nav-link .mycolor:hover {
-    background-color: #212529;
-    color:#61dafb;
-    border-radius: 12px;
+.services .nav .nav-link:focus,
+.services .nav .nav-link:active,
+.services .nav .nav-link:hover {
+    background-color: transparent !important;
+    color: #15416e;
+    box-shadow: -5px 0 0 0 #61dafb;
+    border-left: 0;
     opacity: 85%;
-    box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px;
     transition: all 0.3s ease-in-out;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
@@ -793,7 +951,7 @@ header.background .mycolor:hover{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(97, 218, 251, 0.75);
+    background-color: rgba(25, 65, 110, 0.75);
     border-radius: 25px;
     align-items: center;
     justify-content: center;
@@ -806,7 +964,7 @@ header.background .mycolor:hover{
 }
 
 .my-canvas{
-    background-color: rgba(97, 218, 251, 0.24);
+    background-color: rgba(21, 65, 110, 0.25);
 }
 
 .top-header .top-header-nav .top-header-nav-item {
@@ -844,8 +1002,8 @@ header.background .mycolor:hover{
         display: none;
     }
     header.background {
-        padding-top: 11rem;
-        padding-bottom: 13rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 
     header.background .background-heading {
@@ -854,6 +1012,9 @@ header.background .mycolor:hover{
         
     }
 
+    .mySection{
+        padding: 3rem 0;
+    }
     .my-carousel-one{
         padding-top: 11rem;
         padding-bottom: 13rem;
@@ -935,8 +1096,8 @@ header.background .mycolor:hover{
     }
 
     #mainNavbar .navbar-nav .nav-item .nav-link{
-        color:#212529;
-        font-weight: 600;
+        color:#15416e;
+        font-weight: 650;
         padding-left: 10px;
     }
 
@@ -1007,7 +1168,7 @@ header.background .mycolor:hover{
     }
 
     .myContainer{
-        padding: 0 4rem;
+        padding: 0 2rem;
     }
 }
 /* Medium to xlarge screen settings */
@@ -1099,6 +1260,26 @@ header.background .mycolor:hover{
     .mySection h2.s-heading{
         font-size: 1.95rem;
         margin-bottom: 0.5rem;
+    }
+    header.background .background-heading{
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 2rem;
+    }
+    .my-carousel-one .my-carousel-one-heading{
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 2.5rem;
+    }
+    .my-carousel-two .my-carousel-two-heading{
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 2.5rem;
+    }
+    .my-carousel-three .my-carousel-three-heading{
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 2.5rem;
     }
     .top-header{
         padding: 0.55rem 0;

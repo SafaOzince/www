@@ -17,11 +17,11 @@ export default function Services() {
         <div className='text-center mb-3 pb-2'>
           <h2 className='about-heading text-uppercase text-white fw-bold mb-4'>Hizmetlerimiz</h2>
           {/* <h3 className='about-sub mb-4 text-muted'> Gökbey Teknoloji {'>'} Hakkımızda</h3> */}
-          <div className='d-flex w-100 align-items-center justify-content-start'>
+          {/* <div className='d-flex w-100 align-items-center justify-content-start'>
           <a href='/' className='about-sub mb-2 text-muted text-decoration-none'>Gökbey Teknoloji</a>
           <h3 className='about-sub mb-2 text-muted'>{'>'}</h3>
           <h3 className='about-sub mb-2 text-muted'> Hizmetlerimiz</h3>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
