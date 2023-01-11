@@ -25,13 +25,13 @@ function Footer() {
                                 <a href='/' className='btn footerbutton'>Ana Sayfa</a>
                             </li>
                             <li className='footer-item'>
-                                <a href='/about' className='btn footerbutton'>Hakkımızda</a>
+                                <a href='/kurumsal' className='btn footerbutton'>Kurumsal</a>
                             </li>
                             <li>
-                                <a href='/services' className='btn footerbutton'>Hizmetlerimiz</a>
+                                <a href='/hizmetlerimiz' className='btn footerbutton'>Hizmetlerimiz</a>
                             </li>
                             <li>
-                                <a href='/https://store.gokbeyteknoloji.com/' target="_blank" className='btn footerbutton'>Mağaza</a>
+                                <a href='/https://store.gokbeyteknoloji.com/' target="_blank" className='btn disabled footerbutton'>Mağaza</a>
                             </li>
                         </ul>
                     </div>
@@ -40,7 +40,7 @@ function Footer() {
                         <ul className="list-style-none justify-content-end flex-grow-1 py-lg-2">
                             <li className='d-flex flex-wrap align-items-center'>
                                 <i className="bi bi-telephone"></i>
-                                <a href ="tel:(+123) 456-7898" className='btn footerbutton'>(+90) 532 201 46 62</a>
+                                <a href ="tel:(+90)5322014662" className='btn footerbutton'>(+90) 532 201 46 62</a>
                             </li>
                             <li className='d-flex flex-wrap align-items-center'>
                                 <i className="bi bi-envelope-fill"></i>
@@ -48,7 +48,7 @@ function Footer() {
                             </li>
                             <li className='d-flex flex-wrap align-items-center d-100 h-100'>
                                 <i className="bi bi-geo-alt-fill"></i>
-                                <a href="/contact" className='btn footerbutton'>GTÜ AR-Ge 3 Blok No:12 Gebze/KOCAELİ</a>    
+                                <a href="/iletisim" className='btn footerbutton'>GTÜ AR-Ge 3 Blok No:12 Gebze/KOCAELİ</a>    
                             </li>
                         </ul>
                             <a href='https://www.linkedin.com/company/g%C3%B6kbey-teknoloji/' target="_blank" className='btn-primary mx-2 text-white btn-social'><i class="bi bi-linkedin"></i></a>

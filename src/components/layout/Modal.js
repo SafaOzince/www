@@ -8,7 +8,7 @@ const Modal = ({ setIsOpen }) => {
     <div className='container'>
       <div className='background-heading text-uppercase mb-4'>Gökbey Teknoloji  </div>
       <div className='background-sub mb-4'>Arge ve Danışmanlık</div>
-      <a href="/contact" className='btn btn-lg mycolor p-lg-3 mt-1 text-white text-uppercase fw-bolder'>Bize Ulaşın</a>
+      <a href="/iletisim" className='btn btn-lg mycolor p-lg-3 mt-1 text-white text-uppercase fw-bolder'>Bize Ulaşın</a>
     </div>
   </header>
   <section id='section-2' className='mySection bg-secondary'>

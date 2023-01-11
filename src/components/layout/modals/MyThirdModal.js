@@ -22,7 +22,7 @@ const MyThirdModal = ({open, onClose }) => {
                                     <img className="img-fluid d-block mx-auto rounded" src={Modal} alt='' />
                                     <div className='my-heading mt-2 mb-3 fw-bold'>Danışmanlık Hizmetleri</div>
                                     <div className='my-sub'>Gökbey Teknoloji olarak bünyemizde bulunan tecrübeli danışman kadromuz ile müşterilerimize tarım ve teknoloji alanında danışmanlık hizmeti vermekteyiz.</div>
-                                    <a href='/services' className='btn btn-sm mycolor p-lg-2 mt-1 mb-1 text-uppercase fw-bolder'>Detaylı Bilgi</a>
+                                    <a href='/hizmetlerimiz' className='btn btn-sm mycolor p-lg-2 mt-1 mb-1 text-uppercase fw-bolder'>Detaylı Bilgi</a>
                                 </div>
                             </div>
                         </div>

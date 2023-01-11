@@ -23,9 +23,9 @@ function Slide() {
               <div className='carousel-item active my-carousel-one text-white text-center'>
                 {/* <img src={Slideimage1} className='d-block w-100 sl-image' alt="slide 1"/> */}
                     <div className='container'>
-                    <div className='my-carousel-one-heading text-uppercase mb-4'>Hizmetlerimiz</div>
+                    <div className='my-carousel-one-heading text-uppercase mb-4'>Geleceğiniz Bizimle</div>
                       <div className='my-carousel-one-sub mb-4'>Hizmetlerimiz hakkında bilgi almak için</div>
-                      <a href='/services' className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold'>Keşfet<i class="bi bi-chevron-double-right"></i> </a>
+                      <a href='/hizmetlerimiz' className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold' style={{border:"2px solid #61dafb"}}>Keşfet<i class="bi bi-chevron-double-right"></i> </a>
                     </div>
                 {/* <div className='carousel-caption d-none d-md-block'>
                 <div className='container'>
@@ -42,7 +42,8 @@ function Slide() {
                     <div className='container'>
                       <div className='my-carousel-two-heading text-uppercase mb-4'>Gökbey Store</div>
                       <div className='my-carousel-two-sub mb-4'>Ürünlerimiz hakkında bilgi almak için</div>
-                      <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold'>Mağazaya git</a>
+                      <a href='#' className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold' style={{border:"2px solid #61dafb"}}>Mağazaya git</a>
+                      {/* <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold'>Mağazaya git</a> */}
                     </div>
                 {/* <div className='carousel-caption d-none d-md-block'>
                   <h5>2. Slayt Etiketi</h5>
@@ -55,7 +56,7 @@ function Slide() {
                     <div className='container-fluid'>
                       <div className='my-carousel-three-heading text-uppercase mb-4'>Gökbey Teknoloji</div>
                       <div className='my-carousel-three-sub mb-4'>Faaliyetlerimiz hakkında bilgi almak için</div>
-                      <a href='/contact' className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold'>Bize Ulaşın</a>
+                      <a href='/iletisim' className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold' style={{border:"2px solid #61dafb"}}>Bize Ulaşın</a>
                     </div>
                 
                 {/* <div className='carousel-caption d-none d-md-block'>

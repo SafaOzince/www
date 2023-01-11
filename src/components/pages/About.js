@@ -1,5 +1,5 @@
 import React from 'react'
-import ImageAbout from '../images/aboutimage.jpg';
+import ImageAbout from '../images/new/business-people-blue-background.jpg';
 import MyAccordion from '../layout/Accordion/MyAccordion';
 import { accordionData } from '../layout/Accordion/MyAccordionConten';
 
@@ -23,10 +23,10 @@ export default function About() {
       <div className='myContainer'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-4'>
-            <img src={ImageAbout} className="img-fluid" style={{borderRadius:"50%", width:"300px", height:"300px"}}/>
+          <div className='col-lg-6'>
+            <img src={ImageAbout} className="img-fluid" style={{width:"100%", height:"100%", borderRadius:"20px"}}/>
           </div>
-          <div className='col-lg-8'>
+          <div className='col-lg-6'>
             <div className='text-center mb-2 '>
               <h2 className='s-heading text-center text-uppercase fw-bold'>Hakkımızda</h2>
               <p className='a-text mt-4 px-2'>2022 yılında mühendislik ve yazılım sektöründe önemli ARGE projelerinin geliştirilmesi, ülkemize yeni teknolojilerin getirilmesi ve son teknolojik yenilikleri yakından takip ederek mühendislik sektörünün gelişmiş ülkeler seviyesine ulaşmasında katkı sunmak amacıyla Gebze Teknik Üniversitesi Teknoparkta kurulmuş olan Gökbey Teknoloji, kuruluşundan beri sürdürdüğü profesyonellik ve vizyoner bakış açısı ile istikrarlı büyümeyi ilke edinmiştir.</p>
@@ -41,7 +41,8 @@ export default function About() {
                 ))}
               </div>
           </div>
-          <div className='container'>
+          {/* ICONS */}
+          {/* <div className='container'>
             <div className='row'>
               <div className='col-lg-4'>
                 <div className='about-box'>
@@ -66,7 +67,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       </div>

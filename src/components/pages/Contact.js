@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ContactForm = () => {
-  const [formStatus, setFormStatus] = React.useState('Mesaj Gönder')
+  const [formStatus, setFormStatus] = React.useState('Gönder')
   const onSubmit = (e) => {
     e.preventDefault()
     setFormStatus('Gönderildi')
@@ -47,13 +47,13 @@ const ContactForm = () => {
                     <a href="mailto:info.gokbeyteknoloji@gmail.com" className='btn-danger mx-2 text-white btn-social'><i class="bi bi-envelope-paper"></i></a>
                     <div className='devider'></div>
                     <h2 className='f-heading text-white'><i className="bi bi-telephone mx-2"></i>Bilgi Hattı</h2>
-                    <h3 className='f-subheading'> <a href ="tel:(+123) 456-7898" className='btn btn myformbutton'>(+90) 532 201 46 62</a></h3>
+                    <h3 className='f-subheading'> <a href ="tel:(+90) 5322014662" className='btn btn myformbutton'>(+90) 532 201 46 62</a></h3>
                     <div className='devider'></div>
                     <h2 className='f-heading text-white'><i className="bi bi-envelope-paper mx-2"></i>E-posta</h2>
-                    <h3 className='f-subheading'> <a href="mailto:info.gokbeyteknoloji@gmail.com"className='btn myformbutton'>info.gokbeyteknoloji@gmail.com</a></h3>
+                    <h3 className='f-subheading'> <a href="mailto:info@gokbeyteknoloji.com"className='btn myformbutton'>info@gokbeyteknoloji.com</a></h3>
                     <div className='devider'></div>
                     <h2 className='f-heading text-white'><i className="bi bi-geo-alt-fill mx-2"></i>Adres</h2>
-                    <h3 className='f-subheading text-muted '> Cumhuriyet Mah. Şişecam Yolu sok. GTÜ AR-GE 3 blok No:12 İç Kapı No:29 Gebze/KOCAELİ</h3>
+                    <h3 className='f-subheading text-muted' style={{fontSize:"1.1rem"}}> Cumhuriyet Mah. Şişecam Yolu sok. GTÜ AR-GE 3 blok No:12 İç Kapı No:29 Gebze/KOCAELİ</h3>
                 </div>
               </div>
             </div>

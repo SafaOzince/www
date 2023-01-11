@@ -7,12 +7,12 @@ import MyFifthModal from './MyFifthModal';
 import MySixthModal from './MySixthModal';
 import MySeventhModal from './MySeventhModal';
 import MyEighthModal from './MyEighthModal'; 
-import ModalImage1 from '../../images/S1.jpg';
-import ModalImage2 from '../../images/s2.jpg';
-import ModalImage3 from '../../images/s3.jpg';
-import ModalImage4 from '../../images/s4.jpg';
-import ModalImage5 from '../../images/s5.png';
-import ModalImage6 from '../../images/s6.jpg';
+import ModalImage1 from '../../images/new/22212a3d-4f8a-47ac-b631-f3c8b8712b6f.png';
+import ModalImage2 from '../../images/new/rdrone-4256093.jpg';
+import ModalImage3 from '../../images/new/transformation-g4b611f784_1920.jpg';
+import ModalImage4 from '../../images/new/rr3440660.jpg';
+import ModalImage5 from '../../images/new/rgrowth-g555e24171_1920.jpg';
+import ModalImage6 from '../../images/new/network-g80080e81b_1920.jpg';
 import CloseIcon from '../../images/close-icon.svg';
 
 function ModalPopUp() {
@@ -41,7 +41,7 @@ function ModalPopUp() {
         <div className='row gy-4'>
           <div className='col-sm-6 col-lg-4'>
             <div className='p-item'>
-              <a href='/services'  className='p-link'>
+              <a href='/hizmetlerimiz'  className='p-link'>
                 <div className='p-hover'>
                  
                   
@@ -65,7 +65,7 @@ function ModalPopUp() {
           </div>
           <div className='col-sm-6 col-lg-4'>
             <div className='p-item'>
-            <a href='/services'  className='p-link'>
+            <a href='/hizmetlerimiz'  className='p-link'>
               {/* <a href='#Pmodal2' onClick={() => setOpenSecondModal(true)} className='p-link' data-bs-toggle="modal"> */}
                 <div className='p-hover'>
                 
@@ -89,7 +89,7 @@ function ModalPopUp() {
           </div>
           <div className='col-sm-6 col-lg-4'>
             <div className='p-item'>
-            <a href='/services'  className='p-link'>
+            <a href='/hizmetlerimiz'  className='p-link'>
               {/* <a href='#Pmodal3' onClick={() => setOpenThirdModal(true)} className='p-link' data-bs-toggle="modal"> */}
                 <div className='p-hover'>
                   {/* <div className='p-content text-white'>
@@ -115,7 +115,7 @@ function ModalPopUp() {
           </div>
           <div className='col-sm-6 col-lg-4'>
             <div className='p-item'>
-            <a href='/services'  className='p-link'>
+            <a href='/hizmetlerimiz'  className='p-link'>
               {/* <a href='#Pmodal4' onClick={() => setOpenFourthModal(true)} className='p-link' data-bs-toggle="modal"> */}
                 <div className='p-hover'>
                   {/* <div className='p-content text-white'>
@@ -141,7 +141,7 @@ function ModalPopUp() {
           </div>
           <div className='col-sm-6 col-lg-4'>
             <div className='p-item'>
-              <a href='/services'  className='p-link'>
+              <a href='/hizmetlerimiz'  className='p-link'>
               {/* <a href='#Pmodal5' onClick={() => setOpenFifthModal(true)} className='p-link' data-bs-toggle="modal"> */}
                 <div className='p-hover'>
                   {/* <div className='p-content text-white'>
@@ -167,7 +167,7 @@ function ModalPopUp() {
           </div>
           <div className='col-sm-6 col-lg-4'>
             <div className='p-item'>
-            <a href='/services'  className='p-link'>
+            <a href='/hizmetlerimiz'  className='p-link'>
               {/* <a href='#Pmodal6' onClick={() => setOpenSixthModal(true)} className='p-link' data-bs-toggle="modal"> */}
                 <div className='p-hover'>
                   {/* <div className='p-content text-white'>

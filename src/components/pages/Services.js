@@ -1,11 +1,11 @@
 import React from 'react';
 import ModalPopUp from '../layout/modals/ModalPopUp';
-import ServicesOne from '../images/Services1.jpg';
-import ServicesTwo from '../images/Services2.jpg';
-import ServicesThree from '../images/Services3.jpg';
-import ServicesFour from '../images/Services4.png';
-import ServicesFive from '../images/Services5.png';
-import ServicesSix from '../images/Services6.png';
+import ServicesOne from '../images/new/rear-view-programmer-working-all-night-long.jpg';
+import ServicesTwo from '../images/new/7114.jpg';
+import ServicesThree from '../images/Services4.jpg';
+import ServicesFour from '../images/new/rpa-concept-with-blurry-hand-touching-screen.jpg';
+import ServicesFive from '../images/new/chart-5746589.png';
+import ServicesSix from '../images/new/mechanical-engineering-2993233_1920.jpg';
 
 export default function Services() {
   // const [openModal, setOpenModal] = useState(false)
@@ -51,7 +51,7 @@ export default function Services() {
             <div className='tab-pane fade show active' id='one' role="tabpanel" aria-labelledby="Tone">
               <div className='container text-center'>
                 <div className='row justify-content-center'>
-                  <div className='col-lg-10'>
+                  <div className='col-lg-12'>
                     <img className='img-fluid rounded text-center' src={ServicesOne} alt=''/>
                   </div>
                   <div className='col-lg-12'>
@@ -70,7 +70,7 @@ export default function Services() {
             <div className='tab-pane fade' id='two' role="tabpanel" aria-labelledby="Ttwo">
               <div className='container text-center'>
                 <div className='row justify-content-center'>
-                  <div className='col-lg-10'>
+                  <div className='col-lg-12'>
                     <img className='img-fluid rounded text-center' src={ServicesTwo} alt=''/>
                   </div>
                   <div className='col-lg-12'>
@@ -86,7 +86,7 @@ export default function Services() {
             <div className='tab-pane fade' id='three' role="tabpanel" aria-labelledby="Tthree">
               <div className='container text-center'>
                 <div className='row justify-content-center'>
-                  <div className='col-lg-10'>
+                  <div className='col-lg-12'>
                     <img className='img-fluid rounded text-center' src={ServicesThree} alt=''/>
                   </div>
                   <div className='col-lg-12'>
@@ -103,7 +103,7 @@ export default function Services() {
             <div className='tab-pane fade' id='four' role="tabpanel" aria-labelledby="Tfour">
             <div className='container text-center'>
                 <div className='row justify-content-center'>
-                  <div className='col-lg-10'>
+                  <div className='col-lg-12'>
                     <img className='img-fluid rounded text-center' src={ServicesFour} alt=''/>
                   </div>
                   <div className='col-lg-12'>
@@ -120,7 +120,7 @@ export default function Services() {
             <div className='tab-pane fade' id='five' role="tabpanel" aria-labelledby="Tfive">
               <div className='container text-center'>
                 <div className='row justify-content-center'>
-                  <div className='col-lg-10'>
+                  <div className='col-lg-12'>
                   <img className='img-fluid rounded text-center' src={ServicesFive} alt=''/>
                   </div>
                   <div className='col-lg-12'>
@@ -135,7 +135,7 @@ export default function Services() {
             <div className='tab-pane fade' id='six' role="tabpanel" aria-labelledby="Tsix">
               <div className='container text-center'>
                 <div className='row justify-content-center'>
-                  <div className='col-lg-10'>
+                  <div className='col-lg-12'>
                     <img className='img-fluid rounded text-center' src={ServicesSix} alt=''/>
                   </div>
                   <div className='col-lg-12'>

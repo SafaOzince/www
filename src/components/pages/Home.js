@@ -17,7 +17,7 @@ export default function Home() {
       <div className='container'>
         <div className='background-heading text-uppercase mb-4'>Gökbey Teknoloji  </div>
         <div className='background-sub mb-4'>Arge ve Danışmanlık</div>
-        <a href="/contact" className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold'>Bize Ulaşın</a>
+        <a href="/iletisim" className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold' style={{border:"2px solid #61dafb"}}>Bize Ulaşın</a>
       </div>
     </header>
     
@@ -50,7 +50,8 @@ export default function Home() {
           <div className='row'>
             <div className='col-sm-12 col-lg-12'>
               <div className='p-item'>
-                  <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='p-link'>
+                <a href='#' className='p-link'>
+                  {/* <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='p-link'> */}
                   <div className='p-hover'>
                   <div className='p-content text-white'>
                     <i class="bi bi-cart-plus"></i>

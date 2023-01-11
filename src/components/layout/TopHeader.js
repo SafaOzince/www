@@ -10,14 +10,14 @@ const TopHeader = () => {
                         <div className="col-lg-4 col-md-4">
                             <ul className='top-header-nav text-white'>
                             {/* <i class="fas fa-comment-dots text-white"></i> */}
-                                <a href='/contact' className='top-header-nav-item'>Bize Ulaşmak istermisiniz?</a>
+                                <a href='/iletisim' className='top-header-nav-item'>Bize Ulaşmak istermisiniz?</a>
                                 
                             </ul>
                         </div>
                         <div className="col-lg-4 col-md-4">
                             <ul className='top-header-nav text-white'>
                             <i className="bi bi-telephone"></i>
-                                <a href="tel:(+123) 456-7898" className='top-header-nav-item'>(+90) 532 201 46 62</a>
+                                <a href="tel:(+90) 5322014662" className='top-header-nav-item'>(+90) 532 201 46 62</a>
                                 
                             </ul>
                         </div>

@@ -6,7 +6,7 @@
 }
 /* header start */
 header.background{
-    background-image: url("../images/headerbgg.png");
+    background-image: url("../images/new/geometric-g0010767f9_1920.jpg");
     /* background-color: #282c34; */
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -64,7 +64,7 @@ header.background .mycolor:hover{
     color:#15416e;
 }
 .my-carousel-one{
-    background-image: url("../images/new/transformation-g4b611f784_1920.jpg");
+    background-image: url("../images/new/wire-frame-gc28efc5f8_1920.jpg");
     /* background-color: #282c34; */
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -103,11 +103,11 @@ header.background .mycolor:hover{
 }
 
 .my-carousel-two{
-    background-image: url("../images/new/store-ga7ecb6680_1280.png");
+    background-image: url("../images/new/online-shopping-shopping-cart-placed-alongside-notebook-blue.jpg");
     /* background-color: #282c34; */
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center center;
+    background-position: center top 60%;
     background-size: cover;
 }
 
@@ -143,11 +143,11 @@ header.background .mycolor:hover{
 
 
 .my-carousel-three{
-    background-image: url("../images/new/matrix-g1b078cefa_1920.jpg");
+    background-image: url("../images/new/ai-technology-brain-background-digital-transformation-concept.jpg");
     /* background-color: #282c34; */
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center center;
+    background-position: center top 70%;
     background-size: cover;
 }
 
@@ -376,13 +376,13 @@ header.background .mycolor:hover{
 #section-5 .p-item .my-summary{
     position: absolute;
     width: 100%;
-    top: 70%;
+    bottom: 0;
     left: 0;
     border-radius: 25px;
     min-height: 60px;
 }
 #section-5 .p-item .my-summary{
-    background: rgba(25, 65, 110, 0.75);
+    background: rgba(25, 65, 110, 0.5);
     color: #fff;
     height: 38px;
     line-height: 38px;
@@ -477,7 +477,7 @@ header.background .mycolor:hover{
     align-items: center;
 }
 .myaccordion .accordion-item .accordion-content{
-    background-color: rgba(97, 218, 251, 0.35);
+    background-color: rgba(97, 218, 251, 0.03);
     border:none;
     padding: 25px 30px;
     margin:0;
@@ -523,7 +523,7 @@ header.background .mycolor:hover{
 }
 
 .myaboutSection{
-    background-image: url("../images/headerwallpaper.png");
+    background-image: url("../images/new/technology-g4a90abbd1_1280.png");
     /* background-color: #282c34; */
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -1391,6 +1391,7 @@ header.background .mycolor:hover{
     
     .top-header{
         padding: 1rem 0;
+        background-color: #15416e;
     }
     .myForm{
         margin-bottom: 3rem;
@@ -1400,8 +1401,8 @@ header.background .mycolor:hover{
         padding-bottom: 1.5rem;
     }
     header.background {
-        padding-top: 15rem;
-        padding-bottom: 15rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
     }
 
     .p-caption{
@@ -1426,11 +1427,11 @@ header.background .mycolor:hover{
     }
 
     #mainNavbar {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 3.5rem;
         border: none;
-        background-color: transparent;
-        opacity: 96%;
+        background-color: #fff;
         transition: background-color 0.5s ease;
         transition: padding-top 0.5s ease-in-out;
         -webkit-transition: padding-top 0.5s ease-in-out;
@@ -1467,7 +1468,9 @@ header.background .mycolor:hover{
     #mainNavbar.navbar-mobile {
         padding-top: 1rem;
         padding-bottom: 1rem;
-        background-color: #212529;
+        background-color: #ffffff;
+        margin-top:0;
+        transition: all 0.3s ease;
     }
 
 /* -------------------------------------------- */
