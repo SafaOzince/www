@@ -2,16 +2,25 @@ import React from 'react'
 
 const ContactForm = () => {
   const [formStatus, setFormStatus] = React.useState('Gönder')
-  const onSubmit = (e) => {
-    e.preventDefault()
-    setFormStatus('Gönderildi')
-    const { name, email, message } = e.target.elements
-    let conFom = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    }
-    console.log(conFom)
+  // const onSubmit = (e) => {
+  //   e.preventDefault()
+  //   setFormStatus('Gönderildi')
+  //   const { name, email, message } = e.target.elements
+  //   let conFom = {
+  //     name: name.value,
+  //     email: email.value,
+  //     message: message.value,
+  //   }
+  //   console.log(conFom)
+  // }
+  const onSubmit = event => {
+    event.preventDefault();
+    const name = event.target.name.value;
+    const email = event.target.email.value;
+    const subject = event.target.subject.value;
+    const message = event.target.message.value;
+    const mailtoLink = `mailto:info@gokbeyteknoloji.com?email=${email}&subject=${subject}&name=${name}&body=${message}`;
+    window.location.href = mailtoLink;
   }
   return (
     <>
@@ -44,7 +53,7 @@ const ContactForm = () => {
                     <a href='https://www.linkedin.com/company/g%C3%B6kbey-teknoloji/' target="_blank" className='btn-primary mx-2 text-white btn-social'><i class="bi bi-linkedin"></i></a>
                     <a href='https://wa.me/+905322014662' target="_blank"  className='btn-success mx-2 text-white btn-social'><i class="bi bi-whatsapp"></i></a>
                     <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='btn-warning mx-2 text-white btn-social'><i class="bi bi-cart-plus"></i></a>
-                    <a href="mailto:info.gokbeyteknoloji@gmail.com" className='btn-danger mx-2 text-white btn-social'><i class="bi bi-envelope-paper"></i></a>
+                    <a href="mailto:info@gokbeyteknoloji.com" className='btn-danger mx-2 text-white btn-social'><i class="bi bi-envelope-paper"></i></a>
                     <div className='devider'></div>
                     <h2 className='f-heading text-white'><i className="bi bi-telephone mx-2"></i>Bilgi Hattı</h2>
                     <h3 className='f-subheading'> <a href ="tel:(+90) 5322014662" className='btn btn myformbutton'>(+90) 532 201 46 62</a></h3>
@@ -76,13 +85,20 @@ const ContactForm = () => {
                     <input className="form-control my-form" type="email" placeholder='E-postanızı Girin' id="email" required />
                   </div>
                   <div className="mb-3">
+                    {/* <label className="form-label text-white" htmlFor="name">
+                      Ad, Soyad:
+                    </label> */}
+                    <input className="form-control my-form" type="subject" placeholder='Konu Girin' id="subject" required />
+                  </div>
+                  <div className="mb-3">
                     {/* <label className="form-label text-white" htmlFor="message">
                       Mesaj Kutusu:
                     </label> */}
                     <textarea className="form-control my-form" rows={7} placeholder='Mesajınızı Bu Alana Yazın' id="message" required />
                   </div>
-                  <button className="btn myformbutton p-lg-3 mt-1 text-uppercase fw-bold mb-3 mb-md-0" type="submit">
+                  <button className="btn myformbutton p-lg-3 mt-1 fw-bold mb-3 mb-md-0" type="submit">
                     {formStatus}
+                    {/* onClick={() => window.location = 'mailto:safabaturalpozince@gmail.com'}  */}
                   </button>
                 </form>
                 </div>

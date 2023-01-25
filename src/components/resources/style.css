@@ -107,7 +107,7 @@ header.background .mycolor:hover{
     /* background-color: #282c34; */
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center top 60%;
+    background-position: center top 80%;
     background-size: cover;
 }
 
@@ -1284,6 +1284,9 @@ header.background .mycolor:hover{
     .top-header{
         padding: 0.55rem 0;
         background-color: #15416e;
+    }
+    #section-contact .card .myformbutton{
+        padding: 0.8rem !important;
     }
     .myForm{
         margin-bottom: 1rem;

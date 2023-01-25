@@ -1,17 +1,38 @@
 import React from 'react'
 
 function Form() {
-    const [formStatus, setFormStatus] = React.useState('Gönder')
-  const onSubmit = (e) => {
-    e.preventDefault()
-    setFormStatus('Gönderildi')
-    const { name, email, message } = e.target.elements
-    let conFom = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    }
-    console.log(conFom)
+  //   const [formStatus, setFormStatus] = React.useState('Gönder')
+  // const onSubmit = (e) => {
+  //   e.preventDefault()
+  //   setFormStatus('Gönderildi')
+  //   const { name, email, message } = e.target.elements
+  //   let conFom = {
+  //     name: name.value,
+  //     email: email.value,
+  //     message: message.value,
+  //   }
+  //   console.log(conFom)
+  // }
+  const [formStatus, setFormStatus] = React.useState('Gönder')
+  // const onSubmit = (e) => {
+  //   e.preventDefault()
+  //   setFormStatus('Gönderildi')
+  //   const { name, email, message } = e.target.elements
+  //   let conFom = {
+  //     name: name.value,
+  //     email: email.value,
+  //     message: message.value,
+  //   }
+  //   console.log(conFom)
+  // }
+  const onSubmit = event => {
+    event.preventDefault();
+    const name = event.target.name.value;
+    const email = event.target.email.value;
+    const subject = event.target.subject.value;
+    const message = event.target.message.value;
+    const mailtoLink = `mailto:info@gokbeyteknoloji.com?email=${email}&subject=${subject}&name=${name}&body=${message}`;
+    window.location.href = mailtoLink;
   }
   return (
     <section id='section-contact' className='mySection bg-light'>
@@ -43,12 +64,18 @@ function Form() {
                     <input className="form-control my-form" type="email" placeholder='E-postanızı Girin' id="email" required />
                   </div>
                   <div className="mb-3">
+                    {/* <label className="form-label text-white" htmlFor="name">
+                      Ad, Soyad:
+                    </label> */}
+                    <input className="form-control my-form" type="subject" placeholder='Konu Girin' id="subject" required />
+                  </div>
+                  <div className="mb-3">
                     {/* <label className="form-label text-white" htmlFor="message">
                       Mesaj Kutusu:
                     </label> */}
                     <textarea className="form-control my-form" rows={4} placeholder='Mesajınızı Bu Alana Yazın' id="message" required />
                   </div>
-                  <button className="btn myformbutton p-lg-3 mt-1 text-uppercase fw-bold mb-3 mb-md-0" type="submit">
+                  <button className="btn myformbutton p-lg-3 mt-1 fw-bold mb-3 mb-md-0" type="submit">
                     {formStatus}
                   </button>
                 </form>
