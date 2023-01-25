@@ -1,5 +1,5 @@
 import React from 'react'
-import ImageAbout from '../images/new/business-people-blue-background.jpg';
+import ImageAbout from '../images/new/business-people-blue-background(resize).jpg';
 import MyAccordion from '../layout/Accordion/MyAccordion';
 import { accordionData } from '../layout/Accordion/MyAccordionConten';
 
