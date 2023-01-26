@@ -247,6 +247,7 @@ header.background .mycolor:hover{
 }
 
 #mainNavbar .navbar-nav .nav-item .nav-link.active,
+#mainNavbar .navbar-nav .nav-item .nav-link:focus,
 #mainNavbar .navbar-nav .nav-item .nav-link:hover {
     color: #61dafb;
     background-color: transparent;
@@ -590,7 +591,7 @@ header.background .mycolor:hover{
     color:#fff;
 }
 
-#footer-area .footerbutton:active,
+#footer-area .footerbutton.active,
 #footer-area .footerbutton:hover{
     color: #61dafb;
     /* box-shadow: rgba(97, 218, 251, 1) 0px 20px 20px -6px; */

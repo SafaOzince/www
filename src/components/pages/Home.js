@@ -7,6 +7,7 @@ import Store from '../images/store1.jpeg';
 import ModalPopUp from '../layout/modals/ModalPopUp';
 import Slide from '../layout/Slide';
 import Form from '../layout/Form';
+import MyForm from '../layout/MyForm';
 
 export default function Home() {
   return (
@@ -110,6 +111,7 @@ export default function Home() {
     {/* Section-7 */}
       
         <Form/>
+        {/* <MyForm/> */}
      
     </>
   )

@@ -1,7 +1,7 @@
 import React from 'react';
 import ModalPopUp from '../layout/modals/ModalPopUp';
 import ServicesOne from '../images/new/rear-view-programmer-working-all-night-long.jpg';
-import ServicesTwo from '../images/new/7114.jpg';
+import ServicesTwo from '../images/new/7114 (1).jpg';
 import ServicesThree from '../images/Services4.jpg';
 import ServicesFour from '../images/new/rpa-concept-with-blurry-hand-touching-screen.jpg';
 import ServicesFive from '../images/new/chart-5746589.png';
