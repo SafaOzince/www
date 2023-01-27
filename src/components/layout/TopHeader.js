@@ -15,15 +15,15 @@ const TopHeader = () => {
                             </ul>
                         </div>
                         <div className="col-lg-4 col-md-4">
-                            <ul className='top-header-nav text-white'>
-                            <i className="bi bi-telephone"></i>
+                            <ul className='top-header-nav text-white text-center'>
+                            <i className="bi bi-telephone me-1"></i>
                                 <a href="tel:(+90) 5322014662" className='top-header-nav-item'>(+90) 532 201 46 62</a>
                                 
                             </ul>
                         </div>
                         <div className="col-lg-4 col-md-4">
                             <ul className='top-header-nav text-white text-end'>
-                                <i className="bi bi-envelope-fill"></i>
+                                <i className="bi bi-envelope-fill me-1"></i>
                                 <a href="mailto:info@gokbeyteknoloji.com" className='top-header-nav-item'>info@gokbeyteknoloji.com</a>    
                                 
                             </ul>
