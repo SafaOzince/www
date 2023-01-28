@@ -1,7 +1,11 @@
 
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 
 const TopHeader = () => {
+    const { t } = useTranslation()
+
     return (
         <>
             <div className="top-header">
@@ -10,7 +14,7 @@ const TopHeader = () => {
                         <div className="col-lg-4 col-md-4">
                             <ul className='top-header-nav text-white'>
                             {/* <i class="fas fa-comment-dots text-white"></i> */}
-                                <a href='/iletisim' className='top-header-nav-item'>Bize Ulaşmak istermisiniz?</a>
+                                <a href='/iletisim' className='top-header-nav-item'>{t('top_header_contact_us_message')}</a>
                                 
                             </ul>
                         </div>

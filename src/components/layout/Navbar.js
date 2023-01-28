@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import "../resources/style.css"
 import Logo from "../images/logo-removebg-preview.png";
+import i18next from 'i18next';
+import { useTranslation } from 'react-i18next';
 // import * as bootstrap from 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // import * as bootstrap from 'bootstrap';
 // window.ScrollSpy = bootstrap.ScrollSpy;
@@ -58,6 +60,21 @@ function Navbar() {
         window.scrollTo(0, 0);
     }, [])
 
+    const languages = [
+        {
+            code: 'tr',
+            name: 'Türkçe',
+            country_code: 'tr',
+        },
+        {
+            code: 'en',
+            name: 'English',
+            country_code: 'gb',
+        }
+    ]
+
+    const { t } = useTranslation()
+
   return (
     <nav className='navbar navbar-expand-lg navbar-dark fixed-top' id='mainNavbar'>
         <div className='container'>
@@ -77,20 +94,57 @@ function Navbar() {
                 <div className='offcanvas-body'>
                     <ul className='navbar-nav justify-content-end flex-grow-1 text-uppercase ms-auto py-lg-2'>
                         <li className='nav-item'>
-                            <a href='/' className='nav-link btn-close-canvas'>Ana Sayfa</a>
+                            <a href='/' className='nav-link btn-close-canvas'>{t('nav_link_item_one')}</a>
                         </li>
                         <li className='nav-item'>
-                            <a href='/kurumsal' className='nav-link btn-close-canvas'>Kurumsal</a>
+                            <a href='/kurumsal' className='nav-link btn-close-canvas'>{t('nav_link_item_two')}</a>
                         </li>
                         <li className='nav-item'>
-                            <a href='/hizmetlerimiz' className='nav-link btn-close-canvas'>Hizmetlerimiz</a>
+                            <a href='/hizmetlerimiz' className='nav-link btn-close-canvas'>{t('nav_link_item_three')}</a>
                         </li>
                         <li className='nav-item'>
-                            <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='nav-link disabled btn-close-canvas'>Mağaza</a>
+                            <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='nav-link disabled btn-close-canvas'>{t('nav_link_item_four')}</a>
                         </li>
                         <li className='nav-item'>
-                            <a href='/iletisim' className='nav-link btn-close-canvas'>İletişim</a>
+                            <a href='/iletisim' className='nav-link btn-close-canvas'>{t('nav_link_item_five')}</a>
                         </li>
+                        {/* <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown link
+                            </a>
+                            <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a className="dropdown-item" href="#">Action</a>
+                                <a className="dropdown-item" href="#">Another action</a>
+                                <a className="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li> */}
+                        {/* <li className='nav-item'>
+                            <div class="dropdown show">
+                                <a class="btn btn-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="bi bi-globe2"></i>
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                {languages.map(({ code, name, country_code}) => (
+                                    <li key={country_code}>
+                                        <a className='nav-link btn-close-canvas' onClick={() => i18next.changeLanguage(code)}>
+                                            <span className={`flag-icon flag-icon-${country_code} mx-2`}></span>  
+                                            
+                                        </a>
+                                    </li>
+                                ))}
+                                </ul>
+                            </div>
+                        </li> */}
+                        {languages.map(({ code, name, country_code}) => (
+                            <li className='nav-item' key={country_code}>
+                                <a className='nav-link btn-close-canvas' onClick={() => i18next.changeLanguage(code)}>
+                                  <span className={`flag-icon flag-icon-${country_code} mx-2`}></span>  
+                                    {/* {name} */}
+                                </a>
+                            </li>
+                        ))}
+                        
                     </ul>
                 </div>
             </div>

@@ -3,8 +3,12 @@ import Slideimage1 from '../images/header.jpeg';
 import Slideimage2 from '../images/store-3.jpg';
 import Slideimage3 from '../images/headerwallpaper.png';
 import Slideimage4 from '../images/210941.jpg';
+import { useTranslation } from 'react-i18next';
 
 function Slide() {
+
+  const { t } = useTranslation()
+
   return (
     <section id='section-4' className='mySection p-0'>
     <div className='container-fluid p-0'>
@@ -23,9 +27,9 @@ function Slide() {
               <div className='carousel-item active my-carousel-one text-white text-center'>
                 {/* <img src={Slideimage1} className='d-block w-100 sl-image' alt="slide 1"/> */}
                     <div className='container'>
-                    <div className='my-carousel-one-heading text-uppercase mb-4'>Geleceğiniz Bizimle</div>
-                      <div className='my-carousel-one-sub mb-4'>Hizmetlerimiz hakkında bilgi almak için</div>
-                      <a href='/hizmetlerimiz' className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold' style={{border:"2px solid #61dafb"}}>Keşfet<i class="bi bi-chevron-double-right"></i> </a>
+                    <div className='my-carousel-one-heading text-uppercase mb-4'>{t('home_page_slider_one_header')}</div>
+                      <div className='my-carousel-one-sub mb-4'>{t('home_page_slider_one_subheader')}</div>
+                      <a href='/hizmetlerimiz' className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold' style={{border:"2px solid #61dafb"}}>{t('home_page_slider_one_buton')}<i class="bi bi-chevron-double-right"></i> </a>
                     </div>
                 {/* <div className='carousel-caption d-none d-md-block'>
                 <div className='container'>
@@ -40,9 +44,9 @@ function Slide() {
               <div className='carousel-item my-carousel-two text-white text-center'>
                 {/* <img src={Slideimage2} className='d-block w-100 sl-image' alt="slide 2"/> */}
                     <div className='container'>
-                      <div className='my-carousel-two-heading text-uppercase mb-4'>Gökbey Store</div>
-                      <div className='my-carousel-two-sub mb-4'>Ürünlerimiz hakkında bilgi almak için</div>
-                      <a href='#' className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold' style={{border:"2px solid #61dafb"}}>Mağazaya git</a>
+                      <div className='my-carousel-two-heading text-uppercase mb-4'>{t('home_page_slider_two_header')}</div>
+                      <div className='my-carousel-two-sub mb-4'>{t('home_page_slider_two_subheader')}</div>
+                      <a href='#' className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold' style={{border:"2px solid #61dafb"}}>{t('home_page_slider_two_buton')}</a>
                       {/* <a href='https://store.gokbeyteknoloji.com/' target="_blank" className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold'>Mağazaya git</a> */}
                     </div>
                 {/* <div className='carousel-caption d-none d-md-block'>
@@ -54,9 +58,9 @@ function Slide() {
                 {/* <img src={Slideimage3} className='d-block w-100 sl-image' alt="slide 3"/> */}
                 
                     <div className='container-fluid'>
-                      <div className='my-carousel-three-heading text-uppercase mb-4'>Gökbey Teknoloji</div>
-                      <div className='my-carousel-three-sub mb-4'>Faaliyetlerimiz hakkında bilgi almak için</div>
-                      <a href='/iletisim' className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold' style={{border:"2px solid #61dafb"}}>Bize Ulaşın</a>
+                      <div className='my-carousel-three-heading text-uppercase mb-4'>{t('home_page_slider_three_header')}</div>
+                      <div className='my-carousel-three-sub mb-4'>{t('home_page_slider_three_subheader')}</div>
+                      <a href='/iletisim' className='btn btn-lg mycolor py-lg-2 px-lg-5 mt-1 fw-bold' style={{border:"2px solid #61dafb"}}>{t('home_page_slider_three_buton')}</a>
                     </div>
                 
                 {/* <div className='carousel-caption d-none d-md-block'>

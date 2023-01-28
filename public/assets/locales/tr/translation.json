@@ -1,0 +1,65 @@
+{
+    "app_title": "Başlık",
+    "language": "dil",
+
+    "top_header_contact_us_message": "Bize Ulaşmak İster misiniz?",
+
+    "nav_link_item_one": "Ana Sayfa",
+    "nav_link_item_two": "Kurumsal",
+    "nav_link_item_three": "Hizmetlerimiz",
+    "nav_link_item_four": "Mağaza",
+    "nav_link_item_five": "İletişim",
+
+    "footer_brand":"Gökbey Teknoloji ARGE İnovasyon Danışmanlık Üretim Sanayi ve Ticaret Anonim Şirketi",
+    "footer_buton_header":"Hızlı Linkler",
+    "footer_buton_one":"Ana Sayfa",
+    "footer_buton_two":"Kurumsal",
+    "footer_buton_three":"Hizmetlerimiz",
+    "footer_buton_four":"Mağaza",
+    "footer_contact_header":"İletişim",
+    "footer_copy_right":"2023 Gökbey Teknoloji A.Ş. -Her Hakkı Saklıdır.",
+    "footer_copy_right_gt":"Gökbey Teknoloji",
+
+    
+    "home_page_slider_one_header": "GELECEĞİNİZ BİZİMLE",
+    "home_page_slider_one_subheader": "Hizmetlerimiz hakkında bilgi almak için",
+    "home_page_slider_one_buton": "Keşfet",
+    "home_page_slider_two_header": "GÖKBEY STORE",
+    "home_page_slider_two_subheader": "Ürünlerimiz hakkında bilgi almak için",
+    "home_page_slider_two_buton": "Mağazaya Git",
+    "home_page_slider_three_header": "GÖKBEY TEKNOLOJİ",
+    "home_page_slider_three_subheader": "Faaliyetlerimiz hakkında bilgi almak için",
+    "home_page_slider_three_buton": "Bize Ulaşın",
+
+    "home_page_modal_popup_one":"Yazılım Hizmetleri",
+    "home_page_modal_popup_two":"İHA Hizmetleri",
+    "home_page_modal_popup_three":"Danışmanlık Hizmetleri",
+    "home_page_modal_popup_four":"ARGE Faaliyetleri",
+    "home_page_modal_popup_five":"Satış ve Pazarlama",
+    "home_page_modal_popup_six":"Teknik Servis",
+    "home_page_modal_popup_buton":"Görüntüle",
+
+    "home_page_header_bg_header":"Gökbey Teknoloji",
+    "home_page_header_bg_subheader":"Arge ve Danışmanlık",
+    "home_page_header_bg_buton":"Bize Ulaşın",
+
+    "home_page_store_bg_header": "Mağaza",
+    "home_page_store_bg_subheader": "Gökbey Store üzerinden kolayca alışveriş yapın.",
+
+    "home_page_icon_section_header_one": "Yazılım Hizmetleri",
+    "home_page_icon_section_p_one":"Gökbey Teknoloji olarak dijital tarımda müşteri kullanımını kolaylaştırıcı, verim artırıcı ve maliyet azaltıcı birçok yazılım faaliyeti gerçekleştiriyoruz.",
+    "home_page_icon_section_header_two": "İHA Hizmetleri",
+    "home_page_icon_section_p_two":"Dijital tarımda tarımsal sulama, bitki ve toprak sağlığı gibi çeşitli faaliyet alanlarında kullanılan insansız hava araçlarının müşterilerimize tedariğini sağlamaktayız.",
+    "home_page_icon_section_header_three": "Danışmanlık Hizmetleri",
+    "home_page_icon_section_p_three":"Gökbey Teknoloji olarak bünyemizde bulunan tecrübeli danışman kadromuz ile müşterilerimize tarım ve teknoloji alanında danışmanlık hizmeti vermekteyiz.",
+
+    "home_page_form_section_header": "İletişim",
+    "home_page_form_section_subheader":"Hizmetlerimiz hakkında detaylı bilgi almak için bizleri arayabilir, randevu için form doldurabilirsiniz.",
+    "home_page_form_header": "Bize Ulaşın",
+    "home_page_form_name":"Adınızı Girin",
+    "home_page_form_mail":"E-postanızı Girin",
+    "home_page_form_subject":"Konu Girin",
+    "home_page_form_textbox":"Mesajınızı Bu Alana Yazın",
+    "home_page_form_buton":"Gönder"
+
+  }

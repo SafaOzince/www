@@ -1,0 +1,64 @@
+{
+    "app_title": "Title",
+    "language": "language",
+
+    "top_header_contact_us_message": "Would You Like To Contact Us?",
+
+    "nav_link_item_one": "Home",
+    "nav_link_item_two": "Instıtutıonal",
+    "nav_link_item_three": "Servıces",
+    "nav_link_item_four": "Store",
+    "nav_link_item_five": "Contact",
+
+    "footer_brand":"Gökbey Technology R&D Innovation Consultancy Production Industry and Trade Inc.",
+    "footer_buton_header":"Quick Links",
+    "footer_buton_one":"Home",
+    "footer_buton_two":"Instıtutıonal",
+    "footer_buton_three":"Services",
+    "footer_buton_four":"Store",
+    "footer_contact_header":"Contact",
+    "footer_copy_right":"2023 Gökbey Technology Inc. -All Rights Reserved.",
+    "footer_copy_right_gt":"Gökbey Technology",
+
+
+    "home_page_slider_one_header": "UNITING FOR a BETTER TOMORROW",
+    "home_page_slider_one_subheader": "To get information about our services",
+    "home_page_slider_one_buton": "Discover",
+    "home_page_slider_two_header": "GÖKBEY STORE",
+    "home_page_slider_two_subheader": "To get information about our products",
+    "home_page_slider_two_buton": "Store",
+    "home_page_slider_three_header": "GÖKBEY TECHNOLOGY",
+    "home_page_slider_three_subheader": "To get information about our activities",
+    "home_page_slider_three_buton": "Contact Us",
+    
+    "home_page_modal_popup_one":"Software Services",
+    "home_page_modal_popup_two":"UAV Services",
+    "home_page_modal_popup_three":"Consultancy Services",
+    "home_page_modal_popup_four":"R&D Activities",
+    "home_page_modal_popup_five":"Sales and Marketing",
+    "home_page_modal_popup_six":"Technical Service",
+    "home_page_modal_popup_buton":"View More",
+
+    "home_page_header_bg_header":"Gokbey Technology",
+    "home_page_header_bg_subheader":"R&D and Consultancy",
+    "home_page_header_bg_buton":"Contact Us",
+
+    "home_page_store_bg_header": "Store",
+    "home_page_store_bg_subheader": "Easily shop through Gökbey Store.",
+
+    "home_page_icon_section_header_one": "Software Services",
+    "home_page_icon_section_p_one":"As Gökbey Technology, we carry out many software activities that facilitate customer use, increase efficiency and reduce costs in digital agriculture.",
+    "home_page_icon_section_header_two": "UAV Services",
+    "home_page_icon_section_p_two":"We supply our customers with unmanned aerial vehicles used in various fields of activity such as agricultural irrigation, plant and soil health in digital agriculture.",
+    "home_page_icon_section_header_three": "Consultancy Services",
+    "home_page_icon_section_p_three":"As Gökbey Technology, we provide consultancy services to our customers in the field of agriculture and technology with our experienced consultant staff.",
+
+    "home_page_form_section_header": "Contact",
+    "home_page_form_section_subheader":"You can call us for detailed information about our services and fill out the form for an appointment.",
+    "home_page_form_header": "Contact Us",
+    "home_page_form_name":"Name",
+    "home_page_form_mail":"E-mail",
+    "home_page_form_subject":"Subject",
+    "home_page_form_textbox":"Your Notes",
+    "home_page_form_buton":"Submit"
+  }

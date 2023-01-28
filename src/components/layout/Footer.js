@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import "../resources/style.css"
 import Logo from "../images/logo-removebg-preview.png";
+import { useTranslation } from 'react-i18next';
 
 function Footer() {
+
+    const { t } = useTranslation()
 
   return (
     <footer className="text-white text-start myfooter" id='footer-area'>
@@ -15,28 +18,28 @@ function Footer() {
                             </div>
                         </div>
                         <div className='col-12 mybrand text-white'>
-                            <p>Gökbey Teknoloji ARGE İnovasyon Danışmanlık Üretim Sanayi ve Ticaret Anonim Şirketi</p>
+                            <p>{t('footer_brand')}</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
-                        <h3 className='text-uppercase fw-bold myfooterheader mb-2 mt-2'>Hızlı Linkler</h3>
+                        <h3 className='text-uppercase fw-bold myfooterheader mb-2 mt-2'>{t('footer_buton_header')}</h3>
                         <ul className="footer-link justify-content-end flex-grow-1 py-lg-2">                                    
                             <li>
-                                <a href='/' className='btn footerbutton'>Ana Sayfa</a>
+                                <a href='/' className='btn footerbutton'>{t('footer_buton_one')}</a>
                             </li>
                             <li className='footer-item'>
-                                <a href='/kurumsal' className='btn footerbutton'>Kurumsal</a>
+                                <a href='/kurumsal' className='btn footerbutton'>{t('footer_buton_two')}</a>
                             </li>
                             <li>
-                                <a href='/hizmetlerimiz' className='btn footerbutton'>Hizmetlerimiz</a>
+                                <a href='/hizmetlerimiz' className='btn footerbutton'>{t('footer_buton_three')}</a>
                             </li>
                             <li>
-                                <a href='/https://store.gokbeyteknoloji.com/' target="_blank" className='btn disabled footerbutton'>Mağaza</a>
+                                <a href='/https://store.gokbeyteknoloji.com/' target="_blank" className='btn disabled footerbutton'>{t('footer_buton_four')}</a>
                             </li>
                         </ul>
                     </div>
                     <div className="col-lg-4 col-md-6">
-                        <h3 className='text-uppercase myfooterheader fw-bold mb-2 mt-2'>İletişim</h3>
+                        <h3 className='text-uppercase myfooterheader fw-bold mb-2 mt-2'>{t('footer_contact_header')}</h3>
                         <ul className="list-style-none justify-content-end flex-grow-1 py-lg-2">
                             <li className='d-flex flex-wrap align-items-center'>
                                 <i className="bi bi-telephone"></i>
@@ -59,7 +62,7 @@ function Footer() {
                 </div>
             </div>
             <div className="container text-muted">
-            <p>&copy;2023 Gökbey Teknoloji A.Ş. -Her Hakkı Saklıdır.  <a href="https://gokbeyteknoloji.com" className='text-decoration-none'>Gökbey Teknoloji</a></p>
+            <p>&copy;{t('footer_copy_right')}  <a href="https://gokbeyteknoloji.com" className='text-decoration-none'>{t('footer_copy_right_gt')}</a></p>
                 {/* <div className="row">
                     <div className="col-lg-6 col-md-6 text-muted">
                         

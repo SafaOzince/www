@@ -14,18 +14,19 @@ import ModalImage4 from '../../images/new/rr3440660.jpg';
 import ModalImage5 from '../../images/new/rgrowth-g555e24171_1920.jpg';
 import ModalImage6 from '../../images/new/network-g80080e81b_1920.jpg';
 import CloseIcon from '../../images/close-icon.svg';
+import { useTranslation } from 'react-i18next';
 
 function ModalPopUp() {
-    const [openModal, setOpenModal] = useState(false)
-    const [openFirstModal, setOpenFirstModal] = useState(false)
-    const [openSecondModal, setOpenSecondModal] = useState(false)
-    const [openThirdModal, setOpenThirdModal] = useState(false)
-    const [openFourthModal, setOpenFourthModal] = useState(false)
-    const [openFifthModal, setOpenFifthModal] = useState(false)
-    const [openSixthModal, setOpenSixthModal] = useState(false)
-    const [openSeventhModal, setOpenSeventhModal] = useState(false)
-    const [openEighthModal, setOpenEighthModal] = useState(false)
-    
+    // const [openModal, setOpenModal] = useState(false)
+    // const [openFirstModal, setOpenFirstModal] = useState(false)
+    // const [openSecondModal, setOpenSecondModal] = useState(false)
+    // const [openThirdModal, setOpenThirdModal] = useState(false)
+    // const [openFourthModal, setOpenFourthModal] = useState(false)
+    // const [openFifthModal, setOpenFifthModal] = useState(false)
+    // const [openSixthModal, setOpenSixthModal] = useState(false)
+    // const [openSeventhModal, setOpenSeventhModal] = useState(false)
+    // const [openEighthModal, setOpenEighthModal] = useState(false)
+    const { t } = useTranslation() 
 
   return (
    
@@ -48,8 +49,8 @@ function ModalPopUp() {
                 </div>
                 <img className='img-fluid' src={ModalImage1} alt='' style={{borderRadius:"25px"}} />
                 <summary className='my-summary'>
-                <span className='name'>Yazılım Hizmetleri</span>
-                  <span className='hover-text'>Görüntüle
+                <span className='name'>{t('home_page_modal_popup_one')}</span>
+                  <span className='hover-text'>{t('home_page_modal_popup_buton')}
                     {/* <i class="fas fa-angle-right px-1"></i> */}
                   </span>
                 </summary>
@@ -72,8 +73,8 @@ function ModalPopUp() {
                 </div>
                 <img className='img-fluid' src={ModalImage2} alt='' style={{borderRadius:"25px"}}/>
                 <summary className='my-summary'>
-                <span className='name'>İHA Hizmetleri</span>
-                  <span className='hover-text'>Görüntüle
+                <span className='name'>{t('home_page_modal_popup_two')}</span>
+                  <span className='hover-text'>{t('home_page_modal_popup_buton')}
                     {/* <i class="fas fa-angle-right px-1"></i> */}
                   </span>
                 </summary>
@@ -98,8 +99,8 @@ function ModalPopUp() {
                 </div>
                 <img className='img-fluid' src={ModalImage3} alt='' style={{borderRadius:"25px"}}/>
                 <summary className='my-summary'>
-                <span className='name'>Danışmanlık Hizmetleri</span>
-                  <span className='hover-text'>Görüntüle
+                <span className='name'>{t('home_page_modal_popup_three')}</span>
+                  <span className='hover-text'>{t('home_page_modal_popup_buton')}
                     {/* <i class="fas fa-angle-right px-1"></i> */}
                   </span>
                 </summary>
@@ -124,8 +125,8 @@ function ModalPopUp() {
                 </div>
                 <img className='img-fluid' src={ModalImage4} alt='' style={{borderRadius:"25px"}}/>
                 <summary className='my-summary'>
-                <span className='name'>ARGE Faaliyetleri</span>
-                  <span className='hover-text'>Görüntüle
+                <span className='name'>{t('home_page_modal_popup_four')}</span>
+                  <span className='hover-text'>{t('home_page_modal_popup_buton')}
                     {/* <i class="fas fa-angle-right px-1"></i> */}
                   </span>
                 </summary>
@@ -150,8 +151,8 @@ function ModalPopUp() {
                 </div>
                 <img className='img-fluid' src={ModalImage5} alt='' style={{borderRadius:"25px"}}/>
                 <summary className='my-summary'>
-                <span className='name'>Satış ve Pazarlama</span>
-                  <span className='hover-text'>Görüntüle
+                <span className='name'>{t('home_page_modal_popup_five')}</span>
+                  <span className='hover-text'>{t('home_page_modal_popup_buton')}
                     {/* <i class="fas fa-angle-right px-1"></i> */}
                   </span>
                 </summary>
@@ -176,8 +177,8 @@ function ModalPopUp() {
                 </div>
                 <img className='img-fluid' src={ModalImage6} alt='' style={{borderRadius:"25px"}}/>
                 <summary className='my-summary'>
-                  <span className='name'>Teknik Servis</span>
-                  <span className='hover-text'>Görüntüle
+                  <span className='name'>{t('home_page_modal_popup_six')}</span>
+                  <span className='hover-text'>{t('home_page_modal_popup_buton')}
                     {/* <i class="fas fa-angle-right px-1"></i> */}
                   </span>
                 </summary>
@@ -234,7 +235,7 @@ function ModalPopUp() {
       </div>
     
     {/* Section-5-Modals */}
-    <div className='modal fade p-modal' id='#PModal1' role="dialog" aria-labelledby="myTitle1" aria-hidden="true">
+    {/* <div className='modal fade p-modal' id='#PModal1' role="dialog" aria-labelledby="myTitle1" aria-hidden="true">
       <div className='modal-dialog modal-dialog-scrollable'>
         <div className='modal-content'>
           <div className='close-modal' data-bs-dismiss="modal" aria-label="Kapat">
@@ -252,7 +253,7 @@ function ModalPopUp() {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
     </section>
     
   )
