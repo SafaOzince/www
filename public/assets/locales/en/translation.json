@@ -60,5 +60,27 @@
     "home_page_form_mail":"E-mail",
     "home_page_form_subject":"Subject",
     "home_page_form_textbox":"Your Notes",
-    "home_page_form_buton":"Submit"
+    "home_page_form_buton":"Submit",
+
+    "about_page_banner":"Instıtutıonal",
+    "about_page_header":"About Us",
+    "about_page_p1":"Established in 2022 in Gebze Technical University Technopark in order to develop important R&D projects in the engineering and software sector, to bring new technologies to our country and to contribute to the engineering sector to reach the level of developed countries by closely following the latest technological innovations, Gökbey Technology has adopted the principle of steady growth with its professionalism and visionary perspective since its establishment.",
+    "about_page_p2":"Our company, which closely follows the customer demands in the market and innovations in the sector and can adapt to the changing world conditions with technology, aims to develop and grow in the sector by signing many R&D projects with its young, expert and strong administrative and technical staff.",
+
+    
+    "services_page_banner":"Servıces",
+
+    "contact_page_banner":"Contact",
+    "contact_page_header":"Contact",
+    "contact_page_subheader":"You can call us for detailed information about our services and fill out the form for an appointment.",
+    "contact_page_info_header":"Contact",
+    "contact_page_info_tel":"Hotline",
+    "contact_page_info_mail":"E-Mail",
+    "contact_page_info_location":"Addres",
+    "contact_page_form_header":"Contact Us",
+    "contact_page_form_name":"Name",
+    "contact_page_form_mail":"E-mail",
+    "contact_page_form_subject":"Subject",
+    "contact_page_form_textbox":"Your Notes",
+    "contact_page_form_buton":"Submit"
   }

@@ -6,16 +6,19 @@ import ServicesThree from '../images/Services4.jpg';
 import ServicesFour from '../images/new/rpa-concept-with-blurry-hand-touching-screen.jpg';
 import ServicesFive from '../images/new/chart-5746589.png';
 import ServicesSix from '../images/new/mechanical-engineering-2993233_1920.jpg';
+import { useTranslation } from 'react-i18next';
 
 export default function Services() {
   // const [openModal, setOpenModal] = useState(false)
+
+  const { t } = useTranslation()
 
   return (
     <>
     <section id='about-1' className='myaboutSection'>
       <div className='container'>
         <div className='text-center mb-3 pb-2'>
-          <h2 className='about-heading text-uppercase text-white fw-bold mb-4'>Hizmetlerimiz</h2>
+          <h2 className='about-heading text-uppercase text-white fw-bold mb-4'>{t('services_page_banner')}</h2>
           {/* <h3 className='about-sub mb-4 text-muted'> Gökbey Teknoloji {'>'} Hakkımızda</h3> */}
           {/* <div className='d-flex w-100 align-items-center justify-content-start'>
           <a href='/' className='about-sub mb-2 text-muted text-decoration-none'>Gökbey Teknoloji</a>

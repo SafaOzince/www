@@ -1,15 +1,20 @@
+import { t } from 'i18next';
 import React from 'react'
 import ImageAbout from '../images/new/business-people-blue-background(resize).jpg';
 import MyAccordion from '../layout/Accordion/MyAccordion';
 import { accordionData } from '../layout/Accordion/MyAccordionConten';
+import { useTranslation } from 'react-i18next';
 
 export default function About() {
+
+  const { t } = useTranslation()
+
   return (
     <>
     <section id='about-1' className='myaboutSection'>
       <div className='container'>
         <div className='text-center mb-3 pb-2'>
-          <h2 className='about-heading text-uppercase text-white fw-bold mb-4'>Kurumsal</h2>
+          <h2 className='about-heading text-uppercase text-white fw-bold mb-4'>{t('about_page_banner')}</h2>
           {/* <h3 className='about-sub mb-4 text-muted'> Gökbey Teknoloji {'>'} Hakkımızda</h3> */}
           {/* <div className='d-flex w-100 align-items-center justify-content-start'>
           <a href='/' className='about-sub mb-2 text-muted text-decoration-none'>Gökbey Teknoloji</a>
@@ -28,10 +33,10 @@ export default function About() {
           </div>
           <div className='col-lg-6'>
             <div className='text-center mb-2 '>
-              <h2 className='s-heading text-center text-uppercase fw-bold'>Hakkımızda</h2>
-              <p className='a-text mt-4 px-2'>2022 yılında mühendislik ve yazılım sektöründe önemli ARGE projelerinin geliştirilmesi, ülkemize yeni teknolojilerin getirilmesi ve son teknolojik yenilikleri yakından takip ederek mühendislik sektörünün gelişmiş ülkeler seviyesine ulaşmasında katkı sunmak amacıyla Gebze Teknik Üniversitesi Teknoparkta kurulmuş olan Gökbey Teknoloji, kuruluşundan beri sürdürdüğü profesyonellik ve vizyoner bakış açısı ile istikrarlı büyümeyi ilke edinmiştir.</p>
+              <h2 className='s-heading text-center text-uppercase fw-bold'>{t('about_page_header')}</h2>
+              <p className='a-text mt-4 px-2'>{t('about_page_p1')}</p>
               <br/>
-              <p className='a-text mt-0 px-2'>Pazardaki müşteri taleplerini ve sektördeki yenilikleri yakından takip eden, teknoloji ile birlikte değişen dünya koşullarına uyum sağlayabilen şirketimiz genç, alanında uzman ve  güçlü idari ve teknik kadrosu ile birçok ARGE projesine imza atarak sektörde gelişmeyi ve büyümeyi hedeflemektedir.</p>
+              <p className='a-text mt-0 px-2'>{t('about_page_p2')}</p>
             </div>
           </div>
           <div className='col'>

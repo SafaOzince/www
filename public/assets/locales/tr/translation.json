@@ -60,6 +60,29 @@
     "home_page_form_mail":"E-postanızı Girin",
     "home_page_form_subject":"Konu Girin",
     "home_page_form_textbox":"Mesajınızı Bu Alana Yazın",
-    "home_page_form_buton":"Gönder"
+    "home_page_form_buton":"Gönder",
+
+    "about_page_banner":"Kurumsal",
+    "about_page_header":"Hakkımızda",
+    "about_page_p1":"2022 yılında mühendislik ve yazılım sektöründe önemli ARGE projelerinin geliştirilmesi, ülkemize yeni teknolojilerin getirilmesi ve son teknolojik yenilikleri yakından takip ederek mühendislik sektörünün gelişmiş ülkeler seviyesine ulaşmasında katkı sunmak amacıyla Gebze Teknik Üniversitesi Teknoparkta kurulmuş olan Gökbey Teknoloji, kuruluşundan beri sürdürdüğü profesyonellik ve vizyoner bakış açısı ile istikrarlı büyümeyi ilke edinmiştir.",
+    "about_page_p2":"Pazardaki müşteri taleplerini ve sektördeki yenilikleri yakından takip eden, teknoloji ile birlikte değişen dünya koşullarına uyum sağlayabilen şirketimiz genç, alanında uzman ve  güçlü idari ve teknik kadrosu ile birçok ARGE projesine imza atarak sektörde gelişmeyi ve büyümeyi hedeflemektedir.",
+
+    "services_page_banner":"Hizmetlerimiz",
+
+    "contact_page_banner":"İletişim",
+    "contact_page_header":"İletişim",
+    "contact_page_subheader":"Hizmetlerimiz hakkında detaylı bilgi almak için bizleri arayabilir, randevu için form doldurabilirsiniz.",
+    "contact_page_info_header":"İletişim",
+    "contact_page_info_tel":"Bilgi Hattı",
+    "contact_page_info_mail":"E-posta",
+    "contact_page_info_location":"Adres",
+    "contact_page_form_header":"Bize Ulaşın",
+    "contact_page_form_name":"Adınızı Girin",
+    "contact_page_form_mail":"E-postanızı Girin",
+    "contact_page_form_subject":"Konu Girin",
+    "contact_page_form_textbox":"Mesajınızı Bu Alana Yazın",
+    "contact_page_form_buton":"Gönder"
+
+
 
   }
