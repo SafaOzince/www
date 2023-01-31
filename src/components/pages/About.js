@@ -2,6 +2,7 @@ import { t } from 'i18next';
 import React from 'react'
 import ImageAbout from '../images/new/business-people-blue-background(resize).jpg';
 import MyAccordion from '../layout/Accordion/MyAccordion';
+import Accordion from '../layout/Accordion/Accordion';
 import { accordionData } from '../layout/Accordion/MyAccordionConten';
 import { useTranslation } from 'react-i18next';
 
@@ -41,9 +42,11 @@ export default function About() {
           </div>
           <div className='col'>
               <div className="accordion myaccordion">
-                {accordionData.map(({ title, content }) => (
+                {/* {accordionData.map(({ title, content }) => (
                 <MyAccordion title={title} content={content} />
-                ))}
+                ))} */}
+                <MyAccordion/>
+                <Accordion/>
               </div>
           </div>
           {/* ICONS */}
