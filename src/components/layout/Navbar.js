@@ -108,6 +108,24 @@ function Navbar() {
                         <li className='nav-item'>
                             <a href='/iletisim' className='nav-link btn-close-canvas'>{t('nav_link_item_five')}</a>
                         </li>
+                        <li className='nav-item'>
+                        <div className="dropdown">
+                        <button className="btn btn-link nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-globe2"></i>
+                        </button>
+                        <ul className="dropdown-menu">
+                            {languages.map(({code, name, country_code}) => (
+                                <li key={country_code}>
+                                <button className="dropdown-item" onClick={()=> i18next.changeLanguage(code)}>
+                                    <span className={`flag-icon flag-icon-${country_code} mx-2`}></span> 
+                                    {name}
+                                </button>
+                            </li>
+                            ))}
+                            
+                        </ul>
+                    </div>
+                        </li>
                         {/* <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Dropdown link
@@ -136,16 +154,32 @@ function Navbar() {
                                 </ul>
                             </div>
                         </li> */}
-                        {languages.map(({ code, name, country_code}) => (
+                        {/* {languages.map(({ code, name, country_code}) => (
                             <li className='nav-item' key={country_code}>
                                 <a className='nav-link btn-close-canvas' onClick={() => i18next.changeLanguage(code)}>
                                   <span className={`flag-icon flag-icon-${country_code} mx-2`}></span>  
-                                    {/* {name} */}
+                                    
                                 </a>
                             </li>
-                        ))}
+                        ))} */}
                         
                     </ul>
+                    {/* <div className="dropdown">
+                        <button className="btn btn-link nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-globe2"></i>
+                        </button>
+                        <ul className="dropdown-menu">
+                            {languages.map(({code, name, country_code}) => (
+                                <li key={country_code}>
+                                <button className="dropdown-item" onClick={()=> i18next.changeLanguage(code)}>
+                                    <span className={`flag-icon flag-icon-${country_code} mx-2`}></span> 
+                                    {name}
+                                </button>
+                            </li>
+                            ))}
+                            
+                        </ul>
+                    </div> */}
                 </div>
             </div>
         </div>

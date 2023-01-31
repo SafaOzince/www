@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -23,13 +23,12 @@ i18n
     supportedLngs: ['tr', 'en'],
     fallbackLng: "tr",
     detection: {
-      order: ['cookie', 'htmlTag', 'localStorage', 'path', 'subdomain'],
+      order: ['path', 'cookie', 'htmlTag', 'localStorage', 'subdomain'],
       caches: ['cookie'],
     },
     backend: {
       loadPath: '/assets/locales/{{lng}}/translation.json',
-    },
-    react: { useSuspense: false },
+    }
 
     // interpolation: {
     //   escapeValue: false // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
@@ -44,11 +43,18 @@ i18n
 //import * as bootstrap from 'bootstrap/dist/js/bootstrap'
 
 // window.bootstrap = require('bootstrap');
+const loadingMarkup = (
+  <div className='py-4 text-center'>
+      <h2>Loading..</h2>
+  </div>
+)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <Suspense fallback={loadingMarkup}>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </Suspense>
 );
 
 // If you want to start measuring performance in your app, pass a function
