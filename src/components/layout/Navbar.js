@@ -116,7 +116,7 @@ function Navbar() {
                         <ul className="dropdown-menu">
                             {languages.map(({code, name, country_code}) => (
                                 <li key={country_code}>
-                                <button className="dropdown-item" onClick={()=> i18next.changeLanguage(code)}>
+                                <button className="dropdown-item nav-link" onClick={()=> i18next.changeLanguage(code)}>
                                     <span className={`flag-icon flag-icon-${country_code} mx-2`}></span> 
                                     {name}
                                 </button>
